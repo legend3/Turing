@@ -13,7 +13,7 @@ m = pattern.match("Hello world wide web")#用规则去匹配
 
 # goup（0）表示返回匹配成功的整个子串  ——0属于特殊数字，整个
 s = m.group(0)
-print(s)
+print(s)#str
 
 a = m.span(0) # 返回匹配成功的 整个子串的跨度     ——0属于特殊数字，整个
 print(a)
@@ -27,4 +27,4 @@ print(a)
 
 
 s = m.groups() #等价于m.gourp(1), m.group(2).......
-print(s)
+print(s)#tuple

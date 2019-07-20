@@ -17,5 +17,6 @@ print(rst)
 rst = html.xpath('//book[@category="sport"]/year')
 rst = rst[0]
 print(type(rst))
-print(rst.tag)
-print(rst.text)
+
+print(rst.tag)#year元素标签名
+print(rst.text)#year元素的值

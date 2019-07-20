@@ -20,7 +20,16 @@ text = '''
 </div>
 '''
 
-# 利用etree.HTML把字符串解析成HTML文档
-html = etree.HTML(text)
+# 利用etree.HTML把字符串解析成HTML文档 String--->HTML
+html = etree.HTML(text)#上述缺少</li>也不全了
+print(html)
 s = etree.tostring(html)
 print(s)
+
+div = html.xpath('*')
+print(div)
+
+ul = html.xpath('//ul')
+print(ul)
+ul = html.xpath('//div//ul')
+print(ul)

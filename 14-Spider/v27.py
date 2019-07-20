@@ -7,6 +7,7 @@ import re
 
 hello = u'你好，世界'
 
+#[\u4e00-\u9fa5]+')大部分中文unicode编码范围
 pattern = re.compile(r'[\u4e00-\u9fa5]+')
 
 m = pattern.findall(hello)

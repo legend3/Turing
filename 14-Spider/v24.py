@@ -7,8 +7,9 @@ import re
 
 # 以下正则分成了两个组，以小括号为单位
 s = r'([a-z]+) ([a-z]+)'#规则
+print(type(s))
 pattern = re.compile(s, re.I) # s.I表示忽略大小写（指定规则）
-
+print(type(pattern))
 m = pattern.match("Hello world wide web")#用规则去匹配
 
 # goup（0）表示返回匹配成功的整个子串  ——0属于特殊数字，整个

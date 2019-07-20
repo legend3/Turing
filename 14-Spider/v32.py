@@ -4,6 +4,9 @@ from lxml import etree
 html = etree.parse("./v30.html")
 print(type(html))
 
+rst = html.xpath('bookstore')
+print(rst)
+
 rst = html.xpath('//book')
 print(type(rst))
 print(rst)
@@ -17,6 +20,5 @@ print(rst)
 rst = html.xpath('//book[@category="sport"]/year')
 rst = rst[0]
 print(type(rst))
-
-print(rst.tag)#year元素标签名
-print(rst.text)#year元素的值
+print(rst.tag)
+print(rst.text)

@@ -3,7 +3,7 @@
 ## 爬虫跟反爬虫
 
 ## 动态HTML介绍
-- JavaScrapt
+- JavaScript
 - jQuery
 - Ajax
 - DHTML
@@ -11,7 +11,7 @@
     - 从Javascript代码入手采集
     - Python第三方库运行JavaScript，直接采集你在浏览器看到的页面
 
-## Selenium + PhantomJS
+## Selenium(操作浏览器的工具) + PhantomJS（浏览器）
 - Selenium: web自动化测试工具
     - 自动加载页面
     - 获取数据
@@ -19,8 +19,9 @@
     - 安装： pip install selenium==2.48.0
     - 官网： http://selenium-python.readthedocs.io/index.html
 - PhantomJS(幽灵)
-    - 基于Webkit 的无界面的浏览器 
+    - 基于Webkit 的无界面的浏览器 (其实就是个“爬虫”，执行selenium的命令爬网页代码，获取到数据)
     - 官网： http://phantomjs.org/download.html
+    - 安装：官网上下载，安装:1.配置环境变量  or  2.PhantoJS.exe直接复制到python安装目录（E:\Anaconda3\envs\legend目录中）
 - Selenium 库有有一个WebDriver的API
 - WebDriver可以跟页面上的元素进行各种交互，用它可以来进行爬取
 - 案例 v36

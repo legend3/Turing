@@ -26,10 +26,10 @@ print(html)
 s = etree.tostring(html)
 print(s)
 
-div = html.xpath('*')
+div = html.xpath('//div')
 print(div)
 
 ul = html.xpath('//ul')
 print(ul)
-ul = html.xpath('//div//ul')
+ul = html.xpath('/div/ul[1]')
 print(ul)

@@ -18,7 +18,7 @@
         - XPath
         - CSS选择器
        
-# 正则表达式
+## 正则表达式
 - 一套规则，可以在字符串文本中进行搜查替换等
 - 案例v23,re的基本使用流程
 - 案例v24，match的基本使用
@@ -42,13 +42,13 @@
         - re是 ab*
         - 贪婪模式： 结果是abbbbbb
         - 非贪婪： 结果是a
-# XML
+## XML
 - XML(EXtensibleMarkupLanguage)   
 -    http://www.w3school.com.cn/xml/index.asp
 - 案例v28.xml
 - 概念：父节点，子节点，先辈节点，兄弟节点，后代节点
 
-# XPath
+### XPath
 - XPath(XML Path Language), 是一门在XML文档中查找信息的语言，
 - 官方文档： http://www.w3school.com.cn/xpath/index.asp
 - XPath开发工具
@@ -64,8 +64,8 @@
     - ..:父节点
     - @： 选取属性
     - 案例：
-        - booksotre: 选取bookstore下的所有子节点
-        - /booksotre: 选取根元素
+        - booksotre: 选取bookstore下的所有子节点（book）
+        - /booksotre: 选取根元素下的bookstroe子节点
         - booksotre/book: 选取bookstore的所有为book的子元素
         - //book: 选取book子元素
         - //@lang:选取名称为lang的所有属性
@@ -88,7 +88,7 @@
     - //book/tile  | //book/author : 选取book元素中的title和author元素
     - //tile | //price: 选取文档中所有的title和price元素
   
-# lxml库
+### lxml库
 - python的HTML/XML的解析器
 - 官方文档：   http://lxml.de/index.html
 - 功能：
@@ -96,7 +96,7 @@
     - 文件读取，案例v30.html, v31.py
     - etree和XPath的配合使用, 案例v32.py
 
-# CSS选择器  BeautifulSoup4
+### CSS选择器(select())  BeautifulSoup4
 - 现在使用BeautifulSoup4
 - http://beautifulsoup.readthedocs.io/zh_CN/v4.4.0/
 - 几个常用提取信息工具的比较：
@@ -104,6 +104,11 @@
     - beautifulsoup：慢，使用简单，安装简单
     - lxml： 比较快，使用简单，安装一般
 - 案例v33.py
+- Beautifulsoup的四种解析器：
+    - Python标准库 -- BeautifulSoup(html, 'html.parser') -- 速度 一般，容错能力好
+    - lxml HTML解析器BeautifulSoup(html, 'lxml') -- 速度快，容错好
+    - lxml xml解析器 BeautifulSoup(markup, 'xml') -- 速度快，唯一支持xml
+    - html5lib 解析器 BeautifulSoup(markup, 'html5lib') -- 容错性高，速度慢
 - 四大对象
     - Tag
     - NavigableString

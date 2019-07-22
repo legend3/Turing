@@ -1,6 +1,6 @@
 """Minimal setup file for tasks project.
 
-最小的方式模块
+自定义一个模块（最小的项目module-->page）
 """
 
 from setuptools import setup, find_packages

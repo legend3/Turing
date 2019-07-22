@@ -7,4 +7,6 @@ name in the same session.
 
 See "Avoiding Filename Collisions" in Chapter 6 for
 more information.
+
+告诉上一个目录查找测试目录的根目录并查找pytest.ini文件。
 """

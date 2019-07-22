@@ -1,4 +1,7 @@
-"""Minimal setup file for tasks project."""
+"""Minimal setup file for tasks project.
+
+最小的方式模块
+"""
 
 from setuptools import setup, find_packages
 

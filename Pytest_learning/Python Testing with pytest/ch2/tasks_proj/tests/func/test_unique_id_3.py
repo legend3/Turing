@@ -4,7 +4,13 @@ import pytest
 import tasks
 from tasks import Task
 
+'''
+假设由于某种原因，我们决定第一个测试也应该是有效的，并且我们打算在包的0.2.0版本中实现这一点。我们可以不进行测试，而是使用skipif
 
+"条件跳过"——>skipif(条件,reason='xxxxx')    not supported until version 0.2.0
+    1.条件：我们传递给skipif()的表达式可以是任何有效的Python表达式。在本例中，我们正在检查包版本
+    2.原因：reason，在skip中不是必需的，但在skipif中是必需的。我喜欢为每次跳过、跳过if或xfail添加一个原因
+'''
 @pytest.mark.skipif(tasks.__version__ < '0.2.0',
                     reason='not supported until version 0.2.0')
 def test_unique_id_1():

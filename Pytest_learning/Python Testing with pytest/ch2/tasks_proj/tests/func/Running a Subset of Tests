@@ -1,0 +1,93 @@
+2.7 运行测试子集
+
+    2.7.1 单个目录
+        要从一个目录运行所有测试，请使用该目录作为pytest的参数:
+            $ cd /path/to/code/ch2/tasks_proj
+            $ pytest tests/func --tb=no
+            ===================== test session starts ======================
+            collected 50 items
+            tests/func/test_add.py ..
+            tests/func/test_add_variety.py ................................
+            tests/func/test_api_exceptions.py .......
+            tests/func/test_unique_id_1.py F
+            tests/func/test_unique_id_2.py s.
+            tests/func/test_unique_id_3.py s.
+            tests/func/test_unique_id_4.py xxX.
+            1 failed, 44 passed, 2 skipped, 2 xfailed, 1 xpassed in 0.26 seconds
+        需要学习的一个重要技巧是，使用-v提供了如何运行特定(无须切入到当前目录)目录、类和测试的语法:
+            $ pytest -v tests/func --tb=no
+            ===================== test session starts ======================
+            collected 50 items
+            tests/func/test_add.py::test_add_returns_valid_id PASSED
+            tests/func/test_add.py::test_added_task_has_id_set PASSED
+            ...
+            tests/func/test_api_exceptions.py::test_add_raises PASSED
+            tests/func/test_api_exceptions.py::test_list_raises PASSED
+            tests/func/test_api_exceptions.py::test_get_raises PASSED
+            ...
+            tests/func/test_unique_id_1.py::test_unique_id FAILED
+            tests/func/test_unique_id_2.py::test_unique_id_1 SKIPPED
+            tests/func/test_unique_id_2.py::test_unique_id_2 PASSED
+            ...
+            tests/func/test_unique_id_4.py::test_unique_id_1 xfail
+            tests/func/test_unique_id_4.py::test_unique_id_is_a_duck xfail
+            tests/func/test_unique_id_4.py::test_unique_id_not_a_duck XPASS
+            tests/func/test_unique_id_4.py::test_unique_id_2 PASSED
+            1 failed, 44 passed, 2 skipped, 2 xfailed, 1 xpassed in 0.30 seconds
+    2.7.2 单个测试文件/模块
+        要运行一个充满测试的文件，请列出具有相对路径作为pytest参数的文件：
+            $ cd /path/to/code/ch2/tasks_proj
+            $ pytest tests/func/test_add.py
+            =========================== test session starts ===========================
+            collected 2 items
+            tests/func/test_add.py ..
+            ======================== 2 passed in 0.05 seconds =========================
+    2.7.3 单个测试函数
+        要运行单个测试函数，添加::和测试函数名称:
+            $ cd /path/to/code/ch2/tasks_proj
+            $ pytest -v tests/func/test_add.py::test_add_returns_valid_id
+            =========================== test session starts ===========================
+            collected 3 items
+            tests/func/test_add.py::test_add_returns_valid_id PASSED
+            ======================== 1 passed in 0.02 seconds =========================
+            使用-v，这样您就可以看到运行了哪个函数。
+    2.7.4 单个测试类
+        测试类是一种将有意义的测试分组到一起的方法:(test_api_exceptions.py文件中test_bad_id()、test_bad_task()方法都含有调用tasks.update(),因此将它们包裹在TestUpdate类中，最后执行像我们处理函数那样，然后将类名添加到文件参数中)
+            $ cd /path/to/code/ch2/tasks_proj
+            $ pytest -v tests/func/test_api_exceptions.py::TestUpdate
+            =========================== test session starts ===========================
+            collected 7 items
+            tests/func/test_api_exceptions.py::TestUpdate::test_bad_id PASSED
+            tests/func/test_api_exceptions.py::TestUpdate::test_bad_task PASSED
+            ======================== 2 passed in 0.03 seconds =========================
+    2.7.5 单个测试类中的测试方法
+            如果您不想运行所有的测试类—只运行一个方法—只需添加另一个::和方法名:
+                $ cd /path/to/code/ch2/tasks_proj
+                $ pytest -v tests/func/test_api_exceptions.py::TestUpdate::test_bad_id
+                ===================== test session starts ======================
+                collected 1 item
+                tests/func/test_api_exceptions.py::TestUpdate::test_bad_id PASSED
+                =================== 1 passed in 0.03 seconds ===================
+    2.7.6 用测试名划分测试集合
+            k选项允许您传入一个表达式来运行具有表达式指定的特定名称作为测试名称子字符串的测试。您可以在表达式中使用and、or和not来创建复杂的表达式
+                $ cd /path/to/code/ch2/tasks_proj
+                $ pytest -v -k _raises
+                ===================== test session starts ======================
+                collected 56 items
+                tests/func/test_api_exceptions.py::test_add_raises PASSED
+                tests/func/test_api_exceptions.py::test_list_raises PASSED
+                tests/func/test_api_exceptions.py::test_get_raises PASSED
+                tests/func/test_api_exceptions.py::test_delete_raises PASSED
+                tests/func/test_api_exceptions.py::test_start_tasks_db_raises PASSED
+                ===================== 51 tests deselected ======================
+                =========== 5 passed, 51 deselected in 0.07 seconds ============
+            我们可以使用and与not从会话中剥离除test_delete_raise():
+                $ pytest -v -k "_raises and not delete"
+                ===================== test session starts ======================
+                collected 56 items
+                tests/func/test_api_exceptions.py::test_add_raises PASSED
+                tests/func/test_api_exceptions.py::test_list_raises PASSED
+                tests/func/test_api_exceptions.py::test_get_raises PASSED
+                tests/func/test_api_exceptions.py::test_start_tasks_db_raises PASSED
+                ===================== 52 tests deselected ======================
+                =========== 4 passed, 52 deselected in 0.06 seconds ============

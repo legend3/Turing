@@ -5,7 +5,7 @@ import tasks
 from tasks import Task
 """
 '''
-跳过测试
+跳过测试 skip
 虽然在标记测试函数时讨论的标记(在第31页)是您自己选择的名称，但是pytest包含一些有用的内置标记:skip、skipif和xfail。
 我将在本节讨论skip和skipif，在下一节讨论xfail。skip和skipif标记使您能够跳过不想运行的测试。
 例如，假设我们不确定tasks.unique_id()应该如何工作。每个调用都返回不同的数字吗?或者它只是数据库中不存在的一个数字?

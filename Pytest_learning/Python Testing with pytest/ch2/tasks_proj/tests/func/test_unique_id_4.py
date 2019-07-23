@@ -3,7 +3,16 @@
 import pytest
 import tasks
 from tasks import Task
+"""
+xfail
+标记预期会失败的测试 xfail
+使用skip和skipif标记，即使跳过测试也不会尝试。
+使用xfail标记，我们告诉pytest运行一个测试函数，但是我们预期它会失败。
+让我们再次修改unique_id()测试，以使用xfail
 
+x代表XFAIL，意思是“预计会失败”
+大写的X代表XPASS，或预期会失败，但通过了
+"""
 
 @pytest.mark.xfail(tasks.__version__ < '0.2.0',
                    reason='not supported until version 0.2.0')

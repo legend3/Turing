@@ -1,6 +1,9 @@
 """Use the Task type to show test failures."""
 from tasks import Task
 
+'''
+断言：assert；（错误）
+'''
 
 def test_task_equality():
     """Different tasks should not be equal."""

@@ -1,6 +1,9 @@
 """Test the Task data type."""
 from tasks import Task
 
+'''
+断言：assert；（正确）
+'''
 
 def test_asdict():
     """_asdict() should return a dictionary."""

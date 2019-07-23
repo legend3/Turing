@@ -1,6 +1,7 @@
 """Minimal setup file for tasks project.
 
 自定义一个模块（最小的项目module-->page）
+作用：用于Python Testing with pytest项目的测试对象！
 """
 
 from setuptools import setup, find_packages

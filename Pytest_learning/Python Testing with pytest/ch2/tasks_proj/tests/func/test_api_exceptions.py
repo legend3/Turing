@@ -4,6 +4,10 @@ import pytest
 import tasks
 
 '''
+冒烟测试（局部）
+    a. 预期异常
+    b.测试函数的标记
+    
 1.
 期待得到相应异常的断言：with pytest.raises(TypeError);如果没有引发异常，则测试失败。如果测试引发另一个异常（期待的异常），也则会失败。
 2.
@@ -15,7 +19,6 @@ excinfo.value.args[0]——>第一个异常值
 执行参数:-m
 执行组合：and or and not
 '''
-
 
 '''
 api.py:

@@ -2,7 +2,9 @@
 
 import pytest
 import tasks
-
+'''
+跳过测试
+'''
 
 def test_unique_id():
     """Calling unique_id() twice should return different numbers."""

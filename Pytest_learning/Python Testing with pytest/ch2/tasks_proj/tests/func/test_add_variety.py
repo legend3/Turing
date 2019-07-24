@@ -90,7 +90,7 @@ def test_add_3(summary, owner, done):
     assert equivalent(t_from_db, task)
 
 '''
-将任务列表移动到函数外部的一个变量:
+将任务列表移动到函数外部的一个变量:（可读性不好，不显示tasks_to_try元组中数据数据列表值）
 '''
 tasks_to_try = (Task('sleep', done=True),
                 Task('wake', 'brian'),

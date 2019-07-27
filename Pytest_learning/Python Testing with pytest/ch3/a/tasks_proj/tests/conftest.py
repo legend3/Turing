@@ -5,10 +5,26 @@ import tasks
 from tasks import Task
 
 """
+Fixture
+
 ——前沿
 既然您已经了解了pytest的基础知识，那么让我们将注意力转向fixture，它对于构建几乎任何非平凡软件系统的测试代码都是必不可少的。
-fixture是pytest在实际测试函数之前(有时是之后)运行的函数。fixture中的代码可以做您想做的任何事情。
-您可以使用fixture为要处理的测试获取数据集。在运行测试之前，可以使用fixture使系统进入已知状态。fixture还用于为多个测试准备数据
+
+fixture是pytest在实际测试函数之前(有时是之后)运行的函数。*fixture中的代码可以做您想做的任何事情。
+您可以使用fixture为要处理的测试获取数据集。在运行测试之前，可以使用fixture使系统进入已知状态。fixture还用于为多个测试准备数据.
+
+—我们可以简单的把Fixture理解为准备测试数据和初始化测试对象的阶段。
+    一般我们对测试数据和测试对象的管理有这样的一些场景:
+    所有用例开始之前初始化测试数据或对象
+    所有用例结束之后销毁测试数据或对象
+    每个用例开始之前初始化测试数据或对象
+    每个用例结束之后销毁测试数据或对象
+    在每个／所有module的用例开始之前初始化数据或对象
+    在每个／所有module的用例开始之后销毁数据或对象
+    ......
+    ......
+pytest的fixture特性可以满足上面的需求。
+
 1.
 fixture()装饰器用于告诉pytest函数是一个fixture。当您在测试函数的参数列表中包含fixture名称时，pytest知道在运行测试之前要运行它。
 fixture可以执行工作，也可以向测试函数返回数据。test test_some_data()具有fixture的名称some_data作为参数。pytest将看到这一点，并寻找具有此名称的fixture。
@@ -44,6 +60,10 @@ tmpdir的值不是字符串，而是表示目录的对象。
 fixture函数在的测试之前运行使用它。但是，如果函数中有一个yield，它就会停止，将控制传递给测试，并在测试完成后继续下一行。
 因此，将yield上面的代码看作是setup, yield之后的代码看作是teardown。
 不管测试期间发生了什么，在yield(拆下)之后的代码都保证运行。我们不返回任何数据与产量在这个fixture。但是你可以。
+'''
+
+'''
+返回一个临时目录路径对象，它是每个测试函数调用的惟一对象，创建为基本临时目录的子目录。返回的对象是“py.path”。当地的_路径对象
 '''
 @pytest.fixture()
 def tasks_db(tmpdir):
@@ -92,7 +112,10 @@ def tasks_mult_per_owner():
         Task('Write some books', 'Daniel'),
         Task('Eat ice cream', 'Daniel'))
 
-
+'''
+Using Multiple Fixtures多重Fixtures
+'''
+#1
 @pytest.fixture()
 def db_with_3_tasks(tasks_db, tasks_just_a_few):
     """Connected db with 3 tasks, all unique."""

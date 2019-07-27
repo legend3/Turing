@@ -11,4 +11,4 @@ def ultimate_answer_to_life_the_universe_and_everything():
 
 def test_everything(lue):
     """Use the shorter name."""
-    assert lue == 42
+    assert lue == 42#使用列表fixture的返回值

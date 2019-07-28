@@ -12,7 +12,6 @@ tasks_to_try = (Task('sleep', done=True),
 task_ids = ['Task({},{},{})'.format(t.summary, t.owner, t.done)
             for t in tasks_to_try]
 
-
 def equivalent(t1, t2):
     """Check two tasks for equivalence."""
     return ((t1.summary == t2.summary) and
@@ -45,12 +44,11 @@ def test_add_b(tasks_db, b_task):
     t_from_db = tasks.get(task_id)
     assert equivalent(t_from_db, b_task)
 
-
+#
 def id_func(fixture_value):
     """A function for generating ids."""
     t = fixture_value
-    return 'Task({},{},{})'.format(t.summary, t.owner, t.done)
-
+    return 'Task({},{},{})'.format(t.summary, t.owner, t.done)#返回各属性的下标地址列表
 
 @pytest.fixture(params=tasks_to_try, ids=id_func)
 def c_task(request):
@@ -59,6 +57,7 @@ def c_task(request):
 
 
 def test_add_c(tasks_db, c_task):
+    print(id_func(Task))
     """Use fixture with generated ids."""
     task_id = tasks.add(c_task)
     t_from_db = tasks.get(task_id)

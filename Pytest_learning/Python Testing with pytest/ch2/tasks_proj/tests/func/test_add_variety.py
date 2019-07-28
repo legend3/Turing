@@ -26,7 +26,7 @@ def equivalent(t1, t2):
             (t1.owner == t2.owner) and
             (t1.done == t2.done))
 
-
+#自动调用，保证对接上数据库
 @pytest.fixture(autouse=True)
 def initialized_tasks_db(tmpdir):
     """Connect to db before testing, disconnect after."""
@@ -35,7 +35,7 @@ def initialized_tasks_db(tmpdir):
     tasks.stop_tasks_db()
 
 '''
-参数化()的第一个参数是一个字符串，其中包含一个逗号分隔的名称列表“task”，在我们的示例中。
+@pytest.mark.parametrize()的第一个参数是一个字符串，其中包含一个逗号分隔的名称列表“task”，在我们的示例中。
 第二个参数是值列表，在我们的示例中是任务对象列表。pytest将为每个任务运行此测试一次，并将每个任务作为单独的测试报告
 
 test_add_variety.py::test_add_2[task0] PASSED                            [ 25%]
@@ -76,7 +76,7 @@ test_add_variety.py::test_add_3[sleep-None-False] PASSED
 如果标识符中有空格，请确保使用引号
 pytest -v "test_add_variety.py::test_add_3[eat eggs-BrIaN-False]"
 '''
-@pytest.mark.parametrize('summary, owner, done',
+@pytest.mark.parametrize('summary, owner, done',#将任务作为元组传递进来
                          [('sleep', None, False),
                           ('wake', 'brian', False),
                           ('breathe', 'BRIAN', True),
@@ -106,9 +106,10 @@ def test_add_4(task):
     assert equivalent(t_from_db, task)
 
 '''
-the multiple parameter version的可读性很好，但是Task对象列表也是如此。
+——可以通过ids关键字来自定义一个字符串来表示测试ID
+the multiple parameter version的可读性很好，但是Task对象列表也是如此(4的问题)。
 为增强可读性，我们为 parametrize() 引入一个额外参数 ids，使列表中的每一个元素都被标识*。
-ids 是一个字符串列表，它和数据列表的长度保持一致。
+ids 是一个字符串（属性的地址，下表）列表，它和数据列表的长度（size，个数）保持一致。
 由于给数据集分配了一个变量 tasks_to_try，所以可以通过它生成 ids。
 '''
 #列表推导式后，ids能对列表中各元素(一个Task实例数据列表)作标记
@@ -118,7 +119,7 @@ def test_add_5(task):
     """Demonstrate ids."""
     task_id = tasks.add(task)
     t_from_db = tasks.get(task_id)
-    print(task_ids)
+    # print(task_ids)
     assert equivalent(t_from_db, task)
 '''
 这些测试标识符可以用来运行测试
@@ -131,6 +132,7 @@ test_add_variety.py::test_add_5[Task(exercise,BrIaN,False)] PASSED
 '''
 
 '''
+其实ids参数(自动标注ID)就是如此表示ID的！！！
 @pytest.mark.parametrize 添加ID标识
 语法为： pytest.param(<Value>,id='something')
 '''

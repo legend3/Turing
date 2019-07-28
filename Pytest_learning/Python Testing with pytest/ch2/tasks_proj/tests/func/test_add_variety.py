@@ -106,7 +106,8 @@ def test_add_4(task):
     assert equivalent(t_from_db, task)
 
 '''
-——可以通过ids关键字来自定义一个字符串来表示测试ID
+——可以通过ids关键字来自定义一个字符串（或字符串列表中的字符串）来表示测试ID
+
 the multiple parameter version的可读性很好，但是Task对象列表也是如此(4的问题)。
 为增强可读性，我们为 parametrize() 引入一个额外参数 ids，使列表中的每一个元素都被标识*。
 ids 是一个字符串（属性的地址，下表）列表，它和数据列表的长度（size，个数）保持一致。
@@ -114,7 +115,7 @@ ids 是一个字符串（属性的地址，下表）列表，它和数据列表�
 '''
 #列表推导式后，ids能对列表中各元素(一个Task实例数据列表)作标记
 task_ids = ['Task({},{},{})'.format(t.summary, t.owner, t.done) for t in tasks_to_try]
-@pytest.mark.parametrize('task', tasks_to_try, ids=task_ids)
+@pytest.mark.parametrize('task', tasks_to_try, ids=task_ids)#ids用task_ids列表中每组属性元素的值作为ID
 def test_add_5(task):
     """Demonstrate ids."""
     task_id = tasks.add(task)
@@ -133,6 +134,7 @@ test_add_variety.py::test_add_5[Task(exercise,BrIaN,False)] PASSED
 
 '''
 其实ids参数(自动标注ID)就是如此表示ID的！！！
+
 @pytest.mark.parametrize 添加ID标识
 语法为： pytest.param(<Value>,id='something')
 '''

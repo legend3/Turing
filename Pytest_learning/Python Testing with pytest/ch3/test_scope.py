@@ -53,7 +53,7 @@ def test_2(sess_scope, mod_scope, func_scope):
 唯一的区别是，测试只要在参数列表中指定fixture的就能使用Fixture的返回值。
 而usefixtures标注的的测试不能使用fixture的返回值。
 '''
-@pytest.mark.usefixtures('class_scope')
+@pytest.mark.usefixtures('class_scope')#指定fixture的作用域为class
 class TestSomething():
     """Demo class scope fixtures."""
 

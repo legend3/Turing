@@ -27,7 +27,7 @@ def equivalent(t1, t2):
             (t1.done == t2.done))
 
 #自动调用，保证对接上数据库
-@pytest.fixture(autouse=True)
+@pytest.fixture(autouse=True)#（所有函数都会自动调用此fixture）
 def initialized_tasks_db(tmpdir):
     """Connect to db before testing, disconnect after."""
     tasks.start_tasks_db(str(tmpdir), 'tiny')
@@ -115,7 +115,7 @@ ids 是一个字符串（属性的地址，下表）列表，它和数据列表�
 '''
 #列表推导式后，ids能对列表中各元素(一个Task实例数据列表)作标记
 task_ids = ['Task({},{},{})'.format(t.summary, t.owner, t.done) for t in tasks_to_try]
-@pytest.mark.parametrize('task', tasks_to_try, ids=task_ids)#ids用task_ids列表中每组属性元素的值作为ID
+@pytest.mark.parametrize('task', tasks_to_try, ids=task_ids)#ids作用:将task_ids列表中每个元素的值作为ID，配入'taks';数量要与tasks_to_try一致！
 def test_add_5(task):
     """Demonstrate ids."""
     task_id = tasks.add(task)
@@ -133,7 +133,7 @@ test_add_variety.py::test_add_5[Task(exercise,BrIaN,False)] PASSED
 '''
 
 '''
-其实ids参数(自动标注ID)就是如此表示ID的！！！
+其实ids参数(自动标注ID)就是如此表示ID的！！！（灵活性加ID）
 
 @pytest.mark.parametrize 添加ID标识
 语法为： pytest.param(<Value>,id='something')
@@ -148,7 +148,7 @@ def test_add_6(task):
     task_id = tasks.add(task)
     t_from_db = tasks.get(task_id)
     assert equivalent(t_from_db, task)
-#2
+#2直接
 tasks_to_try2 = (pytest.param(Task('sleep', done=True),id='id1'),
                  pytest.param(Task('wake', 'brian'),id='id2'),
                  pytest.param(Task('wake', 'brian'),id='id3'),

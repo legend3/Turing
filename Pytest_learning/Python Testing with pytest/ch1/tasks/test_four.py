@@ -1,7 +1,12 @@
 """Test the Task data type."""
 
 from collections import namedtuple
+'''
+1.Tuple还有一个兄弟，叫namedtuple。虽然都是tuple，但是功能更为强大。
+对于namedtuple，你不必再通过索引值进行访问，你可以把它看做一个字典通过名字进行访问，只不过其中的值是不能改变的。
 
+2.创建了
+'''
 Task = namedtuple('Task', ['summary', 'owner', 'done', 'id'])
 Task.__new__.__defaults__ = (None, None, False, None)
 

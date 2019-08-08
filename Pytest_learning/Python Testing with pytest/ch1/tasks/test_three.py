@@ -2,6 +2,10 @@
 
 from collections import namedtuple
 
+'''
+导入pytest模块
+参数：-m，标记需要执行的用例
+'''
 Task = namedtuple('Task', ['summary', 'owner', 'done', 'id'])
 Task.__new__.__defaults__ = (None, None, False, None)
 

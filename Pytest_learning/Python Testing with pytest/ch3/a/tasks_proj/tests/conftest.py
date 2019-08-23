@@ -38,7 +38,7 @@ Fixture函数通常设置或检索一些测试可以使用的数据。有时，�
 pytest fixture是使pytest在其他测试框架中脱颖而出的独特核心特性之一，也是许多人转而使用并继续使用pytest的原因。
 但是，pytest中的fixture不同于Django中的fixture，也不同于unittest和nose中的安装和拆卸过程。关于fixture有很多特性和细微差别。
 一旦你对它们的工作原理有了一个很好的心理模型，它们对你来说就会变得很容易。然而，你必须和他们玩一段时间，所以让我们开始吧。
-3.
+3.conftest.py（自动被发现，自动被使用，无需导入）
 您可以将fixture放入单独的测试文件中，但是要在多个测试文件之间共享fixture，您需要使用位于所有测试中心位置的conftest.py文件。
 对于Tasks项目，所有fixture都位于tasks_proj/tests/conftest.py中。从那里，fixture可以被任何测试共享。
 如果您希望fixture只被该文件中的测试使用，那么可以将fixture放在单独的测试文件中。

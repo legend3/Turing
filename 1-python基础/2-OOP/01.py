@@ -21,7 +21,8 @@ class PythonStudent():
     # 需要注意
     # 1. def doHomework的缩进层级
     # 2. 系统默认由一个self参数
-    def doHomework(self):
+    def doHomework(this):
+    # def doHomework(self):#非绑定类的方法
         print("I 在做作业")
 
         # 推荐在函数末尾使用return语句
@@ -32,4 +33,4 @@ yueyue = PythonStudent()
 print(yueyue.name)
 print(yueyue.age)
 # 注意成员函数的调用没有传递进入参数
-yueyue.doHomework()
+yueyue.doHomework()#通过实例化对象访问

@@ -1,0 +1,1801 @@
+pykafka.producer 2018-11-12 15:44:40,092 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:40,101 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:40,105 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:40,115 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:40,128 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:40,134 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:40,141 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:40,142 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:40,148 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:40,151 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:40,157 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:40,161 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:40,168 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:40,171 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:40,177 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:40,183 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:40,190 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:40,200 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:40,213 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:40,220 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:40,230 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:40,234 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:40,243 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:40,253 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:40,266 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:40,273 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:40,279 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:40,282 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:40,288 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:40,289 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:40,296 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:40,302 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:40,311 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:40,321 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:40,335 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:40,341 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:40,351 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:40,361 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:40,375 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:40,394 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:40,415 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:40,434 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:40,454 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:40,464 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:40,479 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:40,484 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:40,493 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:40,503 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:40,515 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:40,523 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:40,536 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:40,546 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:40,558 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:40,559 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:40,566 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:40,569 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:40,576 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:40,579 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:40,586 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:40,596 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:40,611 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:40,615 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:40,622 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:40,628 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:40,638 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:40,648 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:40,661 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:40,667 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:40,674 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:40,684 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:40,697 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:40,701 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:40,710 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:40,720 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:40,740 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:40,759 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:40,780 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:40,790 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:40,803 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:40,808 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:40,818 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:40,826 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:40,842 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:40,861 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:40,884 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:40,894 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:40,905 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:40,915 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:40,928 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:40,947 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:40,970 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:40,990 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:41,012 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:41,023 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:41,035 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:41,039 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:41,049 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:41,059 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:41,072 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:41,075 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:41,081 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:41,085 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:41,095 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:41,105 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:41,117 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:41,121 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:41,130 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:41,140 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:41,153 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:41,157 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:41,167 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:41,177 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:41,190 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:41,196 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:41,207 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:41,217 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:41,230 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:41,234 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:41,243 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:41,253 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:41,265 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:41,269 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:41,282 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:41,288 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:41,296 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:41,306 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:41,319 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:41,325 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:41,336 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:41,342 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:41,355 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:41,365 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:41,377 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:41,381 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:41,390 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:41,400 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:41,411 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:41,421 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:41,436 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:41,453 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:41,483 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:41,494 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:41,509 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:41,528 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:41,548 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:41,565 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:41,585 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:41,604 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:41,624 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:41,634 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:41,647 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:41,653 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:41,663 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:41,763 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:41,783 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:41,789 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:41,799 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:41,808 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:41,819 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:41,825 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:41,831 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:41,835 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:41,845 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:41,858 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:41,878 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:41,888 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:41,904 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:41,907 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:41,918 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:41,927 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:41,947 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:41,967 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:41,989 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:41,999 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:42,029 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:42,063 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:42,108 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:42,142 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:42,190 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:42,200 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:42,220 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:42,239 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:42,269 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:42,305 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:42,351 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:42,384 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:42,440 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:42,507 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:42,519 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:42,529 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:42,559 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:42,562 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:42,579 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:42,598 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:42,622 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:42,631 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:42,657 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:42,667 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:42,680 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:42,683 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:42,710 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:42,720 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:42,750 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:42,755 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:42,779 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:42,789 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:42,809 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:42,826 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:42,849 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:42,868 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:42,898 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:42,934 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:42,989 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:42,993 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:43,009 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:43,012 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:43,020 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:43,030 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:43,058 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:43,066 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:43,081 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:43,099 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:43,117 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:43,135 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:43,158 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:43,168 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:43,190 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:43,210 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:43,240 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:43,276 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:43,319 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:43,355 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:43,362 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:43,382 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:43,408 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:43,443 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:43,500 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:43,509 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:43,539 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:43,542 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:43,562 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:43,579 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:43,621 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:43,657 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:43,700 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:43,719 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:43,747 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:43,782 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:43,839 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:43,849 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:43,881 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:43,887 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:43,898 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:43,904 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:43,918 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:43,924 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:43,940 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:43,959 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:43,987 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:43,993 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:44,000 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:44,010 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:44,039 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:44,045 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:44,061 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:44,066 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:44,081 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:44,085 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:44,104 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:44,121 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:44,151 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:44,154 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:44,168 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:44,174 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:44,187 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:44,194 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:44,210 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:44,211 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:44,230 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:44,250 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:44,273 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:44,292 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:44,328 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:44,365 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:44,411 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:44,430 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:44,460 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:44,496 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:44,539 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:44,559 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:44,588 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:44,592 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:44,611 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:44,631 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:44,658 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:44,664 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:44,681 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:44,698 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:44,729 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:44,734 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:44,750 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:44,753 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:44,769 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:44,788 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:44,809 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:44,828 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:44,858 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:44,894 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:44,950 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:44,960 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:44,980 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:45,000 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:45,030 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:45,066 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:45,108 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:45,142 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:45,160 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:45,171 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:45,198 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:45,203 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:45,219 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:45,220 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:45,232 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:45,240 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:45,269 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:45,276 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:45,292 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:45,312 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:45,341 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:45,351 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:45,369 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:45,388 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:45,410 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:45,421 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:45,441 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:45,460 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:45,489 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:45,490 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:45,512 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:45,530 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:45,559 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:45,565 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:45,578 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:45,584 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:45,611 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:45,621 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:45,638 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:45,657 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:45,680 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:45,690 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:45,710 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:45,730 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:45,749 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:45,759 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:45,790 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:45,825 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:45,869 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:45,905 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:45,959 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:45,961 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:45,980 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:45,982 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:45,997 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:46,003 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:46,019 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:46,038 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:46,078 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:46,114 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:46,161 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:46,178 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:46,201 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:46,207 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:46,220 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:46,224 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:46,240 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:46,246 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:46,259 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:46,262 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:46,279 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:46,299 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:46,331 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:46,332 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:46,349 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:46,368 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:46,400 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:46,404 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:46,420 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:46,421 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:46,440 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:46,457 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:46,480 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:46,500 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:46,529 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:46,565 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:46,605 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:46,640 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:46,684 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:46,703 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:46,730 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:46,766 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:46,809 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:46,845 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:46,891 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:46,907 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:46,937 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:46,973 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:47,010 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:47,046 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:47,101 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:47,107 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:47,118 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:47,128 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:47,161 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:47,194 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:47,249 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:47,267 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:47,299 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:47,334 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:47,380 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:47,398 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:47,428 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:47,433 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:47,457 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:47,467 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:47,532 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:47,599 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:47,654 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:47,721 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:47,780 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:47,848 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:47,918 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:47,954 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:48,000 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:48,009 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:48,042 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:48,078 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:48,121 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:48,157 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:48,191 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:48,210 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:48,240 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:48,246 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:48,260 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:48,266 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:48,280 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:48,290 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:48,311 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:48,329 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:48,371 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:48,390 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:48,408 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:48,427 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:48,464 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:48,500 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:48,540 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:48,575 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:48,618 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:48,628 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:48,651 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:48,670 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:48,710 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:48,730 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:48,759 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:48,766 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:48,779 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:48,789 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:48,819 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:48,823 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:48,838 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:48,842 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:48,858 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:48,861 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:48,878 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:48,898 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:48,940 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:48,974 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:48,990 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:49,009 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:49,039 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:49,073 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:49,081 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:49,085 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:49,101 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:49,107 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:49,119 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:49,125 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:49,138 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:49,157 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:49,178 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:49,197 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:49,232 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:49,267 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:49,309 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:49,328 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:49,349 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:49,371 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:49,408 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:49,444 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:49,490 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:49,500 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:49,519 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:49,536 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:49,561 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:49,579 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:49,599 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:49,608 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:49,641 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:49,645 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:49,658 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:49,664 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:49,681 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:49,700 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:49,723 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:49,733 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:49,759 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:49,769 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:49,792 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:49,802 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:49,825 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:49,844 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:49,859 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:49,878 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:49,900 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:49,910 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:49,940 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:49,946 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:49,959 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:49,963 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:49,979 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:49,983 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:50,000 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:50,017 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:50,023 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:50,028 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:50,049 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:50,069 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:50,098 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:50,134 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:50,190 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:50,207 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:50,229 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:50,239 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:50,260 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:50,279 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:50,301 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:50,311 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:50,336 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:50,348 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:50,369 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:50,387 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:50,410 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:50,420 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:50,450 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:50,486 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:50,539 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:50,556 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:50,578 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:50,588 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:50,608 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:50,627 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:50,658 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:50,694 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:50,770 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:50,838 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:50,848 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:50,884 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:50,927 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:50,947 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:50,977 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:50,980 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:51,002 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:51,020 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:51,049 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:51,053 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:51,069 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:51,086 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:51,109 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:51,130 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:51,151 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:51,161 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:51,174 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:51,193 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:51,214 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:51,296 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:51,348 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:51,418 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:51,479 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:51,515 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:51,561 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:51,579 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:51,608 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:51,612 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:51,628 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:51,634 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:51,650 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:51,668 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:51,687 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:51,706 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:51,740 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:51,776 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:51,821 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:51,839 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:51,869 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:51,905 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:51,950 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:51,986 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:52,030 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:52,040 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:52,059 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:52,078 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:52,099 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:52,118 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:52,148 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:52,184 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:52,239 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:52,249 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:52,263 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:52,265 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:52,279 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:52,286 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:52,302 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:52,305 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:52,319 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:52,323 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:52,338 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:52,341 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:52,359 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:52,378 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:52,400 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:52,418 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:52,450 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:52,486 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:52,529 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:52,563 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:52,601 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:52,619 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:52,628 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:52,634 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:52,642 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:52,651 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:52,665 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:52,671 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:52,680 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:52,688 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:52,700 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:52,710 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:52,723 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:52,724 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:52,733 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:52,744 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:52,759 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:52,765 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:52,773 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:52,782 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:52,809 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:52,819 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:52,832 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:52,838 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:52,845 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:52,855 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:52,868 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:52,874 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:52,884 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:52,894 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:52,908 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:52,928 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:52,951 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:52,961 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:52,976 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:52,982 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:52,989 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:52,999 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:53,012 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:53,017 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:53,029 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:53,039 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:53,052 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:53,071 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:53,095 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:53,112 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:53,138 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:53,144 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:53,161 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:53,178 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:53,186 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:53,197 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:53,221 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:53,232 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:53,263 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:53,267 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:53,279 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:53,289 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:53,312 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:53,322 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:53,344 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:53,364 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:53,382 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:53,392 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:53,407 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:53,411 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:53,430 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:53,448 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:53,480 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:53,486 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:53,500 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:53,505 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:53,520 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:53,539 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:53,562 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:53,573 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:53,599 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:53,611 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:53,631 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:53,650 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:53,684 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:53,720 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:53,769 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:53,779 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:53,811 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:53,815 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:53,829 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:53,835 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:53,849 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:53,855 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:53,871 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:53,872 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:53,890 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:53,907 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:53,934 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:53,944 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:53,971 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:53,982 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:54,009 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:54,016 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:54,026 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:54,036 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:54,059 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:54,076 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:54,099 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:54,105 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:54,117 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:54,127 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:54,161 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:54,197 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:54,242 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:54,260 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:54,299 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:54,335 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:54,380 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:54,398 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:54,420 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:54,437 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:54,459 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:54,467 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:54,480 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:54,484 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:54,500 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:54,506 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:54,519 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:54,523 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:54,539 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:54,543 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:54,561 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:54,565 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:54,578 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:54,585 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:54,598 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:54,617 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:54,650 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:54,651 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:54,667 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:54,671 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:54,683 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:54,694 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:54,720 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:54,730 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:54,757 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:54,763 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:54,779 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:54,813 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:54,861 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:54,865 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:54,878 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:54,884 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:54,898 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:54,904 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:54,920 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:54,937 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:54,959 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:54,977 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:54,999 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:55,007 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:55,032 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:55,043 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:55,071 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:55,076 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:55,091 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:55,095 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:55,109 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:55,115 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:55,131 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:55,134 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:55,150 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:55,154 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:55,170 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:55,174 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:55,187 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:55,191 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:55,217 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:55,227 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:55,259 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:55,296 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:55,351 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:55,359 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:55,390 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:55,397 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:55,411 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:55,415 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:55,430 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:55,437 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:55,457 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:55,476 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:55,509 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:55,542 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:55,601 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:55,605 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:55,619 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:55,621 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:55,640 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:55,658 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:55,700 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:55,734 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:55,779 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:55,799 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:55,831 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:55,868 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:55,920 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:55,930 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:55,960 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:55,966 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:55,980 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:56,000 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:56,019 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:56,038 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:56,069 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:56,071 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:56,089 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:56,108 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:56,130 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:56,148 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:56,170 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:56,180 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:56,209 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:56,213 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:56,230 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:56,250 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:56,269 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:56,280 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:56,309 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:56,319 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:56,349 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:56,355 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:56,368 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:56,374 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:56,391 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:56,411 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:56,438 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:56,444 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:56,453 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:56,463 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:56,470 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:56,480 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:56,496 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:56,516 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:56,540 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:56,551 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:56,569 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:56,588 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:56,609 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:56,619 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:56,650 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:56,660 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:56,684 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:56,696 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:56,710 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:56,729 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:56,749 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:56,767 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:56,809 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:56,845 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:56,891 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:56,901 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:56,928 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:56,934 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:56,948 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:56,953 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:56,970 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:56,973 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:56,990 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:56,996 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:57,009 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:57,013 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:57,029 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:57,048 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:57,069 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:57,088 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:57,111 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:57,121 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:57,148 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:57,154 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:57,170 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:57,174 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:57,188 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:57,190 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:57,210 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:57,227 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:57,249 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:57,267 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:57,289 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:57,299 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:57,319 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:57,338 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:57,358 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:57,368 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:57,391 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:57,401 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:57,430 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:57,436 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:57,450 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:57,456 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:57,470 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:57,474 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:57,490 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:57,494 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:57,509 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:57,513 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:57,529 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:57,548 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:57,569 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:57,578 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:57,588 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:57,598 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:57,621 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:57,632 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:57,658 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:57,670 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:57,700 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:57,706 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:57,730 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:57,740 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:57,769 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:57,773 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:57,792 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:57,809 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:57,848 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:57,884 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:57,930 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:57,950 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:57,980 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:58,015 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:58,053 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:58,088 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:58,138 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:58,144 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:58,158 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:58,164 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:58,177 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:58,197 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:58,219 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:58,237 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:58,259 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:58,269 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:58,282 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:58,286 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:58,299 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:58,305 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:58,319 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:58,323 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:58,339 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:58,358 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:58,384 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:58,394 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:58,410 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:58,430 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:58,453 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:58,471 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:58,496 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:58,499 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:58,509 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:58,519 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:58,535 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:58,539 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:58,555 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:58,562 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:58,578 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:58,598 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:58,630 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:58,664 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:58,701 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:58,737 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:58,773 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:58,809 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:58,846 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:58,881 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:58,917 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:58,936 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:58,957 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:58,967 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:58,980 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:58,984 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:58,999 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:59,005 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:59,019 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:59,023 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:59,039 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:59,058 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:59,092 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:59,128 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:59,165 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:59,201 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:59,240 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:59,275 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:59,328 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:59,398 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:59,461 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:59,499 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:59,539 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:59,575 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:59,618 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:59,637 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:59,668 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:59,704 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:59,743 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:59,779 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:59,831 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:59,836 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:59,849 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:59,854 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:59,880 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:59,890 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:59,918 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:59,924 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:59,940 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:59,944 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:59,963 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:44:59,982 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:00,009 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:00,015 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:00,032 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:00,051 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:00,079 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:00,085 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:00,098 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:00,105 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:00,119 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:00,138 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:00,160 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:00,177 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:00,209 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:00,243 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:00,280 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:00,315 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:00,369 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:00,375 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:00,388 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:00,391 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:00,411 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:00,428 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:00,450 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:00,467 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:00,490 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:00,499 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:00,519 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:00,536 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:00,559 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:00,569 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:00,601 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:00,607 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:00,619 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:00,631 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:00,660 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:00,664 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:00,681 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:00,698 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:00,719 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:00,740 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:00,759 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:00,785 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:00,799 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:00,805 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:00,839 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:00,874 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:00,930 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:00,938 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:00,959 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:00,977 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:01,000 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:01,009 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:01,040 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:01,076 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:01,128 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:01,148 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:01,168 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:01,178 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:01,209 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:01,210 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:01,229 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:01,247 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:01,255 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:01,265 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:01,279 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:01,283 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:01,293 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:01,303 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:01,315 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:01,325 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:01,339 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:01,358 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:01,380 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:01,398 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:01,430 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:01,466 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:01,510 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:01,529 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:01,561 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:01,566 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:01,575 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:01,586 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:01,599 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:01,605 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:01,615 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:01,625 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:01,638 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:01,644 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:01,654 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:01,664 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:01,674 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:01,680 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:01,688 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:01,690 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:01,697 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:01,703 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:01,710 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:01,720 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:01,734 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:01,740 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:01,750 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:01,759 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:01,775 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:01,793 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:01,813 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:01,834 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:01,950 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:02,017 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:02,071 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:02,140 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:02,193 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:02,260 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:02,266 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:02,269 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:02,279 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:02,288 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:02,301 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:02,305 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:02,319 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:02,322 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:02,328 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:02,335 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:02,345 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:02,355 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:02,368 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:02,369 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:02,378 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:02,387 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:02,391 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:02,397 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:02,404 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:02,414 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:02,428 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:02,430 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:02,443 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:02,453 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:02,467 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:02,486 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:02,510 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:02,519 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:02,533 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:02,539 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:02,548 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:02,555 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:02,569 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:02,575 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:02,585 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:02,596 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:02,618 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:02,628 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:02,658 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:02,661 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:02,680 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:02,698 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:02,730 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:02,733 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:02,752 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:02,769 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:02,792 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:02,802 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:02,839 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:02,875 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:02,920 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:02,937 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:02,971 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:03,006 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:03,051 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:03,086 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:03,130 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:03,140 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:03,160 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:03,178 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:03,220 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:03,255 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:03,309 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:03,378 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:03,437 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:03,506 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:03,579 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:03,598 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:03,631 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:03,667 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:03,710 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:03,743 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:03,750 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:03,769 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:03,789 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:03,809 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:03,829 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:03,839 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:03,869 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:03,875 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:03,888 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:03,894 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:03,908 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:03,911 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:03,930 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:03,947 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:03,957 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:03,970 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:03,990 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:04,009 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:04,032 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:04,040 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:04,058 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:04,078 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:04,098 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:04,117 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:04,151 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:04,186 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:04,233 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:04,250 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:04,259 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:04,292 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:04,299 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:04,318 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:04,342 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:04,351 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:04,369 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:04,388 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:04,411 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:04,423 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:04,450 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:04,453 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:04,471 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:04,490 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:04,517 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:04,528 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:04,555 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:04,565 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:04,578 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:04,582 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:04,591 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:04,601 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:04,615 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:04,619 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:04,631 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:04,641 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:04,654 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:04,658 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:04,664 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:04,668 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:04,677 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:04,687 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:04,700 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:04,736 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:04,773 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:04,792 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:04,811 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:04,829 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:04,835 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:04,848 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:04,859 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:04,861 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:04,868 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:04,872 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:04,882 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:04,894 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:04,907 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:04,911 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:04,921 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:04,930 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:04,936 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:04,940 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:04,948 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:04,959 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:04,973 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:04,977 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:04,986 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:04,997 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:05,007 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:05,013 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:05,026 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:05,032 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:05,042 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:05,052 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:05,065 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:05,069 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:05,082 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:05,088 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:05,095 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:05,104 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:05,109 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:05,115 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:05,122 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:05,125 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:05,131 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:05,135 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:05,144 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:05,154 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:05,167 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:05,171 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:05,181 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:05,190 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:05,204 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:05,207 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:05,213 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:05,217 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:05,226 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:05,237 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:05,249 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:05,253 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:05,262 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:05,272 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:05,288 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:05,292 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:05,303 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:05,313 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:05,326 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:05,332 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:05,342 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:05,352 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:05,365 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:05,369 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:05,378 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:05,390 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:05,401 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:05,407 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:05,417 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:05,428 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:05,444 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:05,461 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:05,482 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:05,502 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:05,522 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:05,532 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:05,545 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:05,551 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:05,559 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:05,569 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:05,584 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:05,585 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:05,592 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:05,596 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:05,608 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:05,618 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:05,631 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:05,651 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:05,673 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:05,691 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:05,723 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:05,759 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:05,806 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:05,825 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:05,845 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:05,864 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:05,884 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:05,894 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:05,910 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:05,914 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:05,924 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:05,936 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:05,947 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:05,951 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:05,963 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:05,973 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:05,983 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:05,989 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:05,999 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:06,009 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:06,029 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:06,048 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:06,069 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:06,078 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:06,099 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:06,117 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:06,150 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:06,184 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:06,190 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:06,200 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:06,230 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:06,232 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:06,250 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:06,266 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:06,289 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:06,308 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:06,329 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:06,341 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:06,371 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:06,407 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:06,461 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:06,471 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:06,489 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:06,507 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:06,529 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:06,549 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:06,569 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:06,579 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:06,609 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:06,611 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:06,631 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:06,648 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:06,668 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:06,687 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:06,710 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:06,720 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:06,739 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:06,759 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:06,779 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:06,783 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:06,799 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:06,818 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:06,838 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:06,857 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:06,891 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:06,926 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:06,970 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:07,006 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:07,061 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:07,131 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:07,190 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:07,259 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:07,329 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:07,346 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:07,368 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:07,388 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:07,411 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:07,420 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:07,431 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:07,434 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:07,450 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:07,469 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:07,500 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:07,505 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:07,519 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:07,523 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:07,539 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:07,540 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:07,561 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:07,579 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:07,599 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:07,618 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:07,661 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:07,697 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:07,739 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:07,750 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:07,769 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:07,789 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:07,809 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:07,819 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:07,841 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:07,858 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:07,880 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:07,898 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:07,927 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:07,964 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:08,009 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:08,026 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:08,049 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:08,059 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:08,079 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:08,098 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:08,130 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:08,165 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:08,173 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:08,183 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:08,198 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:08,204 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:08,230 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:08,247 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:08,259 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:08,279 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:08,332 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:08,351 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:08,382 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:08,417 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:08,463 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:08,480 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:08,489 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:08,497 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:08,512 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:08,516 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:08,529 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:08,532 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:08,549 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:08,566 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:08,591 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:08,611 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:08,638 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:08,674 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:08,720 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:08,756 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:08,802 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:08,812 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:08,829 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:08,848 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:08,871 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:08,882 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:08,908 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:08,914 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:08,933 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:08,950 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:08,990 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:09,025 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:09,072 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:09,089 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:09,112 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:09,122 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:09,150 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:09,154 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:09,167 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:09,177 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:09,196 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:09,214 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:09,250 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:09,286 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:09,328 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:09,365 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:09,413 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:09,417 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:09,440 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:09,457 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:09,480 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:09,487 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:09,502 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:09,505 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:09,519 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:09,523 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:09,549 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:09,561 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:09,589 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:09,595 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:09,608 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:09,614 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:09,628 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:09,648 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:09,671 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:09,681 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:09,707 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:09,719 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:09,736 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:09,755 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:09,782 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:09,792 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:09,813 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:09,832 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:09,869 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:09,904 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:09,911 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:09,933 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:09,970 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:10,003 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:10,051 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:10,069 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:10,095 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:10,099 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:10,111 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:10,121 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:10,150 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:10,151 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:10,158 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:10,164 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:10,180 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:10,198 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:10,220 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:10,239 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:10,263 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:10,269 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:10,280 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:10,286 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:10,299 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:10,305 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:10,319 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:10,322 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:10,348 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:10,358 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:10,381 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:10,398 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:10,421 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:10,430 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:10,450 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:10,469 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:10,493 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:10,497 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:10,513 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:10,517 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:10,529 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:10,533 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:10,549 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:10,552 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:10,582 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:10,588 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:10,598 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:10,609 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:10,630 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:10,648 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:10,684 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:10,720 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:10,767 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:10,786 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:10,821 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:10,857 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:10,872 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:10,882 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:10,897 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:10,900 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:10,918 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:10,937 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:10,961 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:10,971 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:10,996 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:11,006 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:11,032 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:11,042 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:11,068 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:11,072 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:11,092 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:11,109 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:11,141 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:11,144 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:11,160 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:11,164 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:11,180 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:11,186 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:11,200 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:11,206 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:11,230 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:11,242 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:11,269 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:11,275 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:11,299 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:11,311 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:11,328 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:11,345 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:11,378 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:11,414 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:11,459 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:11,494 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:11,532 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:11,551 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:11,569 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:11,586 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:11,612 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:11,615 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:11,637 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:11,655 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:11,697 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:11,717 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:11,742 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:11,759 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:11,792 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:11,826 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:11,880 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:11,891 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:11,904 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:11,910 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:11,920 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:11,927 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:11,940 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:11,950 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:11,980 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:12,013 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:12,059 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:12,095 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:12,141 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:12,151 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:12,171 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:12,190 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:12,211 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:12,221 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:12,252 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:12,262 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:12,279 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:12,296 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:12,319 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:12,331 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:12,362 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:12,367 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:12,381 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:12,387 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:12,400 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:12,404 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:12,418 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:12,427 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:12,453 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:12,459 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:12,473 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:12,479 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:12,492 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:12,497 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:12,509 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:12,516 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:12,529 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:12,533 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:12,559 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:12,569 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:12,589 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:12,611 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:12,638 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:12,673 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:12,710 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:12,746 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:12,799 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:12,811 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:12,832 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:12,842 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:12,857 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:12,862 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:12,890 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:12,894 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:12,911 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:12,917 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:12,931 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:12,937 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:12,950 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:12,954 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:12,967 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:12,976 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:12,990 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:12,993 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:13,007 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:13,009 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:13,019 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:13,029 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:13,059 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:13,062 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:13,079 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:13,098 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:13,122 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:13,134 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:13,158 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:13,167 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:13,190 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:13,200 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:13,230 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:13,236 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:13,249 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:13,252 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:13,270 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:13,290 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:13,319 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:13,325 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:13,341 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:13,358 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:13,391 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:13,398 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:13,410 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:13,420 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:13,453 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:13,490 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:13,526 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:13,561 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:13,605 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:13,624 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:13,651 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:13,655 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:13,670 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:13,674 DEBUG    Sending 1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:13,690 DEBUG    Successfully sent 1/1 messages to broker 0
+pykafka.producer 2018-11-12 15:45:13,707 DEBUG    Finalising <pykafka.producer.Producer at 0x290c3780L>
+pykafka.producer 2018-11-12 15:45:13,707 INFO     Blocking until all messages are sent
+pykafka.producer 2018-11-12 15:45:18,693 INFO     Worker exited for broker 192.168.0.60:9093
+pykafka.producer 2018-11-12 15:45:18,694 INFO     Blocking until all messages are sent
+pykafka.handlers 2018-11-12 15:45:18,694 INFO     RequestHandler.stop: about to flush requests queue
+pykafka.handlers 2018-11-12 15:45:19,691 INFO     RequestHandler worker: exiting cleanly

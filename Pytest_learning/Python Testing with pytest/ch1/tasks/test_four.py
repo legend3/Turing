@@ -1,19 +1,16 @@
 """Test the Task data type."""
 
 from collections import namedtuple
-'''
-1.Tuple还有一个兄弟，叫namedtuple。虽然都是tuple，但是功能更为强大。
-对于namedtuple，你不必再通过索引值进行访问，你可以把它看做一个字典通过名字进行访问，只不过其中的值是不能改变的。
 
-2.创建了
-'''
 Task = namedtuple('Task', ['summary', 'owner', 'done', 'id'])
 Task.__new__.__defaults__ = (None, None, False, None)
 
 def test_asdict():
     """_asdict() should return a dictionary."""
     t_task = Task('do something', 'okken', True, 21)
-    t_dict = t_task._asdict()
+    t_dict = t_task._asdict()  # 返回一个元素名与元素值键值对的字典
+    print('\r',type(t_dict))
+    print(t_dict)
     expected = {'summary': 'do something',
                 'owner': 'okken',
                 'done': True,
@@ -24,6 +21,8 @@ def test_asdict():
 def test_replace():
     """replace() should change passed in fields."""
     t_before = Task('finish book', 'brian', False)
-    t_after = t_before._replace(id=10, done=True)
+    t_after = t_before._replace(id=10, done=True)#根据元素名替换元素值
+    print('\r',type(t_after))
+    print(t_after)
     t_expected = Task('finish book', 'brian', True, 10)
     assert t_after == t_expected

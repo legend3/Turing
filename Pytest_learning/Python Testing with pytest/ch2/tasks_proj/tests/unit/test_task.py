@@ -2,13 +2,15 @@
 from tasks import Task
 
 '''
+与test_three、test_four不同是：已经导入了Task项目
 断言：assert；（正确）
 '''
+
 
 def test_asdict():
     """_asdict() should return a dictionary."""
     t_task = Task('do something', 'okken', True, 21)
-    t_dict = t_task._asdict()
+    t_dict = t_task._asdict()  # 返回一个元素名与元素值键值对的字典<class 'collections.OrderedDict'>
     expected = {'summary': 'do something',
                 'owner': 'okken',
                 'done': True,

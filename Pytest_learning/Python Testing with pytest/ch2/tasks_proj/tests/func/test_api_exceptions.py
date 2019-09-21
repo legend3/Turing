@@ -33,6 +33,17 @@ def unique_id(): # type: () -> int
 def start_tasks_db(db_path, db_type): # type: (str, str) -> None
 def stop_tasks_db(): # type: () -> None
 '''
+
+'''
+在clic .py中的CLI代码和API .py中的API代码之间，对于将向API函数发送什么类型，有一个协议。
+如果类型错误，我希望在这些API调用中引发异常。
+为了确保这些函数在调用不正确时引发异常，让我们在测试函数中使用错误的类型来故意导致类型错误异常，并与pytest.raise()一起使用，就像这样
+
+with pytest.raise (TypeError):语句表示，下一个代码块中的任何内容都应该引发一个TypeError异常。
+如果没有引发异常，则测试失败。如果测试引发另一个异常，则意味代码执行失败
+'''
+
+
 def test_add_raises():
     """add() should raise an exception with wrong type param."""
     with pytest.raises(TypeError):
@@ -74,9 +85,16 @@ def test_delete_raises():
     with pytest.raises(TypeError):
         tasks.delete(task_id=(1, 2, 3))
 
+'''
+我们刚刚检查了test_add_raise()中的异常类型。你也可以查看
+异常的参数。对于start_tasks_db(db_path, db_type)， db_type不仅需要是字符串，还必须是“tiny”或“mongo”。你可以
+检查，以确保异常消息是正确的添加为excinfo:
+'''
+
 
 def test_start_tasks_db_raises():
     """Make sure unsupported db raises an exception."""
+    """自定义异常的异常内容，利用pytest的raises方法(只是)捕获事先start_tasks_db方法中自定义的异常内容"""
     '''
         1.您放在as后面的变量名(本例中为excinfo)充满了关于异常的信息，类型为ExceptionInfo
         2.提取异常的第一个值，希望确保异常的第一个(也是惟一的)参数匹配字符串（期待的异常报错信息）
@@ -85,4 +103,5 @@ def test_start_tasks_db_raises():
     with pytest.raises(ValueError) as excinfo:
         tasks.start_tasks_db('some/great/path', 'mysql')
     exception_msg = excinfo.value.args[0]
+    print(exception_msg)
     assert exception_msg == "db_type must be a 'tiny' or 'mongo'"

@@ -90,7 +90,7 @@ time.sleep(3)
 # 相对路径(未找到DevTools的“最简xpath”)
 driver.fin
 # checkbox操作
-driver.find_element_by_xpath("/html/body/div[1]/div/div/aside/a[6]/span").click() # 进入"系统配置"
+driver.find_element_by_xpath("/html/body/div[1]/div/div/aside/a[6]/span").click()  # 进入"系统配置"
 time.sleep(2)
 driver.find_element_by_xpath("/html/body/div[1]/div[1]/div/div[2]/div[2]/div[1]/div[1]/a[2]/div[1]/div[1]").click() # 进入“接口配置”
 time.sleep(2)
@@ -105,4 +105,4 @@ for label in labelList:
 time.sleep(4)
 
 # 关闭浏览器
-driver.quit()//*[@id="ext-gen1034"]
+driver.quit()  #  *[@id="ext-gen1034"]

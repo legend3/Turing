@@ -2,6 +2,7 @@
 
 import pytest
 
+
 @pytest.fixture()
 def some_data():
     """Return answer to ultimate question."""
@@ -20,6 +21,7 @@ def some_other_data():
     assert x == 42
     return x
 
+
 '''
 如果在fixture中发生断言(或任何异常)会发生什么?
 判断是测试失败了还是测试所依赖的fixtrue失败了（测试出错）
@@ -29,9 +31,12 @@ def some_other_data():
 另外，test_other_data报告的不是失败，而是错误。这种差别很大。
 如果一个测试失败了，您就知道失败是在测试中发生的，而不是在它所依赖的任何fixture中发生的
 '''
+
+
 def test_other_data(some_other_data):
     """Try to use failing fixture."""
     assert some_data == 42
+
 
 '''
 fixture是存储用于测试的数据的好地方。你可以返回任何。这是一个返回混合类型元组的fixture

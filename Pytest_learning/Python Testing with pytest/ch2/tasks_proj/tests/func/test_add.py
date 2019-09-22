@@ -9,6 +9,8 @@ from tasks import Task
     a.测试函数的标记
     b.初始fixture
 '''
+
+
 def test_add_returns_valid_id():
     """tasks.add(<valid task>) should return an integer."""
     # GIVEN an initialized tasks db
@@ -23,6 +25,7 @@ def test_add_returns_valid_id():
         如果要判断两个类型是否相同推荐使用 isinstance()。
     """
     assert isinstance(task_id, int)
+
 
 @pytest.mark.smoke
 def test_added_task_has_id_set():
@@ -41,7 +44,8 @@ def test_added_task_has_id_set():
 """
 这两个(上述)测试都具有给定初始化任务db的注释，但是测试中没有初始化数据库。我们可以定义一个fixture来在测试前初始化数据库，并在测试后清理数据库
 
-在我们的测试中使用的autouse表明该文件中的所有测试都将使用fixture。yield运行前的代码在每次测试前运行;yield之后的代码在测试之后运行。如果需要，yield可以将数据返回给测试。
+在我们的测试中使用的autouse表明该文件中的所有测试都将调用initialized_tasks_db(tmpdir)。yield运行前的代码在每次测试前运行;yield之后的代码在测试之后运行。
+如果需要，yield可以将数据返回给测试。
 """
 @pytest.fixture(autouse=True)
 def initialized_tasks_db(tmpdir):

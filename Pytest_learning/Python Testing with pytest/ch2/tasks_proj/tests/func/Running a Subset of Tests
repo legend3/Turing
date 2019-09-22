@@ -14,7 +14,7 @@
             tests/func/test_unique_id_3.py s.
             tests/func/test_unique_id_4.py xxX.
             1 failed, 44 passed, 2 skipped, 2 xfailed, 1 xpassed in 0.26 seconds
-        需要学习的一个重要技巧是，使用-v提供了如何运行特定(无须切入到当前目录)目录、类和测试的语法:
+        需要学习的一个重要技巧是，使用-v提供了如何运行特定目录、类和测试的语法:
             $ pytest -v tests/func --tb=no
             ===================== test session starts ======================
             collected 50 items

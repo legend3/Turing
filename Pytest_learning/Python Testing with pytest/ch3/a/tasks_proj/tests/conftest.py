@@ -87,6 +87,7 @@ def tasks_db(tmpdir):
 # owner and done are optional
 # id is set by database
 
+
 @pytest.fixture()
 def tasks_just_a_few():
     """All summaries and owners are unique."""
@@ -115,7 +116,7 @@ def tasks_mult_per_owner():
 '''
 Using Multiple Fixtures多重Fixtures
 '''
-#1
+# 1
 @pytest.fixture()
 def db_with_3_tasks(tasks_db, tasks_just_a_few):
     """Connected db with 3 tasks, all unique."""

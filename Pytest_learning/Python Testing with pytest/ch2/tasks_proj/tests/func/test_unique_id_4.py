@@ -11,7 +11,7 @@ xfail
 让我们再次修改unique_id()测试，以使用xfail
 
 x代表XFAIL，意思是“预计会失败”
-大写的X代表XPASS，或预期会失败，但通过了
+大写的X代表XPASS，预期会失败但通过了
 """
 
 @pytest.mark.xfail(tasks.__version__ < '0.2.0',

@@ -27,6 +27,7 @@ def test_defaults():
     t2 = Task(None, None, False, None)
     assert t1 == t2
 
+
 def test_member_access():
     """Check .field functionality of namedtuple."""
     t = Task('buy milk', 'brian')

@@ -1,0 +1,11 @@
+——test_fixtures.py
+    体验@pytest.fixture()
+    @pytest.fixture() ——fixture是存储用于测试的数据的好地方
+
+——test_add.py
+    1.conftest.py的作用
+    2.@pytest.fixture()实现Setup and Teardown
+    3.使用fixtures进行测试数据
+        --setup-show：输出@pytest.fixture()执行轨迹的参数
+    3.1多重fixtures的使用
+    4.

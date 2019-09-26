@@ -14,23 +14,21 @@ def test_some_data(some_data):
     assert some_data == 42
 
 
+'''
+如果在fixture中（而不是测试用例中）发生断言(或任何异常)会发生什么?
+判断是测试失败了还是测试所依赖的fixtrue失败了（测试出错）
+1.
+堆栈跟踪正确地显示了在fixture函数中发生的断言。
+2.
+另外，test_other_data报告的不是失败（F），而是错误（E）。这种差别很大。
+如果一个测试失败了，您就知道失败是在测试中（test_other_data）发生的，而不是在它所依赖的任何fixture中（some_other_data）发生的
+'''
 @pytest.fixture()
 def some_other_data():
     """Raise an exception from fixture."""
     x = 43
     assert x == 42
     return x
-
-
-'''
-如果在fixture中发生断言(或任何异常)会发生什么?
-判断是测试失败了还是测试所依赖的fixtrue失败了（测试出错）
-1.
-堆栈跟踪正确地显示了在fixture函数中发生的断言。
-2.
-另外，test_other_data报告的不是失败，而是错误。这种差别很大。
-如果一个测试失败了，您就知道失败是在测试中发生的，而不是在它所依赖的任何fixture中发生的
-'''
 
 
 def test_other_data(some_other_data):

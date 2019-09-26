@@ -28,6 +28,8 @@ F和S表示范围。
 F表示函数范围，
 S表示会话范围。
 '''
+
+
 def test_add_returns_valid_id(tasks_db):
     """tasks.add(<valid task>) should return an integer."""
     # GIVEN an initialized tasks db
@@ -56,6 +58,7 @@ def test_added_task_has_id_set(tasks_db):
     # the [:-1] syntax returns a list with all but the last element
     assert task_from_db[:-1] == new_task[:-1]
 
+
 '''
 Using Multiple Fixtures多重Fixtures
 多重fixture的意义：
@@ -65,12 +68,14 @@ Using Multiple Fixtures多重Fixtures
 如果数据库初始化失败，我不希望test_add_increes_count()失败。
 那只能是被拒绝。我希望test_add_increes_count()只有在add()确实无法更改计数时才可能失败
 '''
-#2
-def test_add_increases_count(db_with_3_tasks):#db_with_3_tasks测试的准备
+# 2
+
+
+def test_add_increases_count(db_with_3_tasks):  # db_with_3_tasks测试的准备
     """Test tasks.add() affect on tasks.count()."""
     # GIVEN a db with 3 tasks
     #  WHEN another task is added
-    tasks.add(Task('throw a party'))#测试的重点
+    tasks.add(Task('throw a party'))  # 测试的重点
 
     #  THEN the count increases by 1
     assert tasks.count() == 4

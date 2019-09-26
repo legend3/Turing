@@ -113,6 +113,7 @@ def tasks_mult_per_owner():
         Task('Write some books', 'Daniel'),
         Task('Eat ice cream', 'Daniel'))
 
+
 '''
 Using Multiple Fixtures多重Fixtures
 '''

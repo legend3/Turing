@@ -48,15 +48,15 @@ class InterfaceConfigure():
         Restful = "http://192.168.0.185:5000/fbdownload/${id1}"
 
         # 点击系统配置
-        self.driver.find_element_by_xpath("//a[@href='/audit-core/dist/sys-configuration/index.html']").click()
+        self.driver.find_element_by_xpath(u"//a[@href='/audit-core/dist/sys-configuration/index.html']").click()
         time.sleep(2)
         # 点击应用配置
-        self.driver.find_element_by_xpath("/html/body/div[1]/div[1]/div/div[2]/div[2]/div[1]/div[1]/a[1]").click()
+        self.driver.find_element_by_xpath(u"//a[@href='/audit-core/dist/appManage/index.html']").click()
         time.sleep(2)
         # 选择应用
-        self.driver.find_element_by_xpath("/html/body/div[1]/div/div/div/section/section/div[1]/section/div/input").send_keys("185")
+        self.driver.find_element_by_xpath(u"//input[@placeholder='搜索名称、域名进行筛选']").send_keys("185")
         time.sleep(1)
-        self.driver.find_element_by_xpath("/html/body/div[1]/div/div/div/section/section/div[1]/section/div/div/button").click()
+        self.driver.find_element_by_xpath(u"//section[@class='appManageSearch']/div/div/button[@class='el-button el-button--default']").click()
         time.sleep(2)
         self.driver.find_element_by_xpath("//div[@class='single-app-item']").click()
         time.sleep(3)
@@ -103,8 +103,8 @@ class InterfaceConfigure():
         # 点击保存监控
         self.driver.find_element_by_xpath(u"//span[.='保存并监控']/..").click()
         time.sleep(3)
-        # 点击关闭 #/html/body/div[2]/div/div/div[3]/button
-        self.driver.find_element_by_xpath(u"//button[.='关闭']").click()
+        # 点击关闭 #/html/body/div[2]/div/div/div[3]/button         //button[.='关闭']/..
+        self.driver.find_element_by_xpath(u"//div[@style='display: block;']/div/div/div[@class='modal-footer']/button[.='关闭']").click()
         time.sleep(2)
         self.logger.debug(u'配置数据标签应用失败！')
         self.logger.warn(u'配置数据标签应用成功！')

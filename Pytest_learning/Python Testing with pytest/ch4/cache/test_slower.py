@@ -4,8 +4,11 @@ import random
 import time
 
 '''
+
 缓存可以不仅仅用于——lf和——ff。
-*让我们创建一个fixture，它记录测试花费的时间，存储（运行）次数，
+
+*利用cacha存储上一次运行的值
+让我们创建一个fixture，它记录测试花费的时间，存储（运行）次数，
 在下一次运行时，报告一个(如果)测试花费的时间是上次的两倍的错误
 
 按照惯例，key名以应用程序或插件的名称开头，后面跟一个/，然后继续用/分隔key名的各个部分。
@@ -28,8 +31,7 @@ def check_duration(request, cache):
     cache.set(key, this_duration)  # 存储这次执行花费的时间到cacha中value值
     if last_duration is not None:
         errorstring = "test duration over 2x last duration"
-        assert this_duration <= last_duration * 2, errorstring  # this_duration本次运行花费时间；last_duration上次的cache的value值;
-                                                                # 对比前、后两次
+        assert this_duration <= last_duration * 2, errorstring  # this_duration本次运行花费时间；last_duration上次的cache的value值;对比前、后两次
 
 
 @pytest.mark.parametrize('i', range(5))

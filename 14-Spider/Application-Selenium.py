@@ -12,15 +12,16 @@ sys.path.append(rootPath)
 class InterfaceConfigure():
     driver = webdriver.Firefox()
     count = 0
-    list = ("http://192.168.0.185:5000/fbdownload/txt-7k.txt",  # 敏感接口
-            "http://192.168.0.185:5000/fbdownload/doc-excel.rar",
-            "http://192.168.0.185:5000/fbdownload/doc-1M.doc",
-            "http://192.168.0.185:5000/fbdownload/xlsxFile.xlsx",
-            "http://192.168.0.185:5000/fbdownload/docx-22K.docx",
-            "http://192.168.0.185:5000/fbdownload/excel-2003.xls",
-            "http://192.168.0.185:5000/fbdownload/txt-docx.zip",
-            "http://192.168.0.185:5000/fbdownload/csv-4k.csv",
-            "http://192.168.0.185:5000/webapi/entry.cgi"
+    list = (
+            u"http://192.168.0.185:5000/fbdownload/txt-7k.txt",  # 敏感接口
+            u"http://192.168.0.185:5000/fbdownload/doc-excel.rar",
+            u"http://192.168.0.185:5000/fbdownload/doc-1M.doc",
+            u"http://192.168.0.185:5000/fbdownload/xlsxFile.xlsx",
+            u"http://192.168.0.185:5000/fbdownload/docx-22K.docx",
+            u"http://192.168.0.185:5000/fbdownload/excel-2003.xls",
+            u"http://192.168.0.185:5000/fbdownload/txt-docx.zip",
+            u"http://192.168.0.185:5000/fbdownload/csv-4k.csv",
+            u"http://192.168.0.185:5000/webapi/entry.cgi"
             )
 
     def __init__(self,logName):
@@ -45,7 +46,8 @@ class InterfaceConfigure():
         # (适用1.9.1以下,无文件接口自动合并)
 
         # 适用1.9.1以上
-        Restful = "http://192.168.0.185:5000/fbdownload/${id1}"
+        Restful_down = "http://192.168.0.185:5000/fbdownload/${id1}"
+        Restful_up = "http://192.168.0.185:5000/webapi/entry.cgi"
 
         # 点击系统配置
         self.driver.find_element_by_xpath(u"//a[@href='/audit-core/dist/sys-configuration/index.html']").click()
@@ -65,13 +67,20 @@ class InterfaceConfigure():
         self.driver.switch_to_window(self.driver.window_handles[self.count])
         self.logger.debug(u'选择应用失败！')
         self.logger.warn(u'选择应用成功！')
-        # 搜索
+        # 搜索(适用1.9.0以下，无文件接口自动合并)
         self.driver.find_element_by_xpath(u"//input[@placeholder='检索url']").send_keys(self.list[item])
         self.driver.find_element_by_xpath(u"//input[@placeholder='检索url']").send_keys(Keys.ESCAPE)
         time.sleep(1)
 
-        # 点击查看样例(适用1.9.1以下，无文件接口自动合并)
+        # 点击查看样例(适用1.9.1以上，文件接口自动合并)
+        # self.driver.find_element_by_xpath(u"//input[@placeholder='检索url']").send_keys(Restful_up)
+        # self.driver.find_element_by_xpath(u"//input[@placeholder='检索url']").send_keys(Keys.ESCAPE)
+
+        #  点击查看样例(分别对待处理)
         self.driver.find_element_by_xpath(u"//button[@data-btn='"+self.list[item]+"']").click()
+        #
+        # self.driver.find_element_by_xpath(u"//button[@data-btn='" + self.list[item] + "']").click()
+
         # 点击设置敏感接口
         time.sleep(3)
         self.driver.find_element_by_xpath(u"//span[.='设为敏感接口']/..").click()
@@ -88,6 +97,20 @@ class InterfaceConfigure():
         self.logger.warn(u'进入设置敏感接口成功！')
 
     def SetSensitiveInterface(self, labelCounts):
+        '''判断是否有被默认推荐的数据标签'''
+        # NonCheck = self.driver.find_elements_by_xpath("//div[@class='el-checkbox-group']/label[@class='el-checkbox']")
+        # if len(NonCheck) != None:
+        #     for check in NonCheck:
+        #         print("-" * 10)
+        #         value = str(check.get_attribute('value'))
+        #         print(check.get_attribute('value'))
+        #         if value != None:
+        #             self.driver.find_element_by_xpath("//div[@class='el-checkbox-group']/label[@class='el-checkbox']"
+        #                                               "/span[@class='el-checkbox__label']/span[@data-v-74e6146e='']/img[@class=el-tooltip item'" + value + "']")
+        #             continue
+        # else:
+        #     pass
+        '''添加识别标签'''
         for i in range(0, int(labelCounts)):
             self.driver.find_element_by_xpath("//span[@tabindex='0']").click()
             time.sleep(1)
@@ -103,8 +126,9 @@ class InterfaceConfigure():
         # 点击保存监控
         self.driver.find_element_by_xpath(u"//span[.='保存并监控']/..").click()
         time.sleep(3)
-        # 点击关闭 #/html/body/div[2]/div/div/div[3]/button         //button[.='关闭']/..
-        self.driver.find_element_by_xpath(u"//div[@style='display: block;']/div/div/div[@class='modal-footer']/button[.='关闭']").click()
+        print("保存监控结束")
+        # 点击关闭
+        self.driver.find_element_by_xpath("//div[@aria-hidden='true']/div[@class='modal-dialog modal-sm']/div[@class='modal-content']/div[@class='modal-footer']/button[.='关闭']").click()
         time.sleep(2)
         self.logger.debug(u'配置数据标签应用失败！')
         self.logger.warn(u'配置数据标签应用成功！')
@@ -131,10 +155,12 @@ if __name__ == '__main__':
         ic.login(url,username,password,verification_code)
         time.sleep(2)
 
-        for item in range(0, len(ic.list)-1):  # 此for循环仅适用1.9.1以下版本
+        # (适用1.9.1以下，无文件接口自动合并)
+        for item in range(0, len(ic.list)):  # 此for循环仅适用1.9.1以下版本
             ic.ApplicationDetails_down(item)
             time.sleep(2)
             ic.SetSensitiveInterface(labelCounts)
+
     except Exception as e:
         print(e)
         ic.close()

@@ -62,7 +62,7 @@ def test_add_4(tasks_db, task):
     assert equivalent(t_from_db, task)
 
 
-task_ids = ['Task({},{},{})'.format(t.summary, t.owner, t.done)
+task_ids = ['Task({},{},{})'.format(t.summary, t.owner, t.done)  # Task({},{},{})按順序;Task({0},{1},{2})指定順序
             for t in tasks_to_try]
 
 

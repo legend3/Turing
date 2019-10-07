@@ -16,6 +16,7 @@ testdata = [
 
 @pytest.mark.parametrize("x,y,expected", testdata)
 def test_a(x, y, expected):
+    '''您可以在命令行上指定测试用例：pytest -q "test_few_failures.py::test_a[1e+25-1e+23-1.1e+25]"'''
     """Demo approx()."""
     sum_ = x + y
     assert sum_ == approx(expected)

@@ -18,7 +18,7 @@ Changing Scope for Tasks Project Fixtures——更改项目Fixtures的任务范�
 每个sesion一次就足够了
 
 '''
-#确保并避免了tasks_db()处于与数据库保持连接且为数据库设置临时目录（需要时就清空数据库）
+# 确保并避免了tasks_db()处于与数据库保持连接且为数据库设置临时目录（需要时就清空数据库）
 @pytest.fixture(scope='session')
 def tasks_db_session(tmpdir_factory):
     """Connect to db before tests, disconnect after."""
@@ -29,7 +29,7 @@ def tasks_db_session(tmpdir_factory):
 
 
 @pytest.fixture()
-def tasks_db(tasks_db_session):#task_db依赖了tasks_db_session,执行完tasks.delete_all()则tasks_db函数会teardown掉，不会一直跑
+def tasks_db(tasks_db_session):  # task_db依赖了tasks_db_session,执行完tasks.delete_all()则tasks_db函数会teardown掉，不会一直跑
     """An empty tasks db."""
     tasks.delete_all()
 

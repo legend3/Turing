@@ -27,14 +27,14 @@ tmpdir fixture具有功能范围，tmpdir_factory fixture具有会话
 应该为每个测试函数重新创建的目录或文件。
 tmpdir_factory fixture很像tmpdir，但是它有一个不同的接口。正如在指定Fixture作用域中所讨论的，在第56页，函数作用域Fixture为每个测试函数运行一次，模块作用域Fixture为每个模块运行一次，类作用域Fixture为每个类运行一次，测试作用域Fixture为每个会话运行一次。
 因此，在会话范围fixture中创建的资源具有整个会话的生命周期。
-
-
 '''
 
-def test_tmpdir(tmpdir):#tmpdir只能保持test_tmpdir(函数范文)的执行
+
+def test_tmpdir(tmpdir):  # tmpdir只能保持test_tmpdir(函数范文)的执行
     # tmpdir already has a path name associated with it
     # join() extends the path to include a filename
     # the file is created when it's written to
+    # print('\n',tmpdir)
     a_file = tmpdir.join('something.txt')
 
     # print(a_file)
@@ -50,8 +50,10 @@ def test_tmpdir(tmpdir):#tmpdir只能保持test_tmpdir(函数范文)的执行
     # you can read the files as well
     assert a_file.read() == 'contents may settle during shipping'
     assert another_file.read() == 'something different'
-#和test_tmpdir各自在不同的tmpdir函数范围
-def test_tmpdir2(tmpdir):#tmpdir只能保持test_tmpdir(函数范文)的执行
+
+
+# 和test_tmpdir各自在不同的tmpdir函数范围
+def test_tmpdir2(tmpdir):  # tmpdir只能保持test_tmpdir(函数范文)的执行
     # tmpdir already has a path name associated with it
     # join() extends the path to include a filename
     # the file is created when it's written to
@@ -71,7 +73,8 @@ def test_tmpdir2(tmpdir):#tmpdir只能保持test_tmpdir(函数范文)的执行
     assert a_file.read() == 'contents may settle during shipping2'
     assert another_file.read() == 'something different2'
 
-def test_tmpdir_factory(tmpdir_factory):#使用tmpdir_factory使test_tmpdir_factory、test_tmpdir_factory2....都在同一个目录同一个会话中
+
+def test_tmpdir_factory(tmpdir_factory):  # 使用tmpdir_factory使test_tmpdir_factory、test_tmpdir_factory2....都在同一个目录同一个会话中
     # you should start with making a directory
     # a_dir acts like the object returned from the tmpdir fixture
     a_dir = tmpdir_factory.mktemp('mydir')
@@ -86,12 +89,12 @@ def test_tmpdir_factory(tmpdir_factory):#使用tmpdir_factory使test_tmpdir_fact
     # you don't have to use getbasetemp()
     # using it here just to show that it's available
     base_temp = tmpdir_factory.getbasetemp()
-    print('base:', base_temp)
+    print('\nbase:', base_temp)
 
     # the rest of this test looks the same as the 'test_tmpdir()'
     # example except I'm using a_dir instead of tmpdir
 
-    a_file = a_dir.join('something.txt')#直接用a_dir，好似在tmpdir_factory会话范围内使用tmpdir(创建文件)
+    a_file = a_dir.join('something.txt')  # 直接用a_dir，好似在tmpdir_factory会话范围内使用tmpdir(创建文件)
     a_sub_dir = a_dir.mkdir('anything')
     another_file = a_sub_dir.join('something_else.txt')
 
@@ -100,7 +103,9 @@ def test_tmpdir_factory(tmpdir_factory):#使用tmpdir_factory使test_tmpdir_fact
 
     assert a_file.read() == 'contents may settle during shipping'
     assert another_file.read() == 'something different'
-#和test_tmpdir_factory都在同一个会话范围内
+
+
+# 和test_tmpdir_factory都在同一个会话范围内
 def test_tmpdir_factory2(tmpdir_factory):  # 使用tmpdir_factory使test_tmpdir_factory、test_tmpdir_factory2....都在同一个目录同一个会话中
     # you should start with making a directory
     # a_dir acts like the object returned from the tmpdir fixture

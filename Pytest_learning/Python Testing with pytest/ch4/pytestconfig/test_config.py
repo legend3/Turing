@@ -2,6 +2,7 @@ import pytest
 
 
 def test_option(pytestconfig):
+    """读取命令行选项的值"""
     print('"foo" set to:', pytestconfig.getoption('foo'))
     print('"myopt" set to:', pytestconfig.getoption('myopt'))
 
@@ -17,6 +18,7 @@ def myopt(pytestconfig):
 
 
 def test_fixtures_for_options(foo, myopt):
+    """通过fixtures方式读取命令行选项的值"""
     print('"foo" set to:', foo)
     print('"myopt" set to:', myopt)
 

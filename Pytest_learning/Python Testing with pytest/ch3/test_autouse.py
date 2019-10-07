@@ -4,7 +4,7 @@ import pytest
 import time
 
 '''
-当设置为True时，在一个session内的所有的test都会自动调用这个fixture。
+当添加autouse设置为True时，在一个session内的所有的test都会自动调用这个fixture。
 权限大，责任也大，所以用该功能时也要谨慎小心。
 '''
 @pytest.fixture(autouse=True, scope='session')

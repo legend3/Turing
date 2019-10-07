@@ -5,7 +5,7 @@ import tasks
 
 '''
 冒烟测试（局部）
-    a. 预期异常
+    a.预期异常
     b.测试函数的标记
     
 1.
@@ -21,6 +21,7 @@ excinfo.value.args[0]——>第一个异常值
 '''
 
 '''
+——项目说明
 api.py:
 def add(task): # type: (Task) -> int            type:参数类型   返回值init
 def get(task_id): # type: (int) -> Task
@@ -35,11 +36,14 @@ def stop_tasks_db(): # type: () -> None
 '''
 
 '''
+——场景说明
 在clic .py中的CLI代码和API .py中的API代码之间，对于将向API函数发送什么类型，有一个协议。
 如果类型错误，我希望在这些API调用中引发异常。
 为了确保这些函数在调用不正确时引发异常，让我们在测试函数中使用错误的类型来故意导致类型错误异常，并与pytest.raise()一起使用，就像这样
 
-with pytest.raise (TypeError):语句表示，下一个代码块中的任何内容都应该引发一个TypeError异常。
+
+——with pytest.raise (TypeError)函数解析
+语句表示，下一个代码块中的任何内容都应该引发一个TypeError异常。
 如果没有引发异常，则测试失败。如果测试引发另一个异常，则意味代码执行失败
 '''
 
@@ -59,7 +63,7 @@ def test_list_raises():
 
 @pytest.mark.get
 @pytest.mark.smoke
-def test_get_raises():#此方法是满足——>-m 'smoke and get'
+def test_get_raises():  # 此方法是满足——>-m 'smoke and get'
     """get() should raise an exception with wrong type param."""
     with pytest.raises(TypeError):
         tasks.get(task_id='123')

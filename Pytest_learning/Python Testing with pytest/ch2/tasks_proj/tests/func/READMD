@@ -1,6 +1,10 @@
 ——test_api_exceptions.py
-    1.pytest.raises()函数的使用
-    2.初步认是mark Test，“冒烟”测试案例
+    1.with pytest.raises(TypeError):函数的使用、场景
+        函数代码块中的任何内容都应该引发一个TypeError异常。
+        如果没有引发异常，则测试失败;如果测试引发另一个异常，则意味代码执行失败
+        with pytest.raises(TypeError) as e:
+            获取、判断被测试的代码里自定义的异常是否属实
+    2.初步认识mark Test，“冒烟”测试案例
         @pytest.mark.smoke      ———— @pytest.mark.命名
 
 ——test_add.py
@@ -14,7 +18,7 @@
     4.test_unique_id_4.py，预计一个测试必是错误的时，@pytest.mark.xfail(tasks.__version__ < '0.2.0',reason='not supported until version 0.2.0')的使用
 
 ——Running a Subset of Tests
-    如何运行各种测试子集的方式
+    如何运行各种文件中测试子集的方式
     -k参数的使用
 
 ——test_add_variety.py参数化测试
@@ -23,3 +27,11 @@
     3.将任务列表移动到函数外部的一个变量
     5.ids的使用
     6.pytest.param(<Value>,id=xxx)给列表数据加id
+
+
+——函数总结：
+1.判断是否同一类型
+        isinstance()
+2.判断对象是否存在
+        _tasksdb is None
+3.

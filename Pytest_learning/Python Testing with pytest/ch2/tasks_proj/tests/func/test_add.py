@@ -41,6 +41,7 @@ def test_added_task_has_id_set():
     # THEN task_id matches id field
     assert task_from_db.id == task_id
 
+
 """
 这两个(上述)测试都具有给定初始化任务db的注释，但是测试中没有初始化数据库。我们可以定义一个fixture来在测试前初始化数据库，并在测试后清理数据库
 

@@ -22,6 +22,7 @@ def equivalent(t1, t2):
 
 @pytest.fixture(params=tasks_to_try)
 def a_task(request):
+    print("\n",request.param)
     return request.param
 
 

@@ -2,6 +2,8 @@ import calendar
 import time
 import datetime as dt
 from datetime import datetime as dtdt
+from collections import namedtuple
+
 # # try:
 # #     num = int(input("请输入数字："))
 # #     print(100//num)
@@ -94,9 +96,13 @@ from datetime import datetime as dtdt
 # print(strftime + "格式化时间")
 
 
-l = [1,2,3,4,5,6,7,8,9,10]
-def A(n):
-    return n + 10
-l2 = map(A,l)
-l3 = [i for i in l2]
-print(l3)
+# l = [1,2,3,4,5,6,7,8,9,10]
+# def A(n):
+#     return n + 10
+# l2 = map(A,l)
+# l3 = [i for i in l2]
+# print(l3)
+
+T = namedtuple('AA',['A','B'])
+t = T(A={'a':1},B={'B':2})
+print(t.A['a'])

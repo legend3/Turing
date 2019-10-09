@@ -1,16 +1,18 @@
-import os
+import os,sys
 import json
 
 
 def read_cheese_preferences():
-    full_path = os.path.expanduser('~/.cheese.json')
+    full_path = os.path.expanduser('~\.cheese.json')  # 扩展Users目录
+    # full_path = os.path.abspath('C:\\Users\\Administrator\\Desktop\\.cheese.json')
     with open(full_path, 'r') as f:
         prefs = json.load(f)
     return prefs
 
 
 def write_cheese_preferences(prefs):
-    full_path = os.path.expanduser('~/.cheese.json')
+    full_path = os.path.expanduser('~\.cheese.json')
+    # full_path = os.path.abspath('C:\\Users\\Administrator\\Desktop\\.cheese.json')
     with open(full_path, 'w') as f:
         json.dump(prefs, f, indent=4)
 

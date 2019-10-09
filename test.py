@@ -1,8 +1,10 @@
 import calendar
-import time
+import time,os
 import datetime as dt
 from datetime import datetime as dtdt
 from collections import namedtuple
+import pytest
+
 
 # # try:
 # #     num = int(input("请输入数字："))
@@ -103,6 +105,22 @@ from collections import namedtuple
 # l3 = [i for i in l2]
 # print(l3)
 
-T = namedtuple('AA',['A','B'])
-t = T(A={'a':1},B={'B':2})
-print(t.A['a'])
+# T = namedtuple('AA',['A','B'])
+# t = T(A={'a':1},B={'B':2})
+# print(t.A['a'])
+
+# print(tmpdir.mkdir('C:\\Users\\Administrator\\Desktop\\home'))
+
+def multiply(a, b):
+    """
+    >>> multiply(4, 3)
+    12
+    >>> multiply('a', 3)
+    'aaa'
+    """
+    return a * b
+
+
+if __name__ == '__main__':
+    import doctest
+    doctest.testmod(verbose=True)

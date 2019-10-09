@@ -16,6 +16,12 @@ Here's how you use divide:
 2.0
 """
 
+'''
+pytest将每个带docstring的代码视为不同的测试。
+所以顶部docstring中的import unnecessary_math as um仅将允许第一部分通过，但是函数文档字符串中的代码将失败；
+所以要每个doctest中都>>> import unnecessary_math as um
+'''
+
 
 def multiply(a, b):
     """

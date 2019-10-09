@@ -23,7 +23,7 @@ def test_lame_function(recwarn):
 
 
 def test_lame_function_2():
-    '''除了recwarn之外，pytest还可以使用pytest.warns()检查警告:'''
+    '''除了recwarn之外，pytest还可以使用pytest.warns()检查警告'''
     with pytest.warns(None) as warning_list:
         lame_function()
     print(warning_list)

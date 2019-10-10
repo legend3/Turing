@@ -1,10 +1,10 @@
 import calendar
-import time,os
+import time,os,sys
 import datetime as dt
 from datetime import datetime as dtdt
 from collections import namedtuple
 import pytest
-
+import warnings
 
 # # try:
 # #     num = int(input("请输入数字："))
@@ -121,6 +121,30 @@ def multiply(a, b):
     return a * b
 
 
+def warnings_to_stdout():
+    """ Redirect all warnings to stdout.
+    """
+    showwarning_orig = warnings.showwarning
+
+    def showwarning(msg, cat, fname, lno, file=None, line=0):
+        showwarning_orig(msg, cat, os.path.basename(fname), line, sys.stdout)
+    warnings.showwarning = showwarning
+    warnings.simplefilter('always')
+
+
+def test_lame_function_2(x,y):
+    return x+y
+
+
 if __name__ == '__main__':
-    import doctest
-    doctest.testmod(verbose=True)
+    # import doctest
+    # doctest.testmod(verbose=True)
+    with warnings.catch_warnings(record=True) as caught_warnings:
+        warnings.simplefilter("error")
+        rv = test_lame_function_2(1,2)
+        print(rv)
+    print(caught_warnings)
+    for warning in caught_warnings:
+        print(warning)
+    # assert  == 1
+    # print('success!')

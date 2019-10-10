@@ -73,14 +73,25 @@ def pytest_addoption(parser):
                     help="nice: turn failures into opportunities")
 
 
-def pytest_report_header():
+
+'''
+pytest.config global
+    Removed in version 5.0.
+pytest.config global对象已被废弃：
+1.如果是非插件(conftest.py中hook)则可以用request.config(通过fixture里的request)
+2.或者如果你是插件作者，使用pytest_configure(config)hook。
+*3.注意！许多hook也可以间接使用config对象通过session.config或者item.config为测试用例。
+'''
+
+
+def pytest_report_header(config):  # hook函数，返回一个字符串或字符串列表，显示为终端报告的标题信息。
     """Thank tester for running tests."""
-    if pytest.config.getoption('nice'):
+    if config.getoption('nice'):
         return "Thanks for running the tests."
 
 
-def pytest_report_teststatus(report):
+def pytest_report_teststatus(report, config):  # hook函数，返回结果类别、简短和冗长的报告词
     """Turn failures into opportunities."""
     if report.when == 'call':
-        if report.failed and pytest.config.getoption('nice'):
+        if report.failed and config.getoption('nice'):
             return (report.outcome, 'O', 'OPPORTUNITY for improvement')

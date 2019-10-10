@@ -15,13 +15,13 @@ import pytest
 '''
 
 
-def lame_function():
-    warnings.warn("Please stop using this", DeprecationWarning)  # DeprecationWarning默认忽略
+def lame_function():  # 会被引发警告的函数
+    warnings.warn("Please stop using this", DeprecationWarning)  # 定义一个警告，包括警告语、相应的警告的类别;DeprecationWarning默认忽略
     # rest of function
 
 
 def test_lame_function(recwarn):
-    lame_function()  # 调用执行被测方法(recwarn就开始收集warnings)
+    lame_function()  # 调用执行被测方法(recwarn捕获warnings)
     assert len(recwarn) == 1
     '''recwarn值的作用类似于警告列表，列表中的每个警告都定义了一个类别、消息、文件名和lineno，如代码所示'''
     w = recwarn.pop()
@@ -32,9 +32,9 @@ def test_lame_function(recwarn):
 
 def test_lame_function_2():
     '''除了recwarn之外，pytest还可以使用pytest.warns()检查警告'''
-    # with pytest.warns(None) as warning_list:
-    with warnings.catch_warnings(record=True) as warning_list:
-        warnings.simplefilter('always')
+    # with warnings.catch_warnings(record=True) as warning_list:  # 标准库warnings上下文管理器warnings.catch_warnings()捕获警告
+    #     warnings.simplefilter('always')  # 过滤器
+    with pytest.warns(None) as warning_list:  # pytest自带的warns捕获警告
         lame_function()
     print("\n",warning_list)
     assert len(warning_list) == 1
@@ -44,11 +44,9 @@ def test_lame_function_2():
 
 
 if __name__ == '__main__':
-    # import doctest
-    # doctest.testmod(verbose=True)
+    # （实例化）将警告更改为异常错误，并当成except异常报错
     warnings.filterwarnings('error')
-    test_lame_function_2
-    # try:
-    #     warnings.warn(Warning())
-    # except Warning:
-    #     print('Warning was raised as an exception!')
+    try:
+        warnings.warn(Warning())
+    except Warning:
+        print('Warning was raised as an exception!')

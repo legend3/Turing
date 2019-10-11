@@ -13,4 +13,5 @@ setup(
     py_modules=['pytest_nice'],
     install_requires=['pytest'],
     entry_points={'pytest11': ['nice = pytest_nice', ], },
+    # entry_points={'pytest11': ['name_of_plugin = myproject.pluginmodule',], },  # 如果用的时一个包
 )

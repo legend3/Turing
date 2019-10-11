@@ -64,3 +64,16 @@ def db_with_multi_per_owner(tasks_db, tasks_mult_per_owner):
     """Connected db with 9 tasks, 3 owners, all with 3 tasks."""
     for t in tasks_mult_per_owner:
         tasks.add(t)
+
+
+# 单个标签添加方式
+# def pytest_configure(config):
+#     config.addinivalue_line(
+#     "markers", "smoke")
+
+
+# 多个标签添加方式
+def pytest_configure(config):
+    marker_list = ["smoke","get"]
+    for markers in marker_list:
+        config.addinivalue_line("markers", markers)  # 一定是markers

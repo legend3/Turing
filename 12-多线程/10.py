@@ -23,8 +23,8 @@ def main():
     print("Starting at: ", ctime())
 
     # ThreadFunc("loop").loop 跟一下两个式子相等：
-    # t = ThreadFunc("loop")
-    # t.loop
+    # func = ThreadFunc("loop")
+    # func.loop
     # 以下t1 和  t2的定义方式相等
     t = ThreadFunc("loop")
     t1 = threading.Thread( target = t.loop, args=("LOOP1", 4))

@@ -7,7 +7,7 @@ import socket
 # 好多公开ftp服务器访问会出错或者没有反应
 HOST = "ftp.acc.umu.se"
 DIR = 'Public/EFLIB/'
-FILE = 'README'
+FILE = 'README.txt'
 
 # 1. 客户端链接远程主机上的FTP服务器
 try:

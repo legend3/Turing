@@ -41,8 +41,8 @@ import warnings
 # leapYears = calendar.leapdays(2008,2019)
 # print(leapYears)
 #
-# w,t = calendar.monthrange(2019,4)
-# print("四月始于周:",w,"\r\n","总有",t,"天")
+# w,func = calendar.monthrange(2019,4)
+# print("四月始于周:",w,"\r\n","总有",func,"天")
 #
 # m = calendar.monthcalendar(2019,5)
 # print(type(m))
@@ -58,13 +58,13 @@ import warnings
 #
 #
 # #time
-# t = time.localtime()
-# print(t)    #time.struct_time(tm_year=2019, tm_mon=4, tm_mday=4, tm_hour=18, tm_min=11, tm_sec=17, tm_wday=3, tm_yday=94, tm_isdst=0)
-# print(t.tm_hour)
-# print(t.tm_min)
-# print(t.tm_sec)
+# func = time.localtime()
+# print(func)    #time.struct_time(tm_year=2019, tm_mon=4, tm_mday=4, tm_hour=18, tm_min=11, tm_sec=17, tm_wday=3, tm_yday=94, tm_isdst=0)
+# print(func.tm_hour)
+# print(func.tm_min)
+# print(func.tm_sec)
 #
-# asct = time.asctime(t)#h获取时间元组，返回字符床之后的时间格式
+# asct = time.asctime(func)#h获取时间元组，返回字符床之后的时间格式
 # print(type(asct))
 # print(asct)
 #
@@ -73,7 +73,7 @@ import warnings
 # print(ct)
 #
 # lt = time.localtime()
-# ts = time.mktime(t)
+# ts = time.mktime(func)
 # print(type(ts))
 # print(ts)
 #
@@ -106,8 +106,8 @@ import warnings
 # print(l3)
 
 # T = namedtuple('AA',['A','B'])
-# t = T(A={'a':1},B={'B':2})
-# print(t.A['a'])
+# func = T(A={'a':1},B={'B':2})
+# print(func.A['a'])
 
 # print(tmpdir.mkdir('C:\\Users\\Administrator\\Desktop\\home'))
 

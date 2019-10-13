@@ -14,19 +14,26 @@
     pip install git+https://github.com/pytest-dev/pytest-cov@v2.4.0     ——安装Git仓库中指定版本
     pip install git+https://github.com/pytest-dev/pytest-cov@master     ——安装Gi他仓库指定分支版本
 
-# 写一个自己的hook插件
+# 写一个自己的hook插件  ——b
 ——ch5\b\tasks_proj\tests\func\conftest.py
 pytest_report_header()    ——对报告头进行修改
 pytest_report_teststatus(report)  ——对报告状态进行修改
 
-# 创建一个可安装的hook插件
+# 创建一个可安装的hook插件    ——c
 创建一个插件的目录pytest-nice
 创建一个原先在conftest.py文件中的hook函数的py文件
 创建一个setup
 
-# 测试插件
+# 测试插件  ——pytest-nice
 pytester、testdir的使用
 
 # 创建一个发布包.tat.gz
+打包到本地
 cd /path/to/code/ch5/pytest-nice
 python setup.py sdist
+
+打包安装到(其他)项目
+
+发布的PyPI
+pip install cookiecutter
+cookiecutter https://github.com/pytest-dev/cookiecutter-pytest-plugin

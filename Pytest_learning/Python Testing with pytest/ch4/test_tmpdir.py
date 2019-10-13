@@ -86,7 +86,7 @@ def test_tmpdir_factory(tmpdir_factory):  # 使用tmpdir_factory使test_tmpdir_f
     如果需要，还可以使用pytest ——basetemp=mydir指定自己的基本目录
     '''
     # base_temp will be the parent dir of 'mydir'
-    # you don't have to use getbasetemp()
+    # you don'func have to use getbasetemp()
     # using it here just to show that it's available
     base_temp = tmpdir_factory.getbasetemp()
     print('\nbase:', base_temp)
@@ -112,7 +112,7 @@ def test_tmpdir_factory2(tmpdir_factory):  # 使用tmpdir_factory使test_tmpdir_
     a_dir2 = tmpdir_factory.mktemp('mydir2')
 
     # base_temp will be the parent dir of 'mydir'
-    # you don't have to use getbasetemp()
+    # you don'func have to use getbasetemp()
     # using it here just to show that it's available
     base_temp = tmpdir_factory.getbasetemp()
     print('base:', base_temp)

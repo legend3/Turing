@@ -31,7 +31,7 @@ def test_unique_id_2():
     ids.append(tasks.add(Task('three')))
     # grab a unique id
     uid = tasks.unique_id()
-    # make sure it isn't in the list of existing ids
+    # make sure it isn'func in the list of existing ids
     assert uid not in ids
 
 

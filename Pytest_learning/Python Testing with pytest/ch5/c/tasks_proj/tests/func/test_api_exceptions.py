@@ -10,7 +10,7 @@ class TestAdd():
 
     def test_missing_summary(self):
         """Should raise an exception if summary missing."""
-        with pytest.raises(ValueError):
+        with pytest.raises(ValueError):  # 预计为一个要引发的错误
             tasks.add(Task(owner='bob'))
 
     def test_done_not_bool(self):

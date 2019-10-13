@@ -22,7 +22,7 @@ def tasks_db(tasks_db_session):
 
 # Reminder of Task constructor interface
 # Task(summary=None, owner=None, done=False, id=None)
-# Don't set id, it's set by database
+# Don'func set id, it's set by database
 # owner and done are optional
 
 
@@ -66,6 +66,7 @@ def db_with_multi_per_owner(tasks_db, tasks_mult_per_owner):
         tasks.add(t)
 
 
+'''也可以通过安装pytest-nice插件增加自定义nice命令选项'''
 def pytest_addoption(parser):  # 添加后只有命令行中有--nice选项，（下面）对报告状态的修改才能发生！
     """Turn nice features on with --nice option."""
     group = parser.getgroup('nice')  # 获取或创建一个命令选项命名的组
@@ -86,7 +87,8 @@ def pytest_report_teststatus(report, config):  # hook函(直接调用),返回结
             return (report.outcome, 'O', 'OPPORTUNITY for improvement')
 
 
-def pytest_configure(config):
-    markers_list = ["smoke","get"]
-    for marker in markers_list:
-        config.addinivalue_line("markers",marker)
+'''也可以在pytest.ini文件中定义markers;此处在pytest.ini文件中配置,但要在pytest.ini文件所在的根目录下执行pytest及命令选项'''
+# def pytest_configure(config):
+#     markers_list = ["smoke","get"]
+#     for marker in markers_list:
+#         config.addinivalue_line("markers",marker)  # "markers"pytest内置的变量名称

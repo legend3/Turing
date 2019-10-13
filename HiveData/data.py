@@ -58,7 +58,7 @@ class HData:
 #     def make(self):
 #         self.conn = hive.Connection(host='192.168.0.71', port=10000, username ='admin', password='admin', database='default')#username = 'yuzhibo',    auth="NOSAL"
 #         print self.conn,":对接Hive成功！"
-#         self.cursor.execute("create table if not exists zhenguo(empno int, ename string, job string,mgr int,hiredate Date comment 'The higher number',sal double comment 'salary',comm double comment 'commission') ROW FORMAT DELIMITED FIELDS TERMINATED BY '\t';")
+#         self.cursor.execute("create table if not exists zhenguo(empno int, ename string, job string,mgr int,hiredate Date comment 'The higher number',sal double comment 'salary',comm double comment 'commission') ROW FORMAT DELIMITED FIELDS TERMINATED BY '\func';")
 #         print '表创建完毕！'
 # # class PHive():
 # #     def __init__(self):

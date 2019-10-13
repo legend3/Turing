@@ -26,7 +26,7 @@ def tasks_db(tasks_db_session):
 
 # Reminder of Task constructor interface
 # Task(summary=None, owner=None, done=False, id=None)
-# Don't set id, it's set by database
+# Don'func set id, it's set by database
 # owner and done are optional
 
 

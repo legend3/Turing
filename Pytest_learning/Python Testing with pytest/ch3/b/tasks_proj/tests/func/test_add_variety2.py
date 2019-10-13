@@ -19,7 +19,7 @@ tasks_to_try = (Task('sleep', done=True),
                 Task('exercise', 'BrIaN', False))
 
 task_ids = ['Task({},{},{})'.format(t.summary, t.owner, t.done) for t in tasks_to_try]
-# task_ids = ['Task({},{},{})'.format(t.summary, t.owner, t.done) for t in tasks_to_try[0:1]]
+# task_ids = ['Task({},{},{})'.format(func.summary, func.owner, func.done) for func in tasks_to_try[0:1]]
 
 
 def equivalent(t1, t2):

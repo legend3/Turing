@@ -1,5 +1,4 @@
 import requests
-import json
 
 # baseurl = 'http://192.168.0.64/audit-core/login/checkLogin.do'
 # data = {
@@ -23,15 +22,17 @@ import json
 '''
 跨请求，传递cookie
 '''
-#创建一个session对象，可以保存cookie值(整个项目之后都可以用session访问(保存了cookie))
+
+# 创建一个session对象，可以保存cookie值(整个项目之后都可以用session访问(保存了cookie))
 session = requests.session()
 
-url = "http://192.168.0.64"
+url = "http://192.168.0.156"
 
 url_login = url + "/audit-core/login/checkLogin.do"
 url_Analize = url + "/audit-core/fullTextRetrieval/analyze.do"
 
-#登录
+
+# 登录
 data_login = {
     "username": "webadmin",
     "password": "webadmin123456",
@@ -39,25 +40,22 @@ data_login = {
 }
 Login = session.post(url_login,params=data_login)
 print(Login.status_code)
-print(Login.json())
+print(Login.json())  # 响应信息
 
-#analize.do
+# analize.do
 data_Analize = {
     "text": ""
 }
 Analize = session.post(url_Analize, params=data_Analize)
 print(Analize.status_code)
-print(Analize.json())
+print(Analize.json())  # 响应信息
 
-#label list
-
-
-
-
-
+# label list
 
 
 '''
 关闭SSL（关闭提示）
 '''
+
+
 # rsp = requests.get("https://www.baidu.com",verify=False)

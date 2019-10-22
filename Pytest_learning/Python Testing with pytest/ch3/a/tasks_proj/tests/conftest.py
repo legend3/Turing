@@ -32,13 +32,14 @@ fixture可以执行工作，也可以向测试函数返回数据。test test_som
 2.
 在开始研究fixture(以及conftest.py文件)之前，我需要说明这样一个事实:fixture这个术语在编程和测试社区中有很多含义，甚至在Python社区中也是如此。
 我可以互换使用fixture、fixture函数和fixture方法来引用本章讨论的@pytest.fixture()修饰函数。Fixture还可以用来引用Fixture函数正在设置的资源。
-Fixture函数通常设置或检索一些测试可以使用的数据。有时，这些数据被认为是固定的。
+*Fixture函数通常设置或检索一些测试可以使用的数据。有时，这些数据被认为是固定的。
 例如，Django社区经常使用fixture表示在应用程序开始时加载到数据库中的一些初始数据。无
 论其他含义如何，在pytest和本书中，测试fixture都是指pytest提供的机制，该机制允许从测试函数中分离出准备代码和清理代码之后的代码。
 pytest fixture是使pytest在其他测试框架中脱颖而出的独特核心特性之一，也是许多人转而使用并继续使用pytest的原因。
 但是，pytest中的fixture不同于Django中的fixture，也不同于unittest和nose中的安装和拆卸过程。关于fixture有很多特性和细微差别。
 一旦你对它们的工作原理有了一个很好的心理模型，它们对你来说就会变得很容易。然而，你必须和他们玩一段时间，所以让我们开始吧。
-3.
+
+*3.文件间调用fixture
 您可以将fixture放入单独的测试文件中，但是要在多个测试文件之间共享fixture，您需要使用位于所有测试中心位置的conftest.py文件。
 对于Tasks项目，所有fixture都位于tasks_proj/tests/conftest.py中。从那里，fixture可以被任何测试共享。
 如果您希望fixture只被该文件中的测试使用，那么可以将fixture放在单独的测试文件中。

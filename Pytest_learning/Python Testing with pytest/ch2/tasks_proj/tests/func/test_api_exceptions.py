@@ -104,7 +104,7 @@ def test_start_tasks_db_raises():
         2.提取异常的第一个值，希望确保异常的第一个(也是惟一的)参数匹配字符串（期待的异常报错信息）
         3.断言是否是期待的异常信息
     '''
-    with pytest.raises(ValueError) as excinfo:
+    with pytest.raises(ValueError) as excinfo:  # 被测函数自定义的异常是否能正常被抛出
         tasks.start_tasks_db('some/great/path', 'mysql')
     exception_msg = excinfo.value.args[0]
     print(exception_msg)

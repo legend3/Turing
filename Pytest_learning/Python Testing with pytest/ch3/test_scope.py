@@ -57,9 +57,10 @@ def test_2(sess_scope, mod_scope, func_scope):
 当用例需要调用fixture时，前面讲到可以直接在用例里加fixture参数，如果一个测试class都需要用到fixture，每个用例都去传参，会比较麻烦，这个时候，
 可以在class外面加usefixtures装饰器，让整个class都调用fixture
 2.
-使用usefixture几乎与在测试方法参数列表中指定fixture名称相同。
-唯一的区别是，测试只要在参数列表中指定fixture的就能使用Fixture的返回值。
-而usefixtures标注的的测试不能使用fixture的返回值。
+使用usefixture等于在测试方法参数列表中指定fixture名称。
+*唯一的区别是:
+    a.测试只要在参数列表中指定fixture的就能使用Fixture的返回值。
+    b.usefixtures标注的的测试不能使用fixture的返回值。
 '''
 @pytest.mark.usefixtures('class_scope')  # 指定usefixture的作用域为class(类中所有方法都是class_scope作用域 )
 class TestSomething():
@@ -77,7 +78,7 @@ class TestSomething():
 '''
 补充说明：
 叠加fixture
-如果class用例需要同时调用多个fixture，可以使用@pytest.mark.usefixtures()叠加。
+如果class用例需要同时调用多个fixture，可以使用@pytest.mark.usefixtures()叠加方式。
 '''
 
 
@@ -97,7 +98,7 @@ def second():
 # @pytest.mark.usefixtures("first")  # 先执行，不能获取first的返回值
 
 '''2.字符串列表形式(方便)；都会对类中每个测试方法都fixtures()'''
-@pytest.mark.usefixtures("first","second")
+@pytest.mark.usefixtures("first", "second")
 class TestFix():
     def test_1(self):
         print("用例1")

@@ -9,11 +9,12 @@
 5. 检查返回内容格式，发现返回的是json格式内容==>需要用到json包
 '''
 
+
 import requests
 from urllib import parse
 # 负责处理json格式的模块
 import json
-
+import time
 '''
 大致流程是：
 1. 利用data构造内容，然后urlopen打开
@@ -21,7 +22,7 @@ import json
 3. 结果就应该是girl的释义
 '''
 
-baseurl = 'http://192.168.0.64/audit-core/login/checkLogin.do'
+baseurl = 'http://192.168.0.156/audit-core/login/checkLogin.do'
 
 
 # 存放用来模拟form的数据一定是dict格式
@@ -41,7 +42,7 @@ print(type(data))
 
 headers = {
     # 因为使用post，至少应该包含content-length 字段
-    'Content-Length':str(len(data))
+    'Content-Length': str(len(data))
 }
 
 
@@ -53,7 +54,6 @@ print(rsp.is_redirect)
 print(rsp.text)
 print(rsp.request)
 print(rsp.json())
-
 
 # for item in json_data['data']:
 #     print(item['k'], "--", item['v'])

@@ -1,5 +1,7 @@
 import requests
 
+'''通过代理访问百度'''
+
 # 用户验证
 proxy = {"http":"China:123456@:44444"}
 requests.get("https://www.baidu.com",proxies=proxy)

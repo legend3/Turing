@@ -1,0 +1,28 @@
+——test_fixtures.py
+    体验@pytest.fixture()
+        ——利用fixture存储用于测试的数据
+            @pytest.fixture()
+            def a_tuple():
+                """Return something more interesting."""
+                return (1, 'foo', None, {'bar': 23})
+                
+
+            def test_a_tuple(a_tuple):
+                """Demo the a_tuple fixture."""
+                assert a_tuple[3]['bar'] == 32
+
+——test_add.py
+    1.conftest.py的作用
+    2.@pytest.fixture()实现Setup and Teardown
+    3.使用fixtures进行测试数据
+        --setup-show：输出@pytest.fixture()执行轨迹的参数
+    3.1多重fixtures的使用
+——test_scope.py
+    4.指定固定范围 scope
+    5.专门针对类作用域的@pytest.mark.usefixtures()
+——test_autouse.py
+    6.在某个测试时刻自动被调用的fixtrue，@pytest.fixture(autouse=True, scope='session'),考虑使用场景！！！
+——test_rename_fixture.py
+    7.fixtrues重命名参数name
+——test_add_variety2.py
+    8.查看文件中所有fixtures(包括重命名、涉及到的conftest.py中的fixtures)

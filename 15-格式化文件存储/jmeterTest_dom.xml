@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+	<project basedir="." default="all" name="ant-jmeter-test">
+		<tstamp>
+			<format pattern="yyyy/MM/dd/hh/mm" property="time"/>
+		</tstamp>
+		<property name="jmeter.home" value="E:\apache-jmeter-5.1"/>
+		<property name="jmeter.result.jtl.dir" value="E:\BigData\Hive\jtl"/>
+		<property name="jmeter.result.html.dir" value="E:\BigData\Hive\html"/>
+		<property name="ReportName" value="TestReport"/>
+		<property name="jmeter.result.jtlName" value="${jmeter.result.jtl.dir}/${ReportName}.jtl"/>
+		<property name="jmeter.result.htmlName" value="${jmeter.result.html.dir}/${ReportName}.html"/>
+		<target name="all">
+			<antcall target="test"/>
+			<antcall target="report"/>
+		</target>
+		<target name="test">
+			<taskdef classname="org.programmerplanet.ant.taskdefs.jmeter.JMeterTask" name="jmeter"/>
+			<jmeter jmeterhome="${jmeter.home}" resultlog="${jmeter.result.jtlName}">
+				<testplans dir="/Users/yq519/Documents/jmeter/" includes="*.jmx"/>
+			</jmeter>
+		</target>
+		<target name="report">
+			<xslt in="${jmeter.result.jtlName}" out="${jmeter.result.htmlName}" style="${jmeter.home}/extras/jmeter-results-detail-report_21.xsl"/>
+			<copy todir="${jmeter.result.html.dir}">
+				<fileset dir="${jmeter.home}/extras">
+					<include name="collapse.png"/>
+					<include name="expand.png"/>
+				</fileset>
+			</copy>
+		</target>
+	</project>

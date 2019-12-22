@@ -1,0 +1,8 @@
+——test_tmpdir.py
+    内置‘临时目录’tmpdir、tmpdir_factory
+
+——conftest.py、test_config.py
+    添加/获取命令选项
+
+——cache目录
+    缓存

@@ -1,6 +1,4 @@
 '''
-打印日志第一种方式——
-
 
 1. 需求
 
@@ -25,26 +23,25 @@ import datetime
 
 
 # 定义logger
-logger = logging.getLogger('mylogger')  # 创建logger日志器实例
-logger.setLevel(logging.DEBUG)  # 日志器设置输出的日志级别
+logger = logging.getLogger('mylogger')
+logger.setLevel(logging.DEBUG)
 
 
-# 为两个不同的文件设置不同的handler
-rf_handler = logging.handlers.TimedRotatingFileHandler('all.log', when='midnight',interval=1,backupCount=7,atTime=datetime.time(0, 0, 0, 0))
-print("创建时间切割日志handler完毕!")
+#为两个不同的文件设置不同的handler
+rf_handler = logging.handlers.TimedRotatingFileHandler('all.log', when='midnight', interval=1, backupCount=7, atTime=datetime.time(0, 0, 0, 0))
 rf_handler.setFormatter(logging.Formatter("%(asctime)s - %(levelname)s - %(message)s"))
+
 
 
 f_handler = logging.FileHandler('error.log')
 f_handler.setLevel(logging.ERROR)
 f_handler.setFormatter(logging.Formatter("%(asctime)s - %(levelname)s - %(filename)s[:%(lineno)d] - %(message)s"))
-print("创建error日志handler完毕！")
 
 # 把相应的处理器组装到logger上
 logger.addHandler(rf_handler)
 logger.addHandler(f_handler)
 
-# 日志器产生日志
+
 logger.debug('debug message')
 logger.info('info message')
 logger.warning('warning message')

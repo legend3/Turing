@@ -20,6 +20,8 @@ lsal = [800.00, 1600.00, 1250.00, 2975.00, 1250.00, 2850.00, 2450.00, 3000.00, 5
         5000.00, 1300.00]
 lcomm = [0, 300.00, 500.00, 1400.00, ]
 ldeptno = [10, 20, 30]
+
+
 class HData:
     def __init__(self):
         self.empno = None
@@ -42,7 +44,7 @@ class HData:
             self.sal = random.choice(lsal)
             self.comm = random.choice(lcomm)
             self.deptno = random.choice(ldeptno)
-            #写入文件
+            # 写入文件
             with open("/opt/hivedata.txt",'a') as f:
                 if i != count -1:
                     f.write(str(self.empno) + "," + str(self.ename) + "," + str(self.job) + "," + str(self.mgr) + "," + str(self.hiredate) + "," + str(self.sal) + "," + str(self.comm) + "," + str(self.deptno) + "\n")
@@ -71,6 +73,8 @@ class HData:
 # #         self.cursor.execute("load data local inpath \'/home/admin/test_dir/hivedata.txt\' overwrite into table zhenguo;")
 #
 #
+
+
 if __name__ == '__main__':
         HData().make()
     # CreateHiveTable().conn

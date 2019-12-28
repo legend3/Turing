@@ -75,7 +75,7 @@ docs/_build/
 target/
 
 # Jupyter Notebook
-#.ipynb_checkpoints
+.ipynb_checkpoints
 
 # IPython
 profile_default/
@@ -124,6 +124,6 @@ dmypy.json
 # Pyre type checker
 .pyre/
 
-# 自定义添加
+# 自定义
 .idea
 *.ipynb_checkpoints

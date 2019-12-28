@@ -1,7 +1,3 @@
-'''
-打印日志第一种方式——
-'''
-
 import logging
 
 LOG_FORMAT = "%(asctime)s=====%(levelname)s++++++%(message)s"

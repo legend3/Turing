@@ -1,7 +1,7 @@
 import sys,traceback
 
 
-class DanaValueError(ValueError):
+class DanaValueError(Exception):
     # def __init__(self):
     #     super().__init__(self)
 
@@ -14,11 +14,12 @@ try:
         触发DanaValueError异常两种方式
     '''
     raise DanaValueError  # 1.异常类的实例同时被创建，那么类的__str__() 方法就会被调用
-    # num = int(input("Plz input your number:"))  # 2.正常代码逻辑触发
-    # rst = 100 / num
+    num = int(input("Plz input your number:"))  # 2.正常代码逻辑触发
+    rst = 100 / num
     print("计算结果是： {0}".format(rst))
 except DanaValueError as d:
     print(d)
+
 else:
     print("No Exception")
 finally:

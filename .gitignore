@@ -127,3 +127,7 @@ dmypy.json
 # 自定义
 .idea
 *.ipynb_checkpoints
+LOG/Fire/SendData.py
+LOG/Logger.py
+LOG/TestLogClass.py
+LOG/Logger1.py

@@ -22,15 +22,32 @@ import logging.handlers
 import datetime
 
 
+class ContextFilter(logging.Filter):
+    """
+    这是一个控制日志记录的过滤器。
+    """
+    @staticmethod
+    def filter(self, record):
+        # try:
+        lambda record : record.levelno <= logging.info
+        # except AttributeError:
+        #     return False
+        #
+        # if filter_key == "logToConsole":
+        #     return True
+        # else:
+        #     return False
+
+
 # 定义logger
 logger = logging.getLogger('mylogger')
 logger.setLevel(logging.DEBUG)
 
 
-#为两个不同的文件设置不同的handler
+# 为两个不同的文件设置不同的handler
 rf_handler = logging.handlers.TimedRotatingFileHandler('all.log', when='midnight', interval=1, backupCount=7, atTime=datetime.time(0, 0, 0, 0))
 rf_handler.setFormatter(logging.Formatter("%(asctime)s - %(levelname)s - %(message)s"))
-
+rf_handler.addFilter(ContextFilter())  # 添加过滤器
 
 
 f_handler = logging.FileHandler('error.log')

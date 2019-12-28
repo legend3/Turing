@@ -124,9 +124,6 @@ dmypy.json
 # Pyre type checker
 .pyre/
 
-#
+# 自定义添加
 .idea
-#.idea/SearchImage.iml
-#.idea/misc.xml
-#.idea/workspace.xml
-#.idea/vcs.xml
+*.ipynb_checkpoints

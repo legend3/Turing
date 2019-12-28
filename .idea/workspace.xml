@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="a52fce4e-451c-4ab6-80cb-74613dbd0b14" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored mask="*.ipynb" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -31,8 +30,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="53">
-              <caret line="126" column="25" selection-start-line="126" selection-start-column="25" selection-end-line="126" selection-end-column="25" />
+            <state relative-caret-position="111">
+              <caret line="59" column="2" selection-start-line="59" selection-start-column="2" selection-end-line="59" selection-end-column="2" />
             </state>
           </provider>
         </entry>
@@ -52,6 +51,7 @@
       <find>V</find>
       <find>super</find>
       <find>.xml</find>
+      <find>.log</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -89,11 +89,6 @@
             <path>
               <item name="Turing-master" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
               <item name="E:\JetBrains\PyCharm 2019.1.4\workspace\Turing-master" type="442cc68d:ScopeViewTreeModel$RootNode" />
-            </path>
-            <path>
-              <item name="Turing-master" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="E:\JetBrains\PyCharm 2019.1.4\workspace\Turing-master" type="442cc68d:ScopeViewTreeModel$RootNode" />
-              <item name=".idea" type="9f88c78c:ScopeViewTreeModel$FileNode" />
             </path>
             <path>
               <item name="Turing-master" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
@@ -230,7 +225,7 @@
       <workItem from="1577069875321" duration="1130000" />
       <workItem from="1577468166322" duration="8282000" />
       <workItem from="1577508412671" duration="3807000" />
-      <workItem from="1577524302320" duration="1645000" />
+      <workItem from="1577524302320" duration="1854000" />
     </task>
     <task id="LOCAL-00001" summary="2019.12.22在家克隆下拉到本地后，重新关联远程。">
       <created>1577011978656</created>
@@ -281,11 +276,32 @@
       <option name="project" value="LOCAL" />
       <updated>1577525941042</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="2019.12.28复习基础篇、日志、异常、调试，补充更新。">
+      <created>1577526012877</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1577526012877</updated>
+    </task>
+    <task id="LOCAL-00009" summary="2019.12.28复习基础篇、日志、异常、调试，补充更新。">
+      <created>1577526120561</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1577526120562</updated>
+    </task>
+    <task id="LOCAL-00010" summary="2019.12.28复习基础篇、日志、异常、调试，补充更新。">
+      <created>1577526137829</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1577526137829</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="30660000" />
+    <option name="totallyTimeSpent" value="30869000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -300,7 +316,7 @@
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20953101" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20953101" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -314,7 +330,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.32843137" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50075644" side_tool="true" weight="0.3289689" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="11" sideWeight="0.49924356" visible="true" weight="0.18494272" />
+      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.49924356" visible="true" weight="0.18494272" />
       <window_info anchor="bottom" id="Python Console" order="12" weight="0.3289689" />
       <window_info anchor="bottom" id="Messages" order="13" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -558,8 +574,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="53">
-          <caret line="126" column="25" selection-start-line="126" selection-start-column="25" selection-end-line="126" selection-end-column="25" />
+        <state relative-caret-position="111">
+          <caret line="59" column="2" selection-start-line="59" selection-start-column="2" selection-end-line="59" selection-end-column="2" />
         </state>
       </provider>
     </entry>

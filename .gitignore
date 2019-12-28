@@ -125,8 +125,8 @@ dmypy.json
 .pyre/
 
 #
-/.idea
+.idea
 #.idea/SearchImage.iml
 #.idea/misc.xml
-/.idea/workspace.xml
+.idea/workspace.xml
 #.idea/vcs.xml

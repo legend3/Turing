@@ -127,7 +127,6 @@ dmypy.json
 # .idea
 .idea
 #.idea/SearchImage.iml
-#at_alsv_pro/.idea/misc.xml
-#at_alsv_pro/.idea/workspace.xml
-#at_alsv_pro/.idea/vcs.xml
-#at_alsv_pro/.idea
+#.idea/misc.xml
+#.idea/workspace.xml
+#.idea/vcs.xml

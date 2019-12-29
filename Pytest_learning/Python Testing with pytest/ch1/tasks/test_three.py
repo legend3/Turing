@@ -18,7 +18,13 @@ verbose: 默认就好
 test_member_access()测试演示如何通过名称而不是索引访问成员，这是使用namedtuples的主要原因之一！
 '''
 Task = namedtuple('Task', ['summary', 'owner', 'done', 'id'])
-Task.__new__.__defaults__ = (None, None, False, None)#
+Task.__new__.__defaults__ = (None, None, False, None)  #
+# t = Task()
+# print(t._fields)
+# print(t.summary)
+# print(t.owner)
+# print(t.done)
+# print(t.id)
 
 
 def test_defaults():

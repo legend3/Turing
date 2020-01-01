@@ -30,23 +30,27 @@ fixture()装饰器用于告诉pytest函数是一个fixture。当您在测试函�
 fixture可以执行工作，也可以向测试函数返回数据。test test_some_data()具有fixture的名称some_data作为参数。pytest将看到这一点，并寻找具有此名称的fixture。
 命名在pytest中非常重要。pytest将在测试模块中查找该名称的fixture。如果没有在这个文件中找到它，它还会在conftest.py文件中查找。
 2.
-在开始研究fixture(以及conftest.py文件)之前，我需要说明这样一个事实:fixture这个术语在编程和测试社区中有很多含义，甚至在Python社区中也是如此。
-我可以互换使用fixture、fixture函数和fixture方法来引用本章讨论的@pytest.fixture()修饰函数。Fixture还可以用来引用Fixture函数正在设置的资源。
-*Fixture函数通常设置或检索一些测试可以使用的数据。有时，这些数据被认为是固定的。
-例如，Django社区经常使用fixture表示在应用程序开始时加载到数据库中的一些初始数据。无
-论其他含义如何，在pytest和本书中，测试fixture都是指pytest提供的机制，该机制允许从测试函数中分离出准备代码和清理代码之后的代码。
+在开始研究fixture(以及conftest.py文件)之前，我需要说明这样一个事实:fixture这个术语在编程和测试社区中有很多含义，
+甚至在Python社区中也是如此。
+我可以互换使用fixture、fixture函数和fixture方法来引用本章讨论的@pytest.fixture()修饰函数。
+Fixture还可以用来引用Fixture函数正在设置的资源。
+*****Fixture函数通常设置或检索一些测试可以使用的数据。有时，这些数据被认为是固定的。
+例如，Django社区经常使用fixture表示在应用程序开始时加载到数据库中的一些初始数据。
+
+无论其他含义如何，在pytest和本书中，测试fixture都是指pytest提供的机制，！该机制允许从测试函数中分离出准备代码和清理代码之后的代码。
 pytest fixture是使pytest在其他测试框架中脱颖而出的独特核心特性之一，也是许多人转而使用并继续使用pytest的原因。
 但是，pytest中的fixture不同于Django中的fixture，也不同于unittest和nose中的安装和拆卸过程。关于fixture有很多特性和细微差别。
 一旦你对它们的工作原理有了一个很好的心理模型，它们对你来说就会变得很容易。然而，你必须和他们玩一段时间，所以让我们开始吧。
 
 *3.文件间调用fixture
-您可以将fixture放入单独的测试文件中，但是要在多个测试文件之间共享fixture，您需要使用位于所有测试中心位置的conftest.py文件。
+您可以将fixture放入单独的测试文件中，！但是要在多个测试文件之间共享fixture，您需要使用位于所有测试中心位置的conftest.py文件。
 对于Tasks项目，所有fixture都位于tasks_proj/tests/conftest.py中。从那里，fixture可以被任何测试共享。
 如果您希望fixture只被该文件中的测试使用，那么可以将fixture放在单独的测试文件中。
 同样，您也可以在顶部测试目录的子目录中包含其他conftest.py文件。
 如果您这样做了，那么在这些低层conftest.py文件中定义的fixture将对该目录和子目录中的测试可用。
-然而，到目前为止，Tasks项目中的fixture是用于任何测试的。因此，将所有fixture放在测试根目录tasks_proj/tests的conftest.py文件中最有意义。
-尽管conftest.py是一个Python模块，但是它不应该被测试文件导入。不要从任何地方import conftest。
+然而，到目前为止，Tasks项目中的fixture是用于任何测试的。
+因此，将所有fixture放在测试根目录tasks_proj/tests的conftest.py文件中最有意义。
+尽管conftest.py是一个Python模块，但是它不应该被测试文件导入。！不要从任何地方import conftest。
 conftest.py文件被pytest读取，并被认为是一个本地插件，这在我们开始讨论第3章时就很有意义了。
 py文件被pytest读取，并被认为是一个本地插件，一旦我们开始在第5章(第95页的plugins)中讨论插件，这就很有意义了。
 现在，将tests/conftest.py看作是一个地方，我们可以将所有测试使用的fixture放在tests目录下。
@@ -64,7 +68,8 @@ fixture函数在的测试之前运行使用它。但是，如果函数中有一�
 '''
 
 '''
-返回一个临时目录路径对象，它是每个测试函数调用的惟一对象，创建为基本临时目录的子目录。返回的对象是“py.path”。当地的_路径对象
+返回一个临时目录路径对象，它是每个测试函数调用的惟一对象，创建为基本临时目录的子目录。返回的对象是“py.path”。
+当地的_路径对象
 '''
 @pytest.fixture()
 def tasks_db(tmpdir):

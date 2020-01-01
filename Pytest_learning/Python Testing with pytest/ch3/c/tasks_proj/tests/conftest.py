@@ -6,10 +6,10 @@ from tasks import Task
 
 '''
 现在，让我们看看如何在Tasks项目中使用参数化fixture。到目前为止，所有测试都使用TinyDB。
-但是我们希望保留我们的选项，直到项目的后期。因此，我们编写的任何代码，以及编写的任何测试，都应该都使用到TinyDB和MongoDB
+但是我们希望保留我们的选项，直到项目的后期。因此，我们编写的任何代码，以及编写的任何测试，
+都应该都使用到TinyDB和MongoDB
 '''
-# @pytest.fixture(scope='session', params=['tiny',])
-@pytest.fixture(scope='session', params=['tiny', 'mongo'])
+@pytest.fixture(scope='session', params=('tiny', 'mongo'))
 def tasks_db_session(tmpdir_factory, request):
     """Connect to db before tests, disconnect after."""
     temp_dir = tmpdir_factory.mktemp('temp')

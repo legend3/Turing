@@ -24,7 +24,7 @@ def footer_function_scope():
     yield
     stop = time.time()
     delta = stop - start
-    print('\ntest duration : {:0.3} seconds'.format(delta))
+    print('\ntest duration : {:0.4} seconds'.format(delta))  # {:0.3}占位符，表示至少占0.4个位
 
 
 def test_1():

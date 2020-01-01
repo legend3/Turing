@@ -21,11 +21,13 @@ tmpdir与tmpdir_factory的意义
 tmpdir用于创建单个测试使用的文件或目录.
 2.tmpdir_factory
 当您想为许多测试设置一个目录时,可以使用tmpdir_factory，
-tmpdir fixture具有功能范围，tmpdir_factory fixture具有会话
-范围。需要临时目录或文件的任何单个测试
-单个测试可以使用tmpdir。对于正在设置的fixture也是如此
-应该为每个测试函数重新创建的目录或文件。
-tmpdir_factory fixture很像tmpdir，但是它有一个不同的接口。正如在指定Fixture作用域中所讨论的，在第56页，函数作用域Fixture为每个测试函数运行一次，模块作用域Fixture为每个模块运行一次，类作用域Fixture为每个类运行一次，测试作用域Fixture为每个会话运行一次。
+tmpdir fixture具有function范围，tmpdir_factory fixture具有session范围。
+需要临时目录或文件的任何单个测试
+!!!单个测试可以使用tmpdir。!!!对于正在设置的fixture也是如此应该为每个测试函数重新创建的目录或文件。
+tmpdir_factory fixture很像tmpdir，但是它有一个不同的接口。
+正如在指定Fixture作用域中所讨论的，
+在第56页，function作用域Fixture为每个测试函数运行一次，模块作用域Fixture为每个模块运行一次，类作用域Fixture为每个类运行一次，
+测试作用域Fixture为每个会话运行一次。
 因此，在会话范围fixture中创建的资源具有整个会话的生命周期。
 '''
 
@@ -81,9 +83,10 @@ def test_tmpdir_factory(tmpdir_factory):  # 使用tmpdir_factory使test_tmpdir_f
 
     '''
     这个基本目录依赖于系统和用户，并且pytest-NUM会随着每个会话的递增而变化。
-    在会话之后，基本目录将被单独保留，但是pytest将清理它们，并且只在系统上保留最近的几个临时基本目录，如果您需要在测试运行之后检查文件，这是非常棒的。
+    在会话之后，基本目录将被单独保留，但是pytest将清理它们，并且只在系统上保留最近的几个临时基本目录，
+    如果您需要在测试运行之后检查文件，这是非常棒的。
     
-    如果需要，还可以使用pytest ——basetemp=mydir指定自己的基本目录
+    （使用-s打印输出默认基本目录）如果需要，还可以使用pytest ——basetemp=mydir指定自己的基本目录
     '''
     # base_temp will be the parent dir of 'mydir'
     # you don'func have to use getbasetemp()

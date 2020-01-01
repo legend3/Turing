@@ -142,7 +142,7 @@ the multiple parameter version的可读性很好，但是Task对象列表也是�
 
 
 # 列表推导式后，ids能对列表中各元素(一个Task实例数据列表)作标记
-task_ids = ['Task({},{},{})'.format(t.summary, t.owner, t.done) for t in tasks_to_try]
+task_ids = ['Task({},{},{})'.format(t.summary, t.owner, t.done) for t in tasks_to_try]  # 创建一个集合，集合元素为为@pytest.mark.parametrize定义ids
 
 
 @pytest.mark.parametrize('task', tasks_to_try, ids=task_ids)  # ids给taks的每个任务数据定义标识符；taks_to_try给taks传值
@@ -150,7 +150,7 @@ def test_add_5(task):
     """Demonstrate ids."""
     task_id = tasks.add(task)
     t_from_db = tasks.get(task_id)
-    # print(task_ids)
+    # print("打印：",type(task_ids),task_ids)
     assert equivalent(t_from_db, task)
 
 
@@ -175,6 +175,7 @@ test_add_variety.py::test_add_5[Task(exercise,BrIaN,False)] PASSED
 '''
 
 
+# task元素自带id
 @pytest.mark.parametrize('task', [  # 1.直接
     pytest.param(Task('create'), id='just summary'),
     pytest.param(Task('inspire', 'Michelle'), id='summary/owner'),

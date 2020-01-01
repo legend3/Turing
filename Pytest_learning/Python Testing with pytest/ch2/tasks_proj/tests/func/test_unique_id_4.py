@@ -1,4 +1,4 @@
-"""Test tasks.unique_id()."""
+"""Test tasks.unique_id().演示@pytest.mark.xfail(条件,reason="")"""
 
 import pytest
 import tasks
@@ -13,8 +13,8 @@ xfail
 1.
 .代表PASSED
 F代表FAILED
-x代表XFAIL，“预计会失败，确实出错了”,但report不报错
-X代表XPASS，“预期会失败但出错”
+x代表XFAIL，“预计断言会失败，确实出错了”,但report不报错：pytest.ini文件配置xfail_strict=true
+X代表XPASS，“预计断言会失败但没失败” 
 
 2.
 *或者，您也可以在测试或设置函数中强制地将一个测试标记为XFAIL:
@@ -29,7 +29,7 @@ def test_unique_id_1():
     """Calling unique_id() twice should return different numbers."""
     id_1 = tasks.unique_id()
     id_2 = tasks.unique_id()
-    assert id_1 != id_2
+    assert id_1 != id_2  # 实际是相等
 
 
 '''

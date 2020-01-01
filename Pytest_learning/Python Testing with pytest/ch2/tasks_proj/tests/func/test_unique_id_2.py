@@ -1,4 +1,4 @@
-"""Test tasks.unique_id()."""
+"""Test tasks.unique_id().演示@pytest.mark.skip()"""
 
 import pytest
 import tasks
@@ -13,7 +13,8 @@ from tasks import Task
 '''
 """
 
-@pytest.mark.skip(reason='misunderstood the API')#自定义(跳过)原因
+
+@pytest.mark.skip(reason='misunderstood the API')  # 自定义(跳过)原因
 def test_unique_id_1():
     """Calling unique_id() twice should return different numbers."""
     id_1 = tasks.unique_id()

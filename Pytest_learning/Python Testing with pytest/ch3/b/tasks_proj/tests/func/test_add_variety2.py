@@ -18,7 +18,7 @@ tasks_to_try = (Task('sleep', done=True),
                 Task('breathe', 'BRIAN', True),
                 Task('exercise', 'BrIaN', False))
 
-task_ids = ['Task({},{},{})'.format(t.summary, t.owner, t.done) for t in tasks_to_try]
+task_ids = ['Task({},{},{})'.format(t.summary, t.owner, t.done) for t in tasks_to_try]  # 制造参数化的元祖元素id
 # task_ids = ['Task({},{},{})'.format(func.summary, func.owner, func.done) for func in tasks_to_try[0:1]]
 
 
@@ -28,7 +28,7 @@ def equivalent(t1, t2):
             (t1.owner == t2.owner) and
             (t1.done == t2.done))
 
-# params它将导致多个参数调用fixture函数和所有测试使用它
+# 2.利用@pytest.fixture(params=)参数化定义的数据结构,params它将导致多个参数调用fixture函数和所有测试使用它
 @pytest.fixture(params=tasks_to_try)
 def a_task(request):  # request等同'task',传入值
     """Using no ids."""

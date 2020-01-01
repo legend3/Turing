@@ -22,6 +22,7 @@ def equivalent(t1, t2):
             (t1.done == t2.done))
 
 
+#  1.利用@pytest.mark.parametrize创建参数化数据
 @pytest.mark.parametrize('task',
                          [Task('sleep', done=True),
                           Task('wake', 'brian'),

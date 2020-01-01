@@ -1,4 +1,4 @@
-"""Demo fixture scope."""
+"""Demo fixture scope.演示作用范围Demo"""
 
 import pytest
 
@@ -27,8 +27,8 @@ def func_scope():
 @pytest.fixture(scope='module')
 def mod_scope():
     """A module scope fixture."""
-    print("我是mofule")
-
+    # print("我是mofule")
+    return [1,'2']
 
 @pytest.fixture(scope='session')
 def sess_scope():
@@ -42,14 +42,16 @@ def class_scope():
     print("我是class")
 
 
-def test_1(sess_scope, mod_scope, func_scope):
+def test_1(sess_scope, mod_scope, func_scope):  # 先后关系
     """Test using session, module, and function scope fixtures."""
-    print("函数1")
+    print("函数1")  # test_1执行完，退出function范围
+    print("mod_scoped的返回值第一元素:",mod_scope[0])
 
 
 def test_2(sess_scope, mod_scope, func_scope):
     """Demo is more fun with multiple tests."""
-    print("函数2")
+    print("函数2")   # test_12执行完，退出function范围
+    print("mod_scope的返回值第二元素:",mod_scope[1])
 
 
 '''
@@ -60,7 +62,8 @@ def test_2(sess_scope, mod_scope, func_scope):
 使用usefixture等于在测试方法参数列表中指定fixture名称。
 *唯一的区别是:
     a.测试只要在参数列表中指定fixture的就能使用Fixture的返回值。
-    b.usefixtures标注的的测试不能使用fixture的返回值。
+    b.usefixtures标注的的测试不能使用fixture的返回值!
+    c.available fixtures:通过命令 pytest --fixtures [testpath]查询此包中有效的fixtures有哪些
 '''
 @pytest.mark.usefixtures('class_scope')  # 指定usefixture的作用域为class(类中所有方法都是class_scope作用域 )
 class TestSomething():
@@ -95,14 +98,14 @@ def second():
 
 '''1.注意叠加顺序，先执行的放底层，后执行的放上层；都会对类中每个测试方法都fixtures()'''
 # @pytest.mark.usefixtures("second")  # 后执行
-# @pytest.mark.usefixtures("first")  # 先执行，不能获取first的返回值
+# @pytest.mark.usefixtures("first")  # 先执行
 
 '''2.字符串列表形式(方便)；都会对类中每个测试方法都fixtures()'''
 @pytest.mark.usefixtures("first", "second")
 class TestFix():
     def test_1(self):
         print("用例1")
-        # print(first[0])
+        # print(first[0])  # 不能获取到usefixtrues的返回值
         assert 1 == 1
 
     def test_2(self):

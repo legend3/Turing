@@ -24,7 +24,7 @@ TEARDOWN S tmpdir_factory
 ====================== 2 tests deselected ======================
 ============ 1 passed, 2 deselected in 0.02 seconds ============
 3.
-F和S表示范围。
+F和S表示范围:
 F表示函数范围，
 S表示会话范围。
 '''

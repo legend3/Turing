@@ -1,15 +1,17 @@
 import pytest
 
+"""演示调用pytestconfig中(内置、自定义)的命令选项"""
+
 
 def test_option(pytestconfig):
     """读取命令行选项的值"""
-    print('"foo" set to:', pytestconfig.getoption('foo'))
+    print('"foo" set to:', pytestconfig.getoption('foo'))  # 方式一
     print('"myopt" set to:', pytestconfig.getoption('myopt'))
 
 
 @pytest.fixture()
 def foo(pytestconfig):
-    return pytestconfig.option.foo
+    return pytestconfig.option.foo  # 方式二
 
 
 @pytest.fixture()
@@ -24,7 +26,7 @@ def test_fixtures_for_options(foo, myopt):
 
 
 def test_pytestconfig(pytestconfig):
-    print('args            :', pytestconfig.args)
+    print('args            :', pytestconfig.args)  # 方式三
     print('inifile         :', pytestconfig.inifile)
     print('invocation_dir  :', pytestconfig.invocation_dir)
     print('rootdir         :', pytestconfig.rootdir)
@@ -36,6 +38,6 @@ def test_pytestconfig(pytestconfig):
 
 
 def test_legacy(request):
-    print('\n"foo" set to:', request.config.getoption('foo'))
+    print('\n"foo" set to:', request.config.getoption('foo')) # 方式四
     print('"myopt" set to:', request.config.getoption('myopt'))
     print('"keyword" set to:', request.config.getoption('keyword'))

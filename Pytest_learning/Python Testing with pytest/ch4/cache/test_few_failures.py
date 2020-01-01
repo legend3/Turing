@@ -1,4 +1,4 @@
-"""Demonstrate -lf and -ff with failing tests."""
+"""Demonstrate -lf and -ff adn --cache-show with failing tests."""
 
 import pytest
 from pytest import approx
@@ -20,3 +20,4 @@ def test_a(x, y, expected):
     """Demo approx()."""
     sum_ = x + y
     assert sum_ == approx(expected)
+

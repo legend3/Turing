@@ -100,6 +100,15 @@ pytest -v "test_add_variety.py::test_add_3[eat eggs-BrIaN-False]"
 '''
 
 
+# 被参数化的必须为一个集合list;命名必须使用""包括，集合中每组元素可以为一个元组，元组中各元素可以在命名中用逗号隔开！
+test_data2 = ["string"]
+
+
+@pytest.mark.parametrize("s", test_data2)
+def test_b(s):
+    assert s == "string"
+
+
 @pytest.mark.parametrize('summary, owner, done',  # 将任务作为元组传递进来
                          [('sleep', None, False),
                           ('wake', 'brian', False),
@@ -112,6 +121,7 @@ def test_add_3(summary, owner, done):
     task_id = tasks.add(task)
     t_from_db = tasks.get(task_id)
     assert equivalent(t_from_db, task)
+# ！可以只执行一组元素：pytest -q "test_add_variety.py::test_add_3['sleep', None, False]"
 
 
 '''

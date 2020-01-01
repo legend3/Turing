@@ -5,9 +5,9 @@ pytestconfig装置是请求的快捷方式。配置，有时在pytest文档中�
 您需要添加一个hook函数。hook函数是另一种控制pytest行为的方法，并且在插件中经常使用，
 我将在第5章，即插件中更详细地介绍它。但是，添加一个自定义命令行选项并从pytestconfig中读取它是非常常见的，因此我想在这里介绍它。
 """
+
+
 def pytest_addoption(parser):  # pytest自带类
     '''添加自定义命令选项'''
-    parser.addoption("--myopt", action="store_true",
-                     help="some boolean option")
-    parser.addoption("--foo", action="store", default="bar",
-                     help="foo: bar or baz")
+    parser.addoption("--myopt", action="store_true",help="some boolean option")
+    parser.addoption("--foo", action="store", default="bar",help="foo: bar or baz")

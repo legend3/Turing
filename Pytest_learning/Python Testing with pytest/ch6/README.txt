@@ -2,11 +2,13 @@
 pytest.ini  ——这是允许您更改默认行为的主要pytest Config文件
 conftest.py ——这是一个本地插件，允许hook函数和fixture用于conftest.py文件所在的目录和所有子目录
 __init__.py ——当放入每个测试子目录时，该文件允许您在多个测试目录中拥有相同的测试文件名
-tox.ini ——这个文件类似于pytest.ini，但是为了tox。但是，您可以将pytest配置放在这里，而不是同时拥有一个tox.ini和一个pytest.ini文件，从而节省了一个配置文件。
-setup.cfg   ——这是一个ini文件格式的文件，它影响setup.py的行为。可以向setup.py中添加几行代码来运行python setup.py test，并让它运行所有的pytest测试。
+tox.ini ——这个文件类似于pytest.ini，但是(只是)为了tox。但是，您可以将pytest配置放在这里，而不是同时拥有一个tox.ini和一个pytest.ini文件，从而节省了一个配置文件。
+setup.cfg   ——如果您希望分发Python包(如任务)，这个文件将是您感兴趣的
+                这是一个ini文件格式的文件，它影响setup.py的行为。可以向setup.py中添加几行代码来运行python setup.py test，
+                并让它运行所有的pytest测试。
                 如果您正在分发一个包，您可能已经有了setup.cfg文件，您可以使用该文件来存储pytest配置
 
-# 通过pytest --help查看命令选项
+# 使用pytest -help列出有效的ini文件选项
     添加命令选项
     改变命令选项，可以在pytest.ini文件中添加经常频繁使用的命令选项；例如：
         [pytest]
@@ -33,19 +35,19 @@ setup.cfg   ——这是一个ini文件格式的文件，它影响setup.py的行
                 get: Run the test functions that test tasks.get()
 # 添加默认命令选项
         ch6\a与ch6\b对比：
-            a无pytest.ini，所以默认没有--strict
+            a无pytest.ini，所以默认没有--strict     任何拼写错误或未注册的标记都会显示为错误
             b添加pytes.ini，而且添加了默认开启--strict]
 
 # 最小pytest版本设置:(pytest.ini)
         [pytest]
-        minversion = 5.2.2
+        minversion = 5.3.2
 
 # pytest对项目扫描(鉴于norecursedirs告诉pytest不要看哪里，但是testpaths告诉pytest要看哪里)
 
     避免pytest递归无需的目录设置<可以使用norecursedirs缩小pytest的搜索范围>:(pytest.ini)
         # content of pytest.ini
         [pytest]
-        norecursedirs = .* venv src *.egg dist build  # 指定pytest忽略某些目录(venv)
+        norecursedirs = .* venv src *.egg dist build  # 指定pytest忽略某些目录(.开头的文件、目录 venv目录 src目录 egg结尾的目录 dist目录 build目录)
         [pytest]
         norecursedirs = .svn _build tmp*
         这将告诉pytest不要递归地进入典型的subversion或sphinx-build目录或任何tmp前缀目录
@@ -89,8 +91,8 @@ setup.cfg   ——这是一个ini文件格式的文件，它影响setup.py的行
                 # pytest.ini文件中
                 [pytest]
                 python_functions = test_* check_*
-                 从而，这使我们能够这样命名文件:
-                    check_login.py
+                 从而，这使我们能够这样命名函数:
+                    check_login()
 #   避免文件名冲突dups与dups_fxed进行对比
     当不同子目录中出现相同文件名的，需要在各子目录中各自添加__init__.py
     因此，把__init__.py文件放进去，作为一个好习惯，就再也不要再担心了。

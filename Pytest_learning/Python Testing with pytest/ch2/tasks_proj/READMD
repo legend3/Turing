@@ -16,7 +16,9 @@
     2.test_unique_id_2.py使用@pytest.mark.skip(reason='misunderstood the API')的作用及使用场景
     3.test_unique_id_3.py使用@pytest.mark.skipif(tasks.__version__ < '0.2.0',reason='not supported until version 0.2.0')的作用及使用场景、r参数的使用、与skip的区别
     4.test_unique_id_4.py，预计一个测试必是错误的时，@pytest.mark.xfail(tasks.__version__ < '0.2.0',reason='not supported until version 0.2.0')的使用
-
+        (建议一直配置此项)4.1您可以配置pytest来报告那些"通过"但是被xfail标记为失败的测试。这是在一个pytest.ini文件中完成的:
+            [pytest]
+            xfail_strict=true
 ——Running a Subset of Tests
     如何运行各种文件中测试子集的方式
     -k参数的使用

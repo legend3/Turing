@@ -66,24 +66,42 @@ def db_with_multi_per_owner(tasks_db, tasks_mult_per_owner):
         tasks.add(t)
 
 
-'''也可以通过安装pytest-nice插件增加自定义nice命令选项'''
-def pytest_addoption(parser):  # 添加后只有命令行中有--nice选项，（下面）对报告状态的修改才能发生！
+"""
+1.添加一个命令行选项——nice，
+2.只有当——nice被传入时，我们的状态修改才会发生
+"""
+
+
+# 方式二也可以通过安装pytest-nice插件增加自定义nice命令选项
+def pytest_addoption(parser):  # 方式一（自定义），添加后只有命令行中有--nice选项，（下面）对报告状态的修改才能发生！
     """Turn nice features on with --nice option."""
     group = parser.getgroup('nice')  # 获取或创建一个命令选项命名的组
-    group.addoption("--nice", action="store_true",  # 向该组添加一个命令选项
-                    help="nice: turn failures into opportunities")
+    group.addoption("--nice", action="store_true", help="nice: turn failures into opportunities")  # 向该组添加一个命令选项
 
 
+"""
+2.
+pytest.config global
+    Removed in version 5.0.
+pytest.config global对象已被废弃：
+a.如果是非插件(conftest.py中hook)则可以用request.config(通过fixture里的request),补充直接使用config
+b.或者如果你是插件作者，使用pytest_configure(config)hook。
+*c.注意！许多hook也可以间接使用config对象通过session.config或者item.config为测试用例。
+"""
+
+
+# 获取config，方式一
 def pytest_report_header(config):  # hook函数(直接调用),返回一个字符串或字符串列表，显示为终端报告的标题信息。
     """Thank tester for running tests."""
     if config.getoption('nice'):
         return "Thanks for running the tests."
 
 
-def pytest_report_teststatus(report, config):  # hook函(直接调用),返回结果类别、简短和冗长的报告词
+# 获取config，方式二
+def pytest_report_teststatus(report, request):  # hook函(直接调用),返回结果类别、简短和冗长的报告词
     """Turn failures into opportunities."""
     if report.when == 'call':
-        if report.failed and config.getoption('nice'):  # report.faile报告状态;config.getoption('nice')获取命令参数
+        if report.failed and request.config.getoption('nice'):  # report.faile报告状态;config.getoption('nice')获取命令参数
             return (report.outcome, 'O', 'OPPORTUNITY for improvement')
 
 

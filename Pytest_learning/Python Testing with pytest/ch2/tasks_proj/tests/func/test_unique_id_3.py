@@ -14,8 +14,7 @@ skipif
     显示参数：-r,由特殊的字符显示指定的额外测试摘要信息summary info：(f)尾随，(E)错误，(s)跳过，(x)失败，(x)通过，(p)通过，(p)通过输出，(a)除pP外全部通过
     执行：pytest -rs test_xxxx.py          ——指定显示"(s)跳过”的额外测试摘要信息
 '''
-@pytest.mark.skipif(tasks.__version__ < '0.2.0',
-                    reason='not supported until version 0.2.0')
+@pytest.mark.skipif(tasks.__version__ < '0.2.0',reason='not supported until version 0.2.0')
 def test_unique_id_1():
     """Calling unique_id() twice should return different numbers."""
     id_1 = tasks.unique_id()

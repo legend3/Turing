@@ -1,0 +1,28 @@
+——pdb:调试测试失败：
+    普通方式：pytest --tb=no --verbose --lf --maxfail=3    或   pytest -v --lf -l -x
+    pdb模块是标准库中的Python调试器。使用--pdb让pytest在故障点启动调试会话。
+        pdb方式：pytest -v --lf -x --pdb
+
+    现在我们处于(Pdb)提示符，我们可以访问Pdb的所有交互式调试特性。当看到失败时，我经常使用以下命令:
+        • p/print expr: Prints the value of exp.
+        • pp expr: Pretty prints the value of expr.
+        • l/list: Lists the point of failure and five lines of code above and below.
+        • l/list begin,end: Lists specific line numbers.
+        • a/args: Prints the arguments of the current function with their values. (This
+        is helpful when in a test helper function.)
+        • u/up: Moves up one level in the stack trace.
+        • d/down: Moves down one level in the stack trace.
+        • q/quit: Quits the debugging session.
+
+——Coverage.py：确定有多少代码已经被测试过？
+    Coverage.py是度量代码覆盖率的首选Python覆盖工具。您将使用它来检查Taks项目代码在pytest中的测试。
+    Coverage.py是pytest-cov的一个依赖项，安装pytest-cov就足够了，因为它会拉入:
+        pip install pytest-cov
+    在被测项目根目录下执行:
+        pytest --cov=src
+    如果您再次使用——cov-report=html运行coverage.py，就会生成一个html报告:
+        pytest --cov=src --cov-report=html
+——tox
+tox是一个命令行工具，允许你在多个环境中运行你的完整测试套件。我们将使用它在多个Python版本中测试Tasks项目。
+然而，tox并不仅限于Python版本。
+您可以使用它来测试不同的依赖项配置和不同操作系统的不同配置。

@@ -23,8 +23,7 @@ def test_function():
         pytest.xfail("failing configuration (but should work)")
 这将无条件地使est_function XFAIL。*注意，pytest.xfail调用之后不执行其他代码。与标记不同。这是因为它是通过在内部引发一个已知异常来实现的。
 """
-@pytest.mark.xfail(tasks.__version__ < '0.2.0',
-                   reason='not supported until version 0.2.0')
+@pytest.mark.xfail(tasks.__version__ < '0.2.0',reason='not supported until version 0.2.0')
 def test_unique_id_1():
     """Calling unique_id() twice should return different numbers."""
     id_1 = tasks.unique_id()
@@ -33,7 +32,7 @@ def test_unique_id_1():
 
 
 '''
-True，被标记的测试函数(预计是错)，确实出错了为xfail;未出错就为XPASS。
+True，被标记的测试函数(预计是错)，确实出错了为XFAIL;未出错就为XPASS。
 2.
     pytest.ini中配置
     xfail_strict=true,未出错则为FAILED

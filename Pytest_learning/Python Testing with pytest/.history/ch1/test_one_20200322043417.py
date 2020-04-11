@@ -1,5 +1,5 @@
 #!/usr/bin/env python
-# _*_ coding: utf-8 _*_
+# _*_ coding: ytf-8 _*_
 import pytest
 
 

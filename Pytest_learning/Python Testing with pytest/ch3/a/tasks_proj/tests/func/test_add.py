@@ -1,3 +1,11 @@
+'''
+@Author: your name
+@Date: 2019-12-22 11:35:22
+@LastEditTime: 2020-04-08 07:52:56
+@LastEditors: Please set LastEditors
+@Description: In User Settings Edit
+@FilePath: \Turing\Pytest_learning\Python Testing with pytest\ch3\a\tasks_proj\tests\func\test_add.py
+'''
 """Test the tasks.add() API function."""
 
 import pytest
@@ -76,6 +84,7 @@ def test_add_increases_count(db_with_3_tasks):  # db_with_3_tasks测试的准备
     # GIVEN a db with 3 tasks
     #  WHEN another task is added
     tasks.add(Task('throw a party'))  # 测试的重点
+
 
     #  THEN the count increases by 1
     assert tasks.count() == 4

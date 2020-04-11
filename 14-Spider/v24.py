@@ -27,5 +27,5 @@ a = m.span(1) # 返回匹配成功的第一个子串的跨度
 print(a)
 
 
-s = m.groups() #等价于m.gourp(1), m.group(2).......
-print(s)#tuple
+s = m.groups()  # 等价于m.gourp(1), m.group(2).......
+print(s)  # tuple

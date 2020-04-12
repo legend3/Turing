@@ -133,3 +133,4 @@ LOG/TestLogClass.py
 LOG/Logger1.py
 LOG/Fire/SendFileDataToKafka180.py
 .hypothesis
+.history

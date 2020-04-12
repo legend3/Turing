@@ -111,41 +111,46 @@ import warnings
 
 # print(tmpdir.mkdir('C:\\Users\\Administrator\\Desktop\\home'))
 
-def multiply(a, b):
-    """
-    >>> multiply(4, 3)
-    12
-    >>> multiply('a', 3)
-    'aaa'
-    """
-    return a * b
+# def multiply(a, b):
+#     """
+#     >>> multiply(4, 3)
+#     12
+#     >>> multiply('a', 3)
+#     'aaa'
+#     """
+#     return a * b
 
 
-def warnings_to_stdout():
-    """ Redirect all warnings to stdout.
-    """
-    showwarning_orig = warnings.showwarning
+# def warnings_to_stdout():
+#     """ Redirect all warnings to stdout.
+#     """
+#     showwarning_orig = warnings.showwarning
 
-    def showwarning(msg, cat, fname, lno, file=None, line=0):
-        showwarning_orig(msg, cat, os.path.basename(fname), line, sys.stdout)
-    warnings.showwarning = showwarning
-    warnings.simplefilter('always')
-
-
-def test_lame_function_2(x,y):
-    return x+y
+#     def showwarning(msg, cat, fname, lno, file=None, line=0):
+#         showwarning_orig(msg, cat, os.path.basename(fname), line, sys.stdout)
+#     warnings.showwarning = showwarning
+#     warnings.simplefilter('always')
 
 
-if __name__ == '__main__':
-    # import doctest
-    # doctest.testmod(verbose=True)
-    with warnings.catch_warnings(record=True) as caught_warnings:
-        warnings.simplefilter("error")
-        rv = test_lame_function_2(1,2)
-        print(rv)
-    print(caught_warnings)
-    for warning in caught_warnings:
-        print(warning)
+# def test_lame_function_2(x,y):
+#     return x+y
+
+
+# if __name__ == '__main__':
+#     # import doctest
+#     # doctest.testmod(verbose=True)
+#     with warnings.catch_warnings(record=True) as caught_warnings:
+#         warnings.simplefilter("error")
+#         rv = test_lame_function_2(1,2)
+#         print(rv)
+#     print(caught_warnings)
+#     for warning in caught_warnings:
+#         print(warning)
     # assert  == 1
     # print('success!')
-    
+
+
+a = [[1,2],[4,5]]
+
+for k,v in a:
+    print(k,"--",v)

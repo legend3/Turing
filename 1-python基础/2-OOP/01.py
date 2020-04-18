@@ -1,3 +1,16 @@
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
+
+'''
+@Author: LEGEND
+@since: 2019-12-22 11:35:21
+@lastTime: 2020-04-16 01:45:38
+@FilePath: \Turing\1-python基础\2-OOP\01.py
+@Description: 
+@version: 
+'''
+
+
 '''
     定以一个学生类，用来形容学生
 '''
@@ -12,7 +25,7 @@ class Student():
 # 定义一个对象
 mingyue = Student()
 
-# 在定义一个类，用来描述听Python的学生
+# 再定义一个类，用来描述听Python的学生
 class PythonStudent():
     # 用None给不确定的值赋值
     name = None  # 补充：静态变量：1.用通过类名或对象实例访问静态变量都是合法的 2.必须通过类型访问才能修改静态变量的值（可以用id()查看静态变量id验证！）

@@ -1,13 +1,21 @@
 #!/usr/bin/python
-# -*-coding:utf8-*-
+# -*- coding:utf8-*-
 
+'''
+@Author: LEGEND
+@since: 2019-12-22 11:35:22
+@lastTime: 2020-04-24 03:12:58
+@FilePath: \Turing\18-python+shell\shell命令执行库.py
+@Description: python远程Linux
+@version: 
+'''
 
 
 import paramiko
 # import commands
 
 # ssh对接
-host='192.168.0.64'
+host='172.17.47.158'
 user = 'root'
 password = 'root'
 
@@ -16,9 +24,9 @@ try:
     ssh.load_system_host_keys()                                # 加载本地HOST主机文件
     ssh.set_missing_host_key_policy(paramiko.AutoAddPolicy())  # 允许连接不在know_hosts文件中的主机
     ssh.connect(host,22,user,password,timeout=5)               # 连接远程主机
-    print("对接服务器成功！")
+    print("对Centos7接服务器成功！")
 except RuntimeError as r:
-    print("服务对接失败: ",r)
+    print("对接Centos7服务器失败: ",r)
 
 stdin, stdout, stderr = ssh.exec_command("touch /home/command.txt&&echo 'touch success'")
 result = stdout.read(),stderr.read()# tuple

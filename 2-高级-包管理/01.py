@@ -1,3 +1,16 @@
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
+
+'''
+@Author: LEGEND
+@since: 2019-12-22 11:35:22
+@lastTime: 2020-04-30 00:55:46
+@FilePath: \Turing\2-高级-包管理\01.py
+@Description: 
+@version: 
+'''
+
+
 
 
 # 包含一个学生类，

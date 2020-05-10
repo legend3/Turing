@@ -190,6 +190,7 @@ test_add_variety.py::test_add_5[Task(exercise,BrIaN,False)] PASSED
     pytest.param(Task('create'), id='just summary'),
     pytest.param(Task('inspire', 'Michelle'), id='summary/owner'),
     pytest.param(Task('encourage', 'Michelle', True), id='summary/owner/done')])
+
 def test_add_6(task):
     """Demonstrate pytest.param and id."""
     task_id = tasks.add(task)
@@ -216,7 +217,7 @@ def test_add_7(task):
 还可以将parametertrize()应用于类。当您这样做时，相同的数据将被发送到类中的所有测试方法
 '''
 @pytest.mark.parametrize('task', tasks_to_try, ids=task_ids)
-class TestAdd():
+class TestAdd():  # 参数化的类必须每个方法都带'task'作为参数
     """Demonstrate parametrize and test classes."""
 
     def test_equivalent(self, task):

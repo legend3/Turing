@@ -7,8 +7,8 @@ import pymysql
 '''
 @Author: LEGEND
 @since: 2020-04-25 13:07:55
-@lastTime: 2020-04-25 13:17:30
-@FilePath: \Turing\18-python+shell\20-MySQL\Demo.py
+@lastTime: 2020-05-04 17:19:23
+@FilePath: \Turing\20-MySQL\Demo.py
 @Description: 
 @version: 
 '''
@@ -16,7 +16,7 @@ import pymysql
 
 def test_mysql(connection):
     try:
-        cur = con.
+        cur = connection.cursor()
     except Exception as e:
         print("操作数据库异常：", e)
     else:

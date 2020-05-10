@@ -2,6 +2,7 @@
 
 import pytest
 import tasks
+import pymysql
 
 '''
 冒烟测试（局部）
@@ -9,11 +10,11 @@ import tasks
     b.测试函数的标记
     
 1.
-期待得到相应异常的断言：with pytest.raises(TypeError);如果没有引发异常，则测试失败。如果测试引发另一个异常（期待的异常），也则会失败。
-2.
+期待得到相应异常的断言：with pytest.raises(TypeError);如果没有引发异常，则测试失败。
+如果测试引发另一个异常（期待的异常），也则会失败。
 excinfo收集异常信息
 excinfo.value.args[0]——>第一个异常值
-3.
+2.
 打标记
 @pytest.mark.命名
 执行参数:-m
@@ -111,3 +112,4 @@ def test_start_tasks_db_raises():
     exception_msg = excinfo.value.args[0]
     print(exception_msg)
     assert exception_msg == "db_type must be a 'tiny' or 'mongo'"
+    

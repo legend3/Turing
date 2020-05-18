@@ -4,7 +4,7 @@
 '''
 @Author: LEGEND
 @since: 2019-12-22 11:35:22
-@lastTime: 2020-05-19 02:39:41
+@lastTime: 2020-05-19 03:39:00
 @FilePath: \Turing\LOG\02.py
 @Description: 
 @version: 
@@ -86,7 +86,7 @@ utc参数表示UTC时间
 # 为两个不同的文件设置不同的handler
 rf_handler = logging.handlers.TimedRotatingFileHandler('all.log', when='midnight' , interval=1, backupCount=7, atTime=datetime.time(0, 0, 0, 0))
 rf_handler.setFormatter(logging.Formatter("%(asctime)s - %(levelname)s - %(message)s"))
-rf_handler.addFilter(ContextFilter())  # 添加过滤器
+rf_handler.addFilter(ContextFilter())  # addFilter方法需要一个filter对象，这里我定义一个新的类，并且重写filter方法,
 
 f_handler = logging.FileHandler('error.log')
 f_handler.setLevel(logging.ERROR)

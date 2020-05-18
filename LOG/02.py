@@ -1,3 +1,16 @@
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
+
+'''
+@Author: LEGEND
+@since: 2019-12-22 11:35:22
+@lastTime: 2020-05-19 02:39:41
+@FilePath: \Turing\LOG\02.py
+@Description: 
+@version: 
+'''
+
+
 '''
 
 1. 需求
@@ -20,30 +33,34 @@
 import logging
 import logging.handlers
 import datetime
+import os
 
 
 class ContextFilter(logging.Filter):
     """
     这是一个控制日志记录的过滤器。
+    https://blog.csdn.net/Pythoncxy/article/details/96308952?utm_medium=distribute.pc_relevant.none-task-blog-BlogCommendFromBaidu-6.nonecase&depth_1-utm_source=distribute.pc_relevant.none-task-blog-BlogCommendFromBaidu-6.nonecase
     """
-    
     def filter(self, record):
-        # try:
-        lambda record : record.levelno <= logging.info
-        # except AttributeError:
-        #     return False
-        #
-        # if filter_key == "logToConsole":
-        #     return True
-        # else:
-        #     return False
+        try:
+            # lambda logLevel : logLevel.levelname <= logging.WARNING
+            loggerName = record.name
+            logMsg = record.msg
+            logLevel = record.levelname
+        except AttributeError:
+            return False
+        if loggerName == "mylogger" and logMsg == 'info message' or logLevel == 'WARNING':
+            return True
+        else:
+            return False
 
 
+# print(os.getcwd())
 # 定义logger
 logger = logging.getLogger('mylogger')
 logger.setLevel(logging.DEBUG)
 
-
+# record = logging.LogRecord('mylogger')
 '''
 参数maxBytes和backupCount允许日志文件在达到maxBytes时rollover.当文件大小达到或者超过maxBytes时，就会新创建一个日志文件。
 上述的这两个参数任一一个为0时，rollover都不会发生。也就是就文件没有maxBytes限制。
@@ -52,25 +69,24 @@ backupCount决定了能留几个日志文件。超过数量就会丢弃掉老的
 参数when决定了时间间隔的类型，参数interval决定了多少的时间间隔。如when=‘D’，interval=2，就是指两天的时间间隔
 when的参数决定了时间间隔的类型。两者之间的关系如下：
 
- 'S'         |  秒
+'S'         |  秒
 
- 'M'         |  分
+'M'         |  分
 
- 'H'         |  时
+'H'         |  时
 
- 'D'         |  天
+'D'         |  天
 
- 'W0'-'W6'   |  周一至周日
+'W0'-'W6'   |  周一至周日
 
- 'midnight'  |  每天的凌晨
+'midnight'  |  每天的凌晨
 
 utc参数表示UTC时间
 '''
 # 为两个不同的文件设置不同的handler
-rf_handler = logging.handlers.TimedRotatingFileHandler('all.log', when='midnight', interval=1, backupCount=7, atTime=datetime.time(0, 0, 0, 0))
+rf_handler = logging.handlers.TimedRotatingFileHandler('all.log', when='midnight' , interval=1, backupCount=7, atTime=datetime.time(0, 0, 0, 0))
 rf_handler.setFormatter(logging.Formatter("%(asctime)s - %(levelname)s - %(message)s"))
 rf_handler.addFilter(ContextFilter())  # 添加过滤器
-
 
 f_handler = logging.FileHandler('error.log')
 f_handler.setLevel(logging.ERROR)
@@ -80,7 +96,7 @@ f_handler.setFormatter(logging.Formatter("%(asctime)s - %(levelname)s - %(filena
 logger.addHandler(rf_handler)
 logger.addHandler(f_handler)
 
-
+# logger产生的日志(流线各个handler)
 logger.debug('debug message')
 logger.info('info message')
 logger.warning('warning message')

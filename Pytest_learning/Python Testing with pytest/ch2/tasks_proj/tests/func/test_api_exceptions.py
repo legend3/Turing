@@ -112,4 +112,3 @@ def test_start_tasks_db_raises():
     exception_msg = excinfo.value.args[0]
     print(exception_msg)
     assert exception_msg == "db_type must be a 'tiny' or 'mongo'"
-    

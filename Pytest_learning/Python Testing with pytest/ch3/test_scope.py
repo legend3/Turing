@@ -34,6 +34,7 @@ def mod_scope():
 def sess_scope():
     """A session scope fixture."""
     print("我是session")
+    return 1
 
 
 @pytest.fixture(scope='class')
@@ -42,13 +43,13 @@ def class_scope():
     print("我是class")
 
 
-def test_1(sess_scope, mod_scope, func_scope):  # 先后关系
+def test_1(sess_scope, mod_scope, func_scope):  # (同级，先后关系）
     """Test using session, module, and function scope fixtures."""
     print("函数1")  # test_1执行完，退出function范围
     print("mod_scoped的返回值第一元素:",mod_scope[0])
 
 
-def test_2(sess_scope, mod_scope, func_scope):
+def test_2(sess_scope, mod_scope, func_scope):  # 1.方法中都可以对添加的fixtrue返回值进行利用
     """Demo is more fun with multiple tests."""
     print("函数2")   # test_12执行完，退出function范围
     print("mod_scope的返回值第二元素:",mod_scope[1])
@@ -56,10 +57,11 @@ def test_2(sess_scope, mod_scope, func_scope):
 
 '''
 1.
-当用例需要调用fixture时，前面讲到可以直接在用例里加fixture参数，如果一个测试class都需要用到fixture，每个用例都去传参，会比较麻烦，这个时候，
+当用例需要调用fixture时，前面讲到可以直接在用例里加fixture参数，如果一个测试class都需要用到fixture，
+每个用例都去传参，会比较麻烦，这个时候，
 可以在class外面加usefixtures装饰器，让整个class都调用fixture
 2.
-使用usefixture等于在测试方法参数列表中指定fixture名称。
+使用usefixtures等于在测试方法参数列表中指定fixture名称。
 *唯一的区别是:
     a.测试只要在参数列表中指定fixture的就能使用Fixture的返回值。
     b.usefixtures标注的的测试不能使用fixture的返回值!
@@ -71,7 +73,7 @@ class TestSomething():
 
     def test_3(self):
         """Test using a class scope fixture."""
-        print("函数3")
+        # print("函数3",class_scope)  # 类中不能对添加的fixture的返回值进行利用
 
     def test_4(self):
         """Again, multiple tests are more fun."""

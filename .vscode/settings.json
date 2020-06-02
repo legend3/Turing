@@ -1,3 +1,21 @@
 {
-    "python.pythonPath": "E:\\Python36\\python.exe"
+    "python.pythonPath": "E:\\Python36\\python.exe",
+    "sqltools.connections": [
+        {
+            "askForPassword": false,
+            "connectionTimeout": 5,
+            "database": "mydata",
+            "driver": "MySQL",
+            "group": "mysql",
+            "mysqlOptions": {
+                "authProtocol": "default"
+            },
+            "name": "mysql",
+            "password": "root",
+            "port": 3306,
+            "previewLimit": 50,
+            "server": "localhost",
+            "username": "root"
+        }
+    ]
 }

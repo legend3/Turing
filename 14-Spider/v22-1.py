@@ -1,3 +1,16 @@
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
+
+'''
+@Author: LEGEND
+@since: 2019-12-22 11:35:22
+@lastTime: 2020-06-06 16:56:46
+@FilePath: \Turing\14-Spider\v22-1.py
+@Description: 
+@version: 
+'''
+
+
 '''
 利用parse模块模拟post请求
 分析百度词典
@@ -49,10 +62,10 @@ headers = {
 # 有了headers，data，url，就可以尝试发出请求了
 rsp = requests.post(baseurl, params=data,headers=headers)
 
-print(rsp.status_code)
-print(rsp.is_redirect)
+# print(rsp.status_code)
+# print(rsp.is_redirect)
 print(rsp.text)
-print(rsp.request)
+# print(rsp.request)
 print(rsp.json())
 
 # for item in json_data['data']:

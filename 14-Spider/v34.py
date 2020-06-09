@@ -1,3 +1,16 @@
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
+
+'''
+@Author: LEGEND
+@since: 2019-12-22 11:35:22
+@lastTime: 2020-06-06 17:16:42
+@FilePath: \Turing\14-Spider\v34.py
+@Description: 
+@version: 
+'''
+
+
 from urllib import request
 import requests
 from bs4 import BeautifulSoup
@@ -19,11 +32,11 @@ headers = {
 rsp = requests.get(url,headers=headers)
 content = rsp.text
 
-#html字节"还原"成html
+# html字节"还原"成html
 soup = BeautifulSoup(content, 'lxml')
 
 print("==" * 12)
-tags = soup.find_all(re.compile('^me'), content="always")#将content作为搜索tag的属性
+tags = soup.find_all(re.compile('^me'), content="always") # 将content作为搜索tag的属性
 for tag in tags:
     print(tag)
 print("==" * 12)

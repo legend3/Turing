@@ -1,5 +1,5 @@
 {
-    "python.pythonPath": "E:\\Python36\\python.exe",
+    "python.pythonPath": "E:\\Python38\\python.exe",
     "sqltools.connections": [
         {
             "askForPassword": false,

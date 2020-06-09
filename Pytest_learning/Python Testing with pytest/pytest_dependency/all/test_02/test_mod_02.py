@@ -8,6 +8,7 @@
 @LastAuthor: Do not edit
 @FilePath: \Turing\Pytest_learning\Python Testing with pytest\pytest_dependency\all\test_02\test_mod_02.py
 @Description: 注意："pytest_dependency/tests1/test_01/test_mod_01.py::test_a"是跟pytest命令执行时的所在位置为根(工作)目录
+    例如：此时depends依赖路径，因此pytest应在E:\workspace\Turing\Pytest_learning\Python Testing with pytest\pytest_dependency目录下执行
 @version:
 """
 

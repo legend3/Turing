@@ -33,7 +33,7 @@
 
 ——函数总结：
 1.判断是否同一类型
-        isinstance()
+        isinstance(xx, str)  # 是否是str类型
 2.判断对象是否存在
         _tasksdb is None
 3.

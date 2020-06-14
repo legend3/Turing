@@ -47,7 +47,9 @@ def initialized_tasks_db(tmpdir):
 
 '''
 2.
-参数化pytest测试：
+参数化pytest测试：  
+                    @pytest.mark.parametrize('参数化命名',[])
+
 如果我们想要测试一项任务的许多变化呢?没有问题。我们可以使用
 @pytest.mark.parametrize(argnames, argvalues)，通过相同的测试传递大量数据
 
@@ -76,7 +78,7 @@ def test_add_2(task):
     assert equivalent(t_from_db, task)
 
 
-'''
+"""
 3.
 让我们将任务作为元组传递进来，看看多个测试参数是如何工作的:
 
@@ -94,19 +96,7 @@ pytest -v test_add_variety.py::test_add_3[sleep-None-False]
 collected 1 item
 test_add_variety.py::test_add_3[sleep-None-False] PASSED
 =================== 1 passed in 0.02 seconds ===================
-4.
-如果标识符中有空格，请确保使用引号
-pytest -v "test_add_variety.py::test_add_3[eat eggs-BrIaN-False]"
-'''
-
-
-# 被参数化的必须为一个集合list;命名必须使用""包括，集合中每组元素可以为一个元组，元组中各元素可以在命名中用逗号隔开！
-test_data2 = ["string"]
-
-
-@pytest.mark.parametrize("s", test_data2)
-def test_b(s):
-    assert s == "string"
+"""
 
 
 @pytest.mark.parametrize('summary, owner, done',  # 将任务作为元组传递进来
@@ -123,10 +113,23 @@ def test_add_3(summary, owner, done):
     assert equivalent(t_from_db, task)
 # ！可以只执行一组元素：pytest -q "test_add_variety.py::test_add_3['sleep', None, False]"
 
+"""
+3.3
+如果标识符中有空格，请确保使用引号
+pytest -v "test_add_variety.py::test_add_3[eat eggs-BrIaN-False]"
+"""
+# 被参数化的必须为一个集合list;命名必须使用""包括，集合中每组元素可以为一个元组，元组中各元素可以在命名中用逗号隔开！
+test_data2 = ["hello"]
 
-'''
+
+@pytest.mark.parametrize("s", test_data2)
+def test_b(s):
+    assert s == "hello"
+
+
+"""
 将任务列表移动到函数外部的一个变量:（可读性不好，输出不显示tasks_to_try元组中数据数据列表值）
-'''
+"""
 tasks_to_try = (Task('sleep', done=True),
                 Task('wake', 'brian'),
                 Task('wake', 'brian'),
@@ -143,6 +146,7 @@ def test_add_4(task):
 
 
 '''
+4.
 ——可以通过ids关键字来自定义一个字符串（或字符串列表中的字符串）来表示测试ID
 
 the multiple parameter version的可读性很好，但是Task对象列表也是如此(4的问题)。
@@ -231,3 +235,17 @@ class TestAdd():  # 参数化的类必须每个方法都带'task'作为参数
         task_id = tasks.add(task)
         t_from_db = tasks.get(task_id)
         assert t_from_db.id == task_id
+
+
+if __name__ == '__main__':
+    tasks_to_try = (Task('sleep', done=True),
+                Task('wake', 'brian'),
+                Task('wake', 'brian'),
+                Task('breathe', 'BRIAN', True),
+                Task('exercise', 'BrIaN', False))
+    task_ids = ['Task({},{},{})'.format(t.summary, t.owner, t.done) for t in tasks_to_try] 
+    print(task_ids)
+
+    l = [1,2,3]
+    id = [4 if t is 2 else t for t in l]  # 替换列表中的
+    print(id)

@@ -1,3 +1,17 @@
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
+
+'''
+@Author: LEGEND
+@since: 2019-12-22 11:35:22
+@lastTime: 2020-06-14 19:06:51
+@LastAuthor: Do not edit
+@FilePath: \Turing\Pytest_learning\Python Testing with pytest\ch3\c\tasks_proj\tests\func\test_add_variety2.py
+@Description: 
+@version: 
+'''
+
+
 """Test the tasks.add() API function."""
 
 import pytest
@@ -60,3 +74,23 @@ def test_add_c(tasks_db, c_task):
     task_id = tasks.add(c_task)
     t_from_db = tasks.get(task_id)
     assert equivalent(t_from_db, c_task)
+
+
+# 补充：@pytest.mark.parametrize('yyy', yyy,ids=ids)调用fixtrue(params=xxxx, ids=ids)
+l = ("a", "b", "c")
+l2 = ("d", "e", "f")
+
+lid = [1, 2, 3]
+ids = [i for i in lid]
+
+
+@pytest.fixture(params=l, ids=ids)
+def test_a(request):
+    return request.param
+
+
+@pytest.mark.parametrize('l2', l2,ids=ids)
+def test_b(l2, test_a):
+    print("l2参数：", l2)
+
+# 总结：每执行一个fixtrue(params=xxxx, ids=ids)后，执行一遍所有@pytest.mark.parametrize('yyy', yyy,ids=ids)

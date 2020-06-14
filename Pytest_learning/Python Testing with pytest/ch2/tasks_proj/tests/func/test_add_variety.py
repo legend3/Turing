@@ -123,14 +123,14 @@ pytest -v "test_add_variety.py::test_add_3[eat eggs-BrIaN-False]"
 3.4
 # 被参数化的必须为一个集合list;命名必须使用""包括，集合中每组元素可以为一个元组，元组中各元素可以在命名中用逗号隔开！
 """
-# test_data2 = ("hello") # 会把字符串拆分为字母当成一个一个参数
-test_data2 = ["hello"]
-# test_data2 = (["hello"])  # 或者元组中包裹成列表
+test_data2 = ("hello", "world") # 会把字符串拆分为字母当成一个一个参数
+# test_data2 = ["hello"]
+# test_data2 = (["hello"])  # 或者元组中包裹列表
 
 
 @pytest.mark.parametrize("s", test_data2)
 def test_b(s):
-    assert s == "hello"
+    assert s == "hello" or s == "world"
 
 
 """
@@ -162,7 +162,7 @@ the multiple parameter version的可读性很好，但是Task对象列表也是�
 
 
 # 列表推导式后，ids能对列表中各元素(一个Task实例数据列表)作标记
-task_ids = ['Task({},{},{})'.format(t.summary, t.owner, t.done) for t in tasks_to_try]  # 创建一个集合，集合元素为为@pytest.mark.parametrize定义ids
+task_ids = ['Task({},{},{})'.format(t.summary, t.owner, t.done) for t in tasks_to_try]  # 创建一个集合，集合元素为@pytest.mark.parametrize定义一组ids
 
 
 @pytest.mark.parametrize('task', tasks_to_try, ids=task_ids)  # ids给taks的每个任务数据定义标识符；taks_to_try给taks传值
@@ -195,7 +195,7 @@ test_add_variety.py::test_add_5[Task(exercise,BrIaN,False)] PASSED
 '''
 
 
-# task元素自带id
+# task元素自带id,   对参数逐个经行指定id
 @pytest.mark.parametrize('task', [  # 1.直接
     pytest.param(Task('create'), id='just summary'),
     pytest.param(Task('inspire', 'Michelle'), id='summary/owner'),

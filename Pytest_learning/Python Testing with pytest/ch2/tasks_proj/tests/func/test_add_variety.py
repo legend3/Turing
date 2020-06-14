@@ -118,8 +118,14 @@ def test_add_3(summary, owner, done):
 如果标识符中有空格，请确保使用引号
 pytest -v "test_add_variety.py::test_add_3[eat eggs-BrIaN-False]"
 """
+
+"""
+3.4
 # 被参数化的必须为一个集合list;命名必须使用""包括，集合中每组元素可以为一个元组，元组中各元素可以在命名中用逗号隔开！
+"""
+# test_data2 = ("hello") # 会把字符串拆分为字母当成一个一个参数
 test_data2 = ["hello"]
+# test_data2 = (["hello"])  # 或者元组中包裹成列表
 
 
 @pytest.mark.parametrize("s", test_data2)
@@ -217,9 +223,9 @@ def test_add_7(task):
     assert equivalent(t_from_db, task)
 
 
-'''
+"""
 还可以将parametertrize()应用于类。当您这样做时，相同的数据将被发送到类中的所有测试方法
-'''
+"""
 @pytest.mark.parametrize('task', tasks_to_try, ids=task_ids)
 class TestAdd():  # 参数化的类必须每个方法都带'task'作为参数
     """Demonstrate parametrize and test classes."""

@@ -4,7 +4,7 @@
 '''
 @Author: LEGEND
 @since: 2019-12-22 11:35:22
-@lastTime: 2020-06-14 19:06:51
+@lastTime: 2020-06-16 01:46:27
 @LastAuthor: Do not edit
 @FilePath: \Turing\Pytest_learning\Python Testing with pytest\ch3\c\tasks_proj\tests\func\test_add_variety2.py
 @Description: 
@@ -17,6 +17,7 @@
 import pytest
 import tasks
 from tasks import Task
+import os
 
 tasks_to_try = (Task('sleep', done=True),
                 Task('wake', 'brian'),
@@ -94,3 +95,4 @@ def test_b(l2, test_a):
     print("l2参数：", l2)
 
 # 总结：每执行一个fixtrue(params=xxxx, ids=ids)后，执行一遍所有@pytest.mark.parametrize('yyy', yyy,ids=ids)
+

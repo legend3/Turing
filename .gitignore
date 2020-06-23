@@ -124,7 +124,7 @@ dmypy.json
 # Pyre type checker
 .pyre/
 
-# 自定义
+# è‡ªå®šä¹‰
 .idea
 *.ipynb_checkpoints
 LOG/Fire/SendData.py

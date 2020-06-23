@@ -4,7 +4,7 @@
 '''
 @Author: LEGEND
 @since: 2019-12-22 11:35:21
-@lastTime: 2020-04-25 13:06:45
+@lastTime: 2020-06-23 05:04:01
 @FilePath: \Turing\1-python基础\2-OOP\01.py
 @Description: 
 @version: 
@@ -28,7 +28,9 @@ mingyue = Student()
 # 再定义一个类，用来描述听Python的学生
 class PythonStudent():
     # 用None给不确定的值赋值
-    name = None  # 补充：静态变量：1.用通过类名或对象实例访问静态变量都是合法的 2.必须通过类型访问才能修改静态变量的值（可以用id()查看静态变量id验证！）
+    name = None 
+    # 补充：静态变量：1.用通过类名或对象实例访问静态变量都是合法的 
+                 # 2.必须通过类型访问才能修改静态变量的值（可以用id()查看静态变量id验证！）
     age = 18
     course = "Python"
 

@@ -24,9 +24,9 @@
                 "--disable-pytest-warnings"
                 // "--html=report.html"
             ],
-            "cwd": "E:/Python38",
+            "cwd": "E:/workspace/Turing/pytest_official",
             "env": {},
-            "envFile": "${workspaceRoot}/.env"
+            "envFile": "E:/Python38"
             // "debugOptions": [
             //     "WaitOnAbnormalExit",
             //     "WaitOnNormalExit",

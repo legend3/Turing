@@ -7,7 +7,7 @@ import os
 '''
 @Author: LEGEND
 @since: 2020-06-03 00:18:57
-@lastTime: 2020-06-03 01:46:10
+@lastTime: 2020-07-03 03:23:32
 @FilePath: \Turing\Pytest_learning\Python Testing with pytest\yoyo\allure\testfix.py
 @Description: 
 @version: 
@@ -29,17 +29,17 @@ def test_one():
     assert 'h' in x
 
 
-def test_two():
-    print("正在执行----test_two")
-    x = "hello"
-    assert hasattr(x, 'check')
+# def test_two():
+#     print("正在执行----test_two")
+#     x = "hello"
+#     assert hasattr(x, 'check')
 
 
-def test_three():
-    print("正在执行----test_three")
-    a = "hello"
-    b = "hello world"
-    assert a in b
+# def test_three():
+#     print("正在执行----test_three")
+#     a = "hello"
+#     b = "hello world"
+#     assert a in b
 
 
 if __name__ == "__main__":

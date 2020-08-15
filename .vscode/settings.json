@@ -16,5 +16,11 @@
             "server": "localhost",
             "username": "root"
         }
-    ]
+    ],
+    "python.testing.pytestArgs": [
+        "pytest_official"
+    ],
+    "python.testing.unittestEnabled": false,
+    "python.testing.nosetestsEnabled": false,
+    "python.testing.pytestEnabled": true
 }

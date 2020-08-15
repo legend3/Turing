@@ -13,7 +13,12 @@ import pymysql
 期待得到相应异常的断言：with pytest.raises(TypeError);如果没有引发异常，则测试失败。
 如果测试引发另一个异常（期待的异常），也则会失败。
 excinfo收集异常信息
-excinfo.value.args[0]——>第一个异常值
+例如:
+    raise ValueError("0","1","对！确实是0！")
+excinfo.value.args[0]——>自定义的第一个是异常值：0
+excinfo.value.args[1]——>自定义的第一个是异常值：1
+excinfo.value.args[2]——>自定义的第一个是异常值：对！确实是0！
+
 2.
 打标记
 @pytest.mark.命名
@@ -37,7 +42,10 @@ def stop_tasks_db(): # type: () -> None
 '''
 
 '''
-——场景说明
+——场景说明：
+            1.适合验证项目方法(接口)中会触发自定义异常的情况
+            2.适合验证项目方法(接口)中有限制类型、参数等的情况，是否准确
+
 在clic .py中的CLI代码和API .py中的API代码之间，对于将向API函数发送什么类型，有一个协议。
 如果类型错误，我希望在这些API调用中引发异常。
 为了确保这些函数在调用不正确时引发异常，让我们在测试函数中使用错误的类型来故意导致类型错误异常，

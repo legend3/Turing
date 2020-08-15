@@ -1,6 +1,6 @@
-<mxfile host="embed.diagrams.net" modified="2020-08-15T14:25:20.841Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Code/1.47.3 Chrome/78.0.3904.130 Electron/7.3.2 Safari/537.36" etag="oVKXHlVCspqlGwS2vNwv" version="13.6.2">
+<mxfile host="embed.diagrams.net" modified="2020-08-15T14:28:30.197Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Code/1.47.3 Chrome/78.0.3904.130 Electron/7.3.2 Safari/537.36" etag="TyqUfW4_dpUURtTzFlyg" version="13.6.2">
     <diagram id="6hGFLwfOUW9BJ-s0fimq" name="Page-1">
-        <mxGraphModel dx="1609" dy="1738" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+        <mxGraphModel dx="1593" dy="1738" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -23,7 +23,7 @@
                 <mxCell id="4" value="class Studnet():&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; name = 'dana'&lt;br&gt;age = 18" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
                     <mxGeometry x="480" y="50" width="150" height="70" as="geometry"/>
                 </mxCell>
-                <mxCell id="9" value="&lt;br&gt;符合：a、c、f、&lt;br&gt;e" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                <mxCell id="9" value="" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
                     <mxGeometry x="241" y="207" width="120" height="60" as="geometry"/>
                 </mxCell>
                 <mxCell id="12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="10" target="9" edge="1">
@@ -54,10 +54,10 @@
                 <mxCell id="20" value="&lt;br&gt;&lt;br&gt;&lt;div style=&quot;color: rgb(255 , 255 , 255) ; background-color: rgb(0 , 36 , 81) ; font-family: &amp;#34;consolas&amp;#34; , &amp;#34;courier new&amp;#34; , monospace ; font-weight: normal ; font-size: 14px ; line-height: 19px&quot;&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span style=&quot;color: #bbdaff&quot;&gt;- a.成员在类和对象都会(被)存储，成员可以归类所有，也可以归对象所有！&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span style=&quot;color: #bbdaff&quot;&gt;- b.类存储成员时使用的是与类关联的一个对象(类实例，Student)&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span style=&quot;color: #bbdaff&quot;&gt;- c.独享存储成员是是存储在当前对象中&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: #bbdaff&quot;&gt;- d.对象访问一个成员时，如果对象中没有该成员，尝试访问类中的同名成员，如果对象中有此成员，一定使用对象中的成员！&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span style=&quot;color: #bbdaff&quot;&gt;- e.创建对象的时候，类中的成员不会放入对象当中，而是得到一个空对象，没有成员&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span style=&quot;color: #bbdaff&quot;&gt;- f.通过对象对类中成员重新赋值或者通过对象添加成员时，对应成员会保存在对象中，而不会修改类成员！&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
                     <mxGeometry x="-70" y="-150" width="930" height="20" as="geometry"/>
                 </mxCell>
-                <mxCell id="22" value="name = aaaa&lt;br&gt;age = 200&lt;br&gt;符合：a、c、f、&lt;br&gt;e" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                <mxCell id="22" value="name = aaaa&lt;br&gt;age = 200&lt;br&gt;符合：a、c、f、&lt;br&gt;e" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
                     <mxGeometry x="241" y="427" width="120" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="24" target="22">
+                <mxCell id="23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="24" target="22" edge="1">
                     <mxGeometry relative="1" as="geometry">
                         <Array as="points">
                             <mxPoint x="190" y="457"/>
@@ -65,10 +65,10 @@
                         </Array>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="24" value="对象实例，&lt;br&gt;yueyue" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                <mxCell id="24" value="对象实例，&lt;br&gt;yueyue" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
                     <mxGeometry x="50" y="442" width="120" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="26" target="22">
+                <mxCell id="25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="26" target="22" edge="1">
                     <mxGeometry relative="1" as="geometry">
                         <Array as="points">
                             <mxPoint x="460" y="457"/>
@@ -76,28 +76,28 @@
                         </Array>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="26" value="yueyue = Student()&lt;br&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                <mxCell id="26" value="yueyue = Student()&lt;br&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
                     <mxGeometry x="490" y="420" width="140" height="70" as="geometry"/>
                 </mxCell>
-                <mxCell id="29" value="&lt;div style=&quot;text-align: left&quot;&gt;&lt;b&gt;对对象实例指定了成员变量&lt;/b&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                <mxCell id="29" value="&lt;div style=&quot;text-align: left&quot;&gt;&lt;b&gt;对对象实例指定了成员变量&lt;/b&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
                     <mxGeometry x="226" y="380" width="159" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="32" value="&lt;div style=&quot;color: rgb(255 , 255 , 255) ; background-color: rgb(0 , 36 , 81) ; font-family: &amp;#34;consolas&amp;#34; , &amp;#34;courier new&amp;#34; , monospace ; font-size: 14px ; line-height: 19px&quot;&gt;&lt;div&gt;创建对象阶段时&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: #d1f1a9&quot;&gt;&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                <mxCell id="32" value="&lt;div style=&quot;color: rgb(255 , 255 , 255) ; background-color: rgb(0 , 36 , 81) ; font-family: &amp;#34;consolas&amp;#34; , &amp;#34;courier new&amp;#34; , monospace ; font-size: 14px ; line-height: 19px&quot;&gt;&lt;div&gt;创建对象阶段时&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: #d1f1a9&quot;&gt;&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
                     <mxGeometry x="-4" width="610" height="20" as="geometry"/>
                 </mxCell>
-                <mxCell id="33" value="&lt;span style=&quot;color: rgb(255 , 255 , 255) ; font-family: &amp;#34;consolas&amp;#34; , &amp;#34;courier new&amp;#34; , monospace ; font-size: 14px ; background-color: rgb(0 , 36 , 81)&quot;&gt;类实例的属性和其对象的实例的属性在不对对象的实例属性进行赋值的前提下，指向同一个变量&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+                <mxCell id="33" value="&lt;span style=&quot;color: rgb(255 , 255 , 255) ; font-family: &amp;#34;consolas&amp;#34; , &amp;#34;courier new&amp;#34; , monospace ; font-size: 14px ; background-color: rgb(0 , 36 , 81)&quot;&gt;类实例的属性和其对象的实例的属性在不对对象的实例属性进行赋值的前提下，指向同一个变量&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="1" vertex="1">
                     <mxGeometry x="40" y="150" width="620" height="20" as="geometry"/>
                 </mxCell>
-                <mxCell id="34" value="" style="shape=flexArrow;endArrow=classic;html=1;entryX=0.575;entryY=0.217;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="2" target="9">
+                <mxCell id="34" value="" style="shape=flexArrow;endArrow=classic;html=1;entryX=0.575;entryY=0.217;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="2" target="9" edge="1">
                     <mxGeometry width="50" height="50" relative="1" as="geometry">
                         <mxPoint x="330" y="290" as="sourcePoint"/>
                         <mxPoint x="380" y="240" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="36" value="yueyue = 'aaaa'&lt;br&gt;yueyue = 200" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                <mxCell id="36" value="yueyue = 'aaaa'&lt;br&gt;yueyue = 200" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
                     <mxGeometry x="50" y="530" width="120" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="39" value="" style="shape=flexArrow;endArrow=classic;html=1;entryX=0.075;entryY=0.883;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1;exitY=0.25;exitDx=0;exitDy=0;" edge="1" parent="1" source="36" target="22">
+                <mxCell id="39" value="" style="shape=flexArrow;endArrow=classic;html=1;entryX=0.075;entryY=0.883;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1;exitY=0.25;exitDx=0;exitDy=0;" parent="1" source="36" target="22" edge="1">
                     <mxGeometry width="50" height="50" relative="1" as="geometry">
                         <mxPoint x="330" y="650" as="sourcePoint"/>
                         <mxPoint x="380" y="600" as="targetPoint"/>

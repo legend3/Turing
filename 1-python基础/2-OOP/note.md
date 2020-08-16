@@ -100,10 +100,10 @@
 ## 6.1 封装
 - 封装就是对对象的成员进行访问限制
 - 封装的三个级别：
-    - 公开，public
-    - 受保护的，protected
-    - 私有的，private
-    - public，private，protected不是关键字
+    - 公开，public，例如: age
+    - 受保护的，protected，例如: _age
+    - 私有的，private，例如: __age
+    - public，private，protected不是关键字!
 - 判别对象的位置
     - 对象内部
     - 对象外部
@@ -116,9 +116,9 @@
             class Person():
                 # name是共有的成员 
                 name = "liuying"
-                # __age就是私有成员
+                # __age就是私有成员  ——>_Person__age
                 __age = 18
-    - Python的私有不是真私有，是一种成为name mangling的改名策略
+    - Python的私有不是真私有，是一种成为name mangling的改名策略!!!  _Person__age
     可以使用对象._classname_attributename访问           
 - 受保护的封装  protected
     - 受保护的封装是将对象成员进行一定级别的封装，然后，在类中或者子类中都

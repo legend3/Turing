@@ -7,8 +7,8 @@ import os
 '''
 @Author: LEGEND
 @since: 2020-06-03 00:18:57
-@lastTime: 2020-07-03 03:23:32
-@FilePath: \Turing\Pytest_learning\Python Testing with pytest\yoyo\allure\testfix.py
+lastTime: 2020-10-13 22:11:22
+FilePath: /Turing/Python_Testing_with_pytest/yoyo/allure/testfix.py
 @Description: 
 @version: 
 '''
@@ -20,7 +20,7 @@ def setup_function():
 
 
 def teardown_function():
-    print("teardown_function：每个用例结束后都会执行")
+    print("\nteardown_function：每个用例结束后都会执行")
 
 
 def test_one():

@@ -150,7 +150,21 @@ import warnings
     # print('success!')
 
 
-a = [[1,2],[4,5]]
+# a = [[1,2],[4,5]]
 
-for k,v in a:
-    print(k,"--",v)
+# for k,v in a:
+#     print(k,"--",v)
+
+
+# https://www.jianshu.com/p/6f5bfc1182ae
+
+def test():
+    for letter in 'Python':
+        if letter == 'h':
+            pass # pass 不做任何事情，一般用做占位语句。
+            # return True # 结束整个函数
+            print('这是 pass 块')
+        print('当前字母 :', letter)
+ 
+    print("Good bye!")
+test()

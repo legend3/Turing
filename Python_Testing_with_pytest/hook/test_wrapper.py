@@ -4,12 +4,13 @@
 '''
 @Author: LEGEND
 @since: 2020-05-27 23:49:03
-@lastTime: 2020-05-28 00:24:24
-@FilePath: \Turing\Pytest_learning\Python Testing with pytest\hook\test_wrapper.py
+lastTime: 2020-11-15 00:55:03
+FilePath: /Turing/Python_Testing_with_pytest/hook/test_wrapper.py
 @Description: 
 @version: 
 '''
 
+import pytest
 
 @pytest.mark.hookwrapper
 def pytest_runtest_makereport(item):

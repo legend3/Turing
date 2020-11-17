@@ -4,9 +4,9 @@
 '''
 @Author: LEGEND
 @since: 2020-08-01 20:07:26
-@lastTime: 2020-08-01 20:07:38
-@LastAuthor: Do not edit
-@FilePath: \Turing\1-python基础\2-OOP\枚举\使用普通类直接实现枚举.py
+lastTime: 2020-11-18 00:02:11
+LastAuthor: Do not edit
+FilePath: /Turing/1-python基础/2-OOP/枚举/使用普通类直接实现枚举.py
 @Description: 
 @version: 
 '''
@@ -22,9 +22,7 @@ class color():
 # 访问枚举项
 print(color.YELLOW) # 1
 # 　　虽然这样是可以解决问题的，但是并不严谨，也不怎么安全，比如：
-
 # 　　1、枚举类中，不应该存在key相同的枚举项（类变量）
-
 # 　　2、不允许在类外直接修改枚举项的值
 
 class color():

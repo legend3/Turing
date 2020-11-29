@@ -24,7 +24,7 @@
                 "--disable-pytest-warnings"
                 // "--html=report.html"
             ],
-            "cwd": "E:/workspace/Turing/pytest_official",
+            "cwd": "E:/workspace/Turing/pytest_official/testcases/",
             "env": {},
             "envFile": "E:/Python38"
             // "debugOptions": [

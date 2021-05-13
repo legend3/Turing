@@ -1,3 +1,17 @@
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
+
+'''
+Author: LEGEND
+since: 2019-12-22 11:35:22
+lastTime: 2021-05-02 20:55:16
+LastAuthor: Do not edit
+FilePath: /Turing/Python_Testing_with_pytest/ch7/unittest/test_delete_unittest.py
+Description: 
+version: 
+'''
+
+
 import unittest
 import shutil
 import tempfile
@@ -19,7 +33,6 @@ def tearDownModule():
 
 
 class TestNonEmpty(unittest.TestCase):
-
     def setUp(self):
         tasks.delete_all()  # start empty
         # add a few items, saving ids

@@ -4,7 +4,7 @@
 '''
 Author: LEGEND
 since: 2021-01-28 20:04:05
-lastTime: 2021-01-28 20:11:04
+lastTime: 2021-05-02 16:05:20
 LastAuthor: Do not edit
 FilePath: /Turing/Python_Testing_with_pytest/setup_teardown/test_demo.py
 Description: 
@@ -146,7 +146,7 @@ class TestSmtp():
 # 2、setup_class(cls)
 # 作用于class的setup_class/teardown_class，类中所有的用例只会执行一次，如图所示；
 # ps:用例与test_method.py的一致，参考上一串代码。
-test_class.png
+# test_class.png
 # 3、setup_module(module)
 # setup_module/teardown_module在一个模块内，只会执行一次，作用于模块内的所有用例
 # 示例中构建了2个class和1个def，共4个用例，可以看到，4个用例只执行了一次module

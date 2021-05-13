@@ -22,6 +22,7 @@ fuction-->class-->module-->session
 def func_scope():
     """A function scope fixture."""
     print("我是function")
+    return "function"
 
 
 @pytest.fixture(scope='module')
@@ -67,13 +68,15 @@ def test_2(sess_scope, mod_scope, func_scope):  # 1.方法中都可以对添加�
     b.usefixtures标注的的测试不能使用fixture的返回值!
     c.available fixtures:通过命令 pytest --fixtures [testpath]查询此包中有效的fixtures有哪些
 '''
-@pytest.mark.usefixtures('class_scope')  # 指定usefixture的作用域为class(类中所有方法都是class_scope作用域 )
+
+
+@pytest.mark.usefixtures('func_scope')  # 指定usefixture的作用域为class(类中所有方法都是class_scope作用域 )
 class TestSomething():
     """Demo class scope fixtures."""
 
     def test_3(self):
         """Test using a class scope fixture."""
-        # print("函数3",class_scope)  # 类中不能对添加的fixture的返回值进行利用
+        print("函数3", func_scope)  # 类中不能对添加的fixture的返回值进行利用
 
     def test_4(self):
         """Again, multiple tests are more fun."""

@@ -1,3 +1,17 @@
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
+
+'''
+Author: LEGEND
+since: 2019-12-22 11:35:22
+lastTime: 2021-05-23 20:52:15
+LastAuthor: Do not edit
+FilePath: /Turing/12-多线程/03.py
+Description: 
+version: 
+'''
+
+
 #利用time延时函数，生成两个函数
 # 利用多线程调用
 # 计算总运行时间
@@ -37,6 +51,7 @@ def main():
     thread.start_new_thread(loop2,("王大鹏", "王晓鹏"))
 
     print("All done at:", time.ctime())
+
 
 if __name__ == "__main__":#主程序
     main()

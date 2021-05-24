@@ -4,9 +4,9 @@
 '''
 Author: LEGEND
 since: 2021-04-09 07:31:12
-lastTime: 2021-04-09 07:31:15
+lastTime: 2021-05-18 00:21:31
 LastAuthor: Do not edit
-FilePath: /Turing/APScheduler/test01.py
+FilePath: /Turing/APSchedulerDemo/test02.py
 Description: 
 version: 
 '''
@@ -32,3 +32,4 @@ job_defaults = {
     'max_instances': 3
 }
 
+scheduler = BackgroundScheduler(jobstores=jobstores, executors=executors, job_defaults=job_defaults, timezone=utc)

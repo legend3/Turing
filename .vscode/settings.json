@@ -18,7 +18,7 @@
         }
     ],
     "python.testing.pytestArgs": [
-        "pytest_official"
+        "Pytest_learning"
     ],
     "python.testing.unittestEnabled": false,
     "python.testing.nosetestsEnabled": false,

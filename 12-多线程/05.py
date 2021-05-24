@@ -1,3 +1,17 @@
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
+
+'''
+Author: LEGEND
+since: 2019-12-22 11:35:22
+lastTime: 2021-05-23 20:51:42
+LastAuthor: Do not edit
+FilePath: /Turing/12-多线程/05.py
+Description: 
+version: 
+'''
+
+
 #利用time延时函数，生成两个函数
 # 利用多线程调用
 # 计算总运行时间
@@ -45,5 +59,5 @@ if __name__ == "__main__":
     # 一定要有while语句
     # 因为启动多线程后本程序就作为主线程存在
     # 如果主线程执行完毕，则子线程可能也需要终止
-    while True:
-        time.sleep(10)
+    # while True:
+    #     time.sleep(10)

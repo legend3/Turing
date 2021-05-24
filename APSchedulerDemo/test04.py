@@ -4,7 +4,7 @@
 '''
 Author: LEGEND
 since: 2021-04-09 07:31:12
-lastTime: 2021-04-09 07:38:07
+lastTime: 2021-05-18 03:19:36
 LastAuthor: Do not edit
 FilePath: /Turing/APSchedulerDemo/test04.py
 Description: 
@@ -32,7 +32,7 @@ job_defaults = {
 }
 
 scheduler = BackgroundScheduler()
-scheduler.configure(jobstores=jobstores, executors=executors, job_defaults=job_defaults, timezone=utc)
+scheduler.configure(jobstores=jobstores, executors=executors, job_defaults=job_defaults, timezone=utc)  # 设置属性
 
 if __name__ == "__main__":
     pass

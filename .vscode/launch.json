@@ -17,7 +17,7 @@
             "type": "python",
             "request": "launch",
             "stopOnEntry": false,
-            "pythonPath": "${command:python.interpreterPath}",
+            "python": "${command:python.interpreterPath}",
             "module": "pytest",
             "args": [
                 "-sv",

@@ -4,6 +4,7 @@
     - http://python.jobbole.com/86481/
     - http://python.jobbole.com/87310/
     - https://segmentfault.com/a/1190000009781688
+    - https://blog.csdn.net/weixin_34080951/article/details/88767484
     
 # 迭代器
 - 直接作用于for循环的叫可迭代对象,Iterable
@@ -85,7 +86,7 @@
     - next预激（prime)
     - 完整执行过程v2
 - 协程终止
-    - 协程中未处理的异常会向上冒泡，传给 next 函数或 send 方法的调用方（即触发协程的对象）。
+    - 协程中未处理的异常会向上冒泡，传给 next 函数或 send 方法的调用方（即触发协程的对象, 此处为"主线程"）。——应该要处理协程的异常，不然会一直往上冒！
     - 终止协程的一种方式：发送某个哨符值，让协程退出。内置的 None 和Ellipsis 等常量经常用作哨符值==。
     
 - 异常

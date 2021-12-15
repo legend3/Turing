@@ -4,7 +4,7 @@
 '''
 Author: LEGEND
 since: 2020-11-29 17:15:05
-lastTime: 2020-11-30 01:19:08
+lastTime: 2021-12-16 00:23:27
 LastAuthor: Do not edit
 FilePath: /Turing/pytest_official/testcases/pytest_dependency/test_parametrized_tests.py
 Description: 对参数化用例间的依赖关系
@@ -16,8 +16,7 @@ import pytest
 
 @pytest.mark.parametrize("x,y", [
     pytest.param(0, 0, marks=pytest.mark.dependency(name="a1")),
-    pytest.param(0, 1, marks=[pytest.mark.dependency(name="a2"),
-                              pytest.mark.xfail]),
+    pytest.param(0, 1, marks=[pytest.mark.dependency(name="a2"), pytest.mark.xfail]),
     pytest.param(1, 0, marks=pytest.mark.dependency(name="a3")),
     pytest.param(1, 1, marks=pytest.mark.dependency(name="a4"))
 ])

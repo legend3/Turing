@@ -4,7 +4,7 @@
 '''
 Author: LEGEND
 since: 2021-04-09 07:31:12
-lastTime: 2021-04-09 07:41:50
+lastTime: 2021-12-18 01:26:03
 LastAuthor: Do not edit
 FilePath: /Turing/APSchedulerDemo/test08.py
 Description: 删除 job
@@ -15,9 +15,23 @@ Description: 删除 job
 version: 
 '''
 
-job = scheduler.add_job(myfunc, 'interval', minutes=2)
-job.remove()
+from apscheduler.schedulers.background import BackgroundScheduler
+import time
 
+def task():
+    print("OK")
 
-scheduler.add_job(myfunc, 'interval', minutes=2, id='my_job_id')
+scheduler = BackgroundScheduler()
+job = scheduler.add_job(task, 'interval', seconds=1, id='my_job_id')
+scheduler.start()
+time.sleep(3)
+job.pause()
+print("暂停job")
+scheduler.resume_job('my_job_id')
+print("恢复job")
 scheduler.remove_job('my_job_id')
+print("删除job")
+
+
+# scheduler.add_job(jobs, 'interval', minutes=2, id='my_job_id')
+# scheduler.remove_job('my_job_id')

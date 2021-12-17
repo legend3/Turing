@@ -4,7 +4,7 @@
 '''
 Author: LEGEND
 since: 2021-04-09 07:31:12
-lastTime: 2021-04-09 08:04:25
+lastTime: 2021-12-18 01:29:46
 LastAuthor: Do not edit
 FilePath: /Turing/APSchedulerDemo/test05.py
 Description: 
@@ -27,7 +27,7 @@ def job2(x, y):
 scheduler = BackgroundScheduler()
 
 
-# 间隔3s运行一次
+# 当在特定时间定期运行 job 时使用second为3s时运行一次
 scheduler.add_job(
 	job1,
 	trigger='cron',

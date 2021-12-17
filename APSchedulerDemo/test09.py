@@ -4,7 +4,7 @@
 '''
 Author: LEGEND
 since: 2021-04-09 07:31:35
-lastTime: 2021-12-18 03:29:22
+lastTime: 2021-12-18 05:24:26
 LastAuthor: Do not edit
 FilePath: /Turing/APSchedulerDemo/test09.py
 Description: 
@@ -37,7 +37,8 @@ def my_listener(event):
         print('The job crashed :(')
     else:
         if event.retval == 4:
-            scheduler.pause_job('addTimes')
+            scheduler.remove_job('addTimes')
+            print(scheduler.get_job('addTimes'))  # 检查job是否被成功删除
             scheduler.add_job(fn2, trigger=CronTrigger(second='*/1'), id='say love!')
         
 

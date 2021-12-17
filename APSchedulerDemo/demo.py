@@ -4,7 +4,7 @@
 '''
 Author: LEGEND
 since: 2021-12-18 02:15:01
-lastTime: 2021-12-18 03:24:04
+lastTime: 2021-12-18 03:30:38
 LastAuthor: Do not edit
 FilePath: /Turing/APSchedulerDemo/demo.py
 Description: 
@@ -17,15 +17,15 @@ import time
 
 def fun():
     # print("ok")
-    return 1
+    return True
 
 
 class S():
-    retval = 0  # 静态
+    retval = 0  # 静态变量
     def __init__(self):
         self.scheduler = BackgroundScheduler()  # 调度器
         self.scheduler.add_listener(self.listener, EVENT_JOB_EXECUTED | EVENT_JOB_ERROR)  # 监听器
-        self.scheduler.start()
+        self.scheduler.start()  # 初始化，启动调度器
         
     def listener(self, event):
         retval = event.retval
@@ -49,7 +49,6 @@ class S():
 class SS():
     def test(self):
         d = S()
-        # d.start()
         d.getResult()
         print(S.retval)
         time.sleep(60)

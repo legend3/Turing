@@ -20,11 +20,12 @@
             "python": "${command:python.interpreterPath}",
             "module": "pytest",
             "args": [
-                "-sv",
+                "-vsx",
+                "test_apscheduler.py",
                 "--disable-pytest-warnings"
                 // "--html=report.html"
             ],
-            "cwd": "E:/workspace/Turing/pytest_official/testcases/",
+            "cwd": "E:/workspace/Turing/APSchedulerDemo",
             "env": {},
             "envFile": "E:/Python38"
             // "debugOptions": [

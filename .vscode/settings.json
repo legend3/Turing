@@ -24,5 +24,6 @@
     "python.testing.nosetestsEnabled": false,
     "python.testing.pytestEnabled": true,
     "jupyter.jupyterServerType": "local",
-    "python.dataScience.jupyterServerURI": "local"
+    "python.dataScience.jupyterServerURI": "local",
+    "commentTranslate.targetLanguage": "zh-CN"
 }

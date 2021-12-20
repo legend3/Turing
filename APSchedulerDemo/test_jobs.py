@@ -6,9 +6,9 @@ import pytest
 '''
 Author: LEGEND
 since: 2021-05-18 01:10:13
-lastTime: 2021-12-18 17:19:19
+lastTime: 2021-12-20 13:05:30
 LastAuthor: Do not edit
-FilePath: /Turing/APSchedulerDemo/test_apscheduler.py
+FilePath: /Turing/APSchedulerDemo/test_jobs.py
 Description: 
 version: 
 '''
@@ -19,7 +19,11 @@ import threading
 from APSchedulerDemo.Jobs import AddJobs
 
 a = 0
-def test():
+def testOne():
+    global a
+    a += 1
+    return a
+def testTwo():
     global a
     a += 1
     return a
@@ -27,7 +31,8 @@ def test():
 @pytest.mark.parametrize('case', [1,2])
 def test01(case):
     addJobs = AddJobs()
-    addJobs.setJobs(test)
+    addJobs.setJobs(testOne)
+    # addJobs.setJobs(testTwo)
     addJobs.start()
     time.sleep(5)  # 接口响应时间
     print(addJobs.getResponse())

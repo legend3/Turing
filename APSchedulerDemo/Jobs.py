@@ -4,7 +4,7 @@
 '''
 Author: LEGEND
 since: 2021-12-18 02:15:01
-lastTime: 2021-12-20 02:49:15
+lastTime: 2021-12-20 15:31:46
 LastAuthor: Do not edit
 FilePath: /Turing/APSchedulerDemo/Jobs.py
 Description: 区分scheduler对象的占有线程, thread APScheduler or thread main?
@@ -32,11 +32,14 @@ class AddJobs():
         return self.response
     
     def listener(self, event):
-        self.response = event.retval
         if event.exception:
             print(event.exception)
         else:
+            print("get_job:", scheduler.get_job('myJobId'))
+            print("get_jobs:", scheduler.get_jobs())
             if self.response > 2:
+                self.response = event.retval
+                print(scheduler.get_job())
                 # print("定时任务线程--", threading.currentThread().getName())  # 当前线程-- APScheduler
                 # 运行中删除job
                 # self.scheduler.remove_job('myJobId')  # thread APScheduler的scheduler删除job
@@ -59,7 +62,7 @@ class AddJobs():
 
     def shut(self):
         scheduler.remove_all_jobs()
-
+        
     def remove(self, jobId):
         scheduler.remove_job(jobId)
 

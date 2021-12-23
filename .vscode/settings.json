@@ -25,5 +25,7 @@
     "python.testing.pytestEnabled": true,
     "jupyter.jupyterServerType": "local",
     "python.dataScience.jupyterServerURI": "local",
-    "commentTranslate.targetLanguage": "zh-CN"
+    "commentTranslate.targetLanguage": "zh-CN",
+    "python.linting.enabled": false,
+    "python.linting.pylintEnabled": true
 }

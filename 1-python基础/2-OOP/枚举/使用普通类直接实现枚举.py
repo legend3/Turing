@@ -4,7 +4,7 @@
 '''
 @Author: LEGEND
 @since: 2020-08-01 20:07:26
-lastTime: 2020-11-18 00:02:11
+lastTime: 2021-12-21 21:09:49
 LastAuthor: Do not edit
 FilePath: /Turing/1-python基础/2-OOP/枚举/使用普通类直接实现枚举.py
 @Description: 
@@ -96,5 +96,5 @@ print(type(color(1)))   # <enum 'color'>
 from enum import IntEnum
 # 　　7、如果要枚举类中的key也不能相同，那么在导入Enum的同时，需要导入unique函数
 
-1
+# 1
 from enum import Enum, unique

@@ -30,8 +30,8 @@ import os
 
 
 @pytest.mark.dependency(
-    depends=["all/test_01/test_mod_01.py::test_a","all/test_01/test_mod_01.py::test_c"],
-    scope='session'
+                        depends=["test_01/test_mod_01.py::test_a","test_01/test_mod_01.py::test_c"],
+                        scope='session'
 )
 def test_e():
     pass
@@ -43,7 +43,7 @@ def test_e():
 # def test_f():
 #     pass
 
-# @pytest.mark.dependency(
+# @pytest.mark.dependency(·
 #     depends=["tests/test_mod_01.py::TestClass::test_b"],
 #     scope='session'
 # )

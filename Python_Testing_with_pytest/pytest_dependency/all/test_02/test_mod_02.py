@@ -30,12 +30,22 @@ import os
 
 
 @pytest.mark.dependency(
-                        depends=["test_01/test_mod_01.py::test_a","test_01/test_mod_01.py::test_c"],
-                        scope='session'
-)
-def test_e():
-    pass
+                        depends=["test_01/test_mod_01.py::test_a","test_01/test_mod_01.py::test_c"]
+                        , scope='session'  # 跨文件需要session作用域
+                        , name="e"
+                        )
+@pytest.mark.parametrize('case', [1,2,3])
+def test_e(case):
+    if case != 3:
+        print(case)
+    else:
+        pytest.skip("跳过，就会不被依赖！") # 发生skip就是skip掉后续依赖用例！！！
 
+
+@pytest.mark.dependency(depends=['e'])
+def test_f():
+    print("ffff")
+    
 # @pytest.mark.dependency(
 #     depends=["tests/test_mod_01.py::test_b", "tests/test_mod_02.py::test_e"],
 #     scope='session'

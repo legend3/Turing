@@ -4,7 +4,7 @@
 '''
 @Author: LEGEND
 @since: 2020-08-01 20:07:26
-lastTime: 2022-02-08 17:02:44
+lastTime: 2022-02-08 17:04:09
 LastAuthor: Do not edit
 FilePath: /Turing/1-python基础/2-OOP/枚举/使用普通类直接实现枚举.py
 @Description: 
@@ -85,11 +85,11 @@ print(type(color(1)))   # <enum 'color'>
     # color.YELLOW = 2  # Wrong, can't reassign member
 # 4、枚举项可以用来比较，使用==，或者is
 # 5、导入Enum之后，一个枚举类中的Key和Value，Key不能相同，Value可以相同，但是Value相同的各项Key都会当做别名，
-# *6、如果要枚举类中的Value只能是整型数字，那么，可以导入IntEnum，然后继承IntEnum即可，注意，此时，如果value为字符串的数字，也不会报错：
+# *6、如果要枚举类中的Value只能是整型数字，那么，可以导入IntEnum，然后继承IntEnum即可，注意，此时，如果value为字符串的数字，也不会报错：(不会！)
     # 指定枚举值的数据类型
 from enum import IntEnum
 class color3(IntEnum):
-    YELLOW  = "yellow"
+    YELLOW  = "1"
 print(color3.YELLOW.value)
 # 7、如果要枚举类中的key也不能相同，那么在导入Enum的同时，需要导入unique函数
 from enum import Enum, unique

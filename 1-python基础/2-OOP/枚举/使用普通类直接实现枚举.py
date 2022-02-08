@@ -4,7 +4,7 @@
 '''
 @Author: LEGEND
 @since: 2020-08-01 20:07:26
-lastTime: 2021-12-21 21:09:49
+lastTime: 2022-02-08 17:02:44
 LastAuthor: Do not edit
 FilePath: /Turing/1-python基础/2-OOP/枚举/使用普通类直接实现枚举.py
 @Description: 
@@ -12,7 +12,7 @@ FilePath: /Turing/1-python基础/2-OOP/枚举/使用普通类直接实现枚举.
 '''
 
 # 使用普通类直接实现枚举
-# 　　在Python中，枚举和我们在对象中定义的类变量时一样的，每一个类变量就是一个枚举项，访问枚举项的方式为：类名加上类变量，像下面这样：
+#   在Python中，枚举和我们在对象中定义的类变量时一样的，每一个类变量就是一个枚举项，访问枚举项的方式为：类名加上类变量，像下面这样：
 class color():
     YELLOW  = 1
     RED     = 2
@@ -62,11 +62,12 @@ class color2(Enum):
 # 　　使用自己定义的枚举类：
 
 print(color.YELLOW) # color.YELLOW
+print(color.BEOWN) # color.YELLOW
 print(type(color.YELLOW)) # <enum 'color'>
  
 print(color.YELLOW.value)  # 1
 print(type(color.YELLOW.value)) # <class 'int'>
- 
+
 print(color.YELLOW == 1)    # False
 print(color.YELLOW.value == 1)  # True
 print(color.YELLOW == color.YELLOW)  # True
@@ -76,25 +77,24 @@ print(color.YELLOW is color.YELLOW)  # True
  
 print(color(1))         # color.YELLOW
 print(type(color(1)))   # <enum 'color'>
-# 　　注意事项如下：
-
-#  　　1、枚举类不能用来实例化对象
-
-# 　　2、访问枚举类中的某一项，直接使用类名访问加上要访问的项即可，比如 color.YELLOW
-
-# 　　3、枚举类里面定义的Key = Value，在类外部不能修改Value值，也就是说下面这个做法是错误的
-
-# 1
-# color.YELLOW = 2  # Wrong, can't reassign member
-# 　　4、枚举项可以用来比较，使用==，或者is
-
-# 　　5、导入Enum之后，一个枚举类中的Key和Value，Key不能相同，Value可以相，但是Value相同的各项Key都会当做别名，
-
-# 　　6、如果要枚举类中的Value只能是整型数字，那么，可以导入IntEnum，然后继承IntEnum即可，注意，此时，如果value为字符串的数字，也不会报错：
-
-# 1
+# 注意事项如下：
+# 1、枚举类不能用来实例化对象
+# 2、访问枚举类中的某一项，直接使用类名访问加上要访问的项即可，比如 color.YELLOW
+# 3、枚举类里面定义的Key = Value，在类外部不能修改Value值，也就是说下面这个做法是错误的
+    # 修改枚举值
+    # color.YELLOW = 2  # Wrong, can't reassign member
+# 4、枚举项可以用来比较，使用==，或者is
+# 5、导入Enum之后，一个枚举类中的Key和Value，Key不能相同，Value可以相同，但是Value相同的各项Key都会当做别名，
+# *6、如果要枚举类中的Value只能是整型数字，那么，可以导入IntEnum，然后继承IntEnum即可，注意，此时，如果value为字符串的数字，也不会报错：
+    # 指定枚举值的数据类型
 from enum import IntEnum
-# 　　7、如果要枚举类中的key也不能相同，那么在导入Enum的同时，需要导入unique函数
-
-# 1
+class color3(IntEnum):
+    YELLOW  = "yellow"
+print(color3.YELLOW.value)
+# 7、如果要枚举类中的key也不能相同，那么在导入Enum的同时，需要导入unique函数
 from enum import Enum, unique
+@unique
+class color4(Enum):
+    YELLOW  = 1
+    GREEN  = 1
+print(color4.YELLOW.value)

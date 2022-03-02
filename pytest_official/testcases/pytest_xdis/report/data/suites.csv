@@ -1,0 +1,4 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Thu Mar 03 01:51:32 CST 2022","Thu Mar 03 01:51:33 CST 2022","1014","testcases.pytest_xdis.baidu","test_1_baidu","","","","test_01[1]",""
+"passed","Thu Mar 03 01:51:32 CST 2022","Thu Mar 03 01:51:33 CST 2022","1014","testcases.pytest_xdis.baidu","test_1_baidu","","","","test_01[2]",""
+"passed","Thu Mar 03 01:51:32 CST 2022","Thu Mar 03 01:51:33 CST 2022","1015","testcases.pytest_xdis.baidu","test_1_baidu","","","","test_01[3]",""

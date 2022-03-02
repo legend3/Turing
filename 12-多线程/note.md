@@ -95,7 +95,7 @@
     - 使用threadiing接口派生，使用子进程
     - 允许为多核或者多cpu派生进程，接口跟threading非常相似
     - python2.6
-    
+
 - concurrent.futures
     - 新的异步执行模块
     - 任务级别的操作
@@ -106,37 +106,14 @@
 - 进程的创建
     - 直接生成Process实例对象， 案例19
     - 派生子类， 案例20
-    
-- 在os中查看pid，ppid以及他们的关系              
+
+- 在os中查看pid，ppid以及他们的关系
     - 案例21
 - 生产者消费者模型
-    - JoinableQueue
+    - JoinableQueue: 支持join() and task_done()方法，可以带通知的队列; 能保证数据被取空后结束进程，在消费者取完数据之后向生产者发送结束信息，生产者结束当前进程，队列已经没有生产值了，将消费者设置为守护进程
     - 案例22
-    - 队列中哨兵的使用, 案例23 
+    - 队列中哨兵的使用, 案例23
     - 哨兵的改进， 案例24
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
+
+> Python之路——并行编程之multiprocessing模块: https://www.cnblogs.com/liuyankui163/p/8416957.html  
+> multiprocessing- 基于进程的并行性: https://blog.csdn.net/qq_42239520/article/details/88948622、https://blog.csdn.net/qq_40494873/article/details/122373905  

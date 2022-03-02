@@ -1,3 +1,17 @@
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
+
+'''
+Author: LEGEND
+since: 2019-12-22 11:35:22
+lastTime: 2022-03-02 18:35:56
+LastAuthor: Do not edit
+FilePath: /Turing/12-多线程/22.py
+Description: 
+version: 
+'''
+
+
 import multiprocessing
 from time import ctime
 
@@ -9,7 +23,7 @@ def consumer(input_q):
         item = input_q.get()
         print ("pull", item, "out of q") # 此处替换为有用的工作
         input_q.task_done() # 发出信号通知任务完成
-    print ("Out of consumer:", ctime()) ##此句未执行，因为q.join()收集到四个task_done()信号后，主进程启动，未等到print此句完成，程序就结束了
+    print("Out of consumer:", ctime()) # 此句未执行，因为q.join()收集到四个task_done()信号后，主进程启动，未等到print此句完成，程序就结束了
 
 
 def producer(sequence, output_q):
@@ -17,13 +31,12 @@ def producer(sequence, output_q):
     for item in sequence:
         output_q.put(item)
         print ("put", item, "into q")
-    print ("Out of procuder:", ctime())
-
+    print("Out of procuder:", ctime())
 
 
 # 建立进程
 if __name__ == '__main__':
-    q = multiprocessing.JoinableQueue()
+    q = multiprocessing.JoinableQueue() # 负责联系生产者与消费者的东西
     # 运行消费者进程
     cons_p = multiprocessing.Process (target = consumer, args = (q,))
     cons_p.daemon = True

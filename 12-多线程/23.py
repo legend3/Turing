@@ -1,3 +1,17 @@
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
+
+'''
+Author: LEGEND
+since: 2019-12-22 11:35:22
+lastTime: 2022-03-02 18:43:26
+LastAuthor: Do not edit
+FilePath: /Turing/12-多线程/23.py
+Description: 
+version: 
+'''
+
+
 import multiprocessing
 from time import ctime
 
@@ -18,6 +32,7 @@ def producer(sequence, output_q):
         output_q.put(item)
         print ("put", item, "into q")
     print ("Out of procuder:", ctime())
+
 
 if __name__ == '__main__':
     q = multiprocessing.Queue()

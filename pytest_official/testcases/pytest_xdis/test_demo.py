@@ -4,7 +4,7 @@
 '''
 Author: LEGEND
 since: 2022-03-03 02:32:36
-lastTime: 2022-03-03 03:12:35
+lastTime: 2022-03-03 03:17:52
 LastAuthor: Do not edit
 FilePath: /Turing/pytest_official/testcases/pytest_xdis/test_demo.py
 Description: 
@@ -18,7 +18,7 @@ def test1():
 
 class TestA:
     @pytest.mark.xdist_group("group1")
-    @pytest.mark.parametrize('case', [1,2])
+    @pytest.mark.parametrize('case', [1,2,3,4])
     def test2(self, case):
         pass
 
@@ -27,5 +27,5 @@ if __name__ == "__main__":
                     "-n", "2", # 指定进程数
                     # "--maxprocesses=1", # 限制进程数
                     # "--dist=loadgroup",
-                    "pytest_official/testcases/pytest_xdis/test_demo.py"
+                    "pytest_official/testcases/pytest_xdis/test_demo.py::TestA"
                     ])

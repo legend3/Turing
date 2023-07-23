@@ -4,13 +4,13 @@
     // 欲了解更多信息，请访问: https://go.microsoft.com/fwlink/?linkid=830387
     "version": "0.2.0",
     "configurations": [
-        
         {
-            "name": "Python: 当前文件",
+            "name": "Python: Current File",
             "type": "python",
             "request": "launch",
             "program": "${file}",
-            "console": "integratedTerminal"
+            "console": "integratedTerminal",
+            "justMyCode": true
         },
         {
             "name": "PyTest",
@@ -21,12 +21,13 @@
             "module": "pytest",
             "args": [
                 "-vsx",
-                "test_scope.py",
-                "--disable-pytest-warnings"
+                "--disable-pytest-warnings",
+                "test_importexport.py"
                 // "--html=report.html"
             ],
-            "cwd": "E:/workspace/Turing/Python_Testing_with_pytest/ch3/",
+            "cwd": "E:/workspace/Turing/algorithm",
             "env": {},
+            // "envFile": "${workspaceRoot}/.env"
             "envFile": "E:/Python38"
             // "debugOptions": [
             //     "WaitOnAbnormalExit",

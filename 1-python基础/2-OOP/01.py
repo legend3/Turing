@@ -4,17 +4,15 @@
 '''
 @Author: LEGEND
 @since: 2019-12-22 11:35:21
-@lastTime: 2020-06-23 05:04:01
-@FilePath: \Turing\1-python基础\2-OOP\01.py
+lastTime: 2022-08-08 00:59:59
+FilePath: /Turing/1-python基础/2-OOP/01.py
 @Description: 
 @version: 
 '''
 
-
 '''
     定以一个学生类，用来形容学生
 '''
-
 
 # 定义一个空的类
 class Student():

@@ -15,13 +15,13 @@
     1.conftest.py的作用
     2.@pytest.fixture()实现Setup and Teardown
     3.使用fixtures进行测试数据
-        --setup-show：输出@pytest.fixture()执行轨迹的参数
+        --setup-show: 输出@pytest.fixture()执行轨迹的参数
     3.1多重fixtures的使用
 ——test_scope.py
     4.指定固定范围 scope
     5.专门针对类作用域的@pytest.mark.usefixtures()
 ——test_autouse.py
-    6.在某个测试时刻自动被调用的fixtrue，@pytest.fixture(autouse=True, scope='session'),考虑使用场景！！！
+    6.在某个测试时刻自动被调用的fixtrue, @pytest.fixture(autouse=True, scope='session'),考虑使用场景！！！
 ——test_rename_fixture.py
     7.fixtrues重命名参数name
 ——test_add_variety2.py

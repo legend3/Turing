@@ -1,5 +1,4 @@
 import asyncio
-
 from aiohttp import web
 
 async def index(request):

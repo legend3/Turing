@@ -4,7 +4,7 @@
 '''
 Author: LEGEND
 since: 2021-05-02 13:08:27
-lastTime: 2021-05-03 01:27:49
+lastTime: 2022-10-07 03:27:30
 LastAuthor: Do not edit
 FilePath: /Turing/test_demo2.py
 Description: 
@@ -24,4 +24,4 @@ def test_01(A):
 def test_02(args):
     print(args)
     
-# test_02(r)
+test_02(r)

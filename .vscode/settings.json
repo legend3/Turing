@@ -1,31 +1,14 @@
 {
-    "sqltools.connections": [
-        {
-            "askForPassword": false,
-            "connectionTimeout": 5,
-            "database": "mydata",
-            "driver": "MySQL",
-            "group": "mysql",
-            "mysqlOptions": {
-                "authProtocol": "default"
-            },
-            "name": "mysql",
-            "password": "root",
-            "port": 3306,
-            "previewLimit": 50,
-            "server": "localhost",
-            "username": "root"
-        }
-    ],
     "python.testing.pytestArgs": [
-        "Pytest_learning"
+        "."
     ],
-    "python.testing.unittestEnabled": false,
+    "python.testing.unittestEnabled": true,
     "python.testing.nosetestsEnabled": false,
     "python.testing.pytestEnabled": true,
     "jupyter.jupyterServerType": "local",
     "python.dataScience.jupyterServerURI": "local",
     "commentTranslate.targetLanguage": "zh-CN",
     "python.linting.enabled": false,
-    "python.linting.pylintEnabled": true
+    "python.linting.pylintEnabled": true,
+    "python.testing.pytestPath": "Python_Testing_with_pytest"
 }

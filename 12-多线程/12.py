@@ -1,3 +1,16 @@
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
+
+'''
+Author: LEGEND
+since: 2019-12-22 11:35:22
+lastTime: 2023-07-28 03:30:57
+LastAuthor: Do not edit
+FilePath: /Turing/12-多线程/12.py
+Description: 
+version: 
+'''
+
 import threading
 '''
 线程不安全，加锁
@@ -26,6 +39,7 @@ def myMinu():
         lock.acquire()
         sum -= 1
         lock.release()
+
 
 if __name__ == '__main__':
     print("Starting ....{0}".format(sum))

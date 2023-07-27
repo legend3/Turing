@@ -19,7 +19,8 @@ class ThreadFunc:
         sleep(nsec)
         print('Done loop ', nloop, ' at ', ctime())
 
-def main():
+
+if __name__ == '__main__':
     print("Starting at: ", ctime())
 
     # ThreadFunc("loop").loop 跟一下两个式子相等：
@@ -43,7 +44,3 @@ def main():
 
 
     print("ALL done at: ", ctime())
-
-
-if __name__ == '__main__':
-    main()

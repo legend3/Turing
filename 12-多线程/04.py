@@ -25,7 +25,7 @@ def loop2(in1, in2):
     print('End loop 2 at:', time.ctime())
 
 
-def main():
+if __name__ == "__main__":
     print("Starting at:", time.ctime())
     # 生成threading.Thread实例
     t1 = threading.Thread(target=loop1, args=("王老大",))
@@ -35,10 +35,6 @@ def main():
     t2.start()
 
     print("All done at:", time.ctime())
-
-
-if __name__ == "__main__":
-    main()
     # 一定要有while语句
     # 因为启动多线程后本程序就作为主线程存在
     # 如果主线程执行完毕，则子线程可能也需要终止

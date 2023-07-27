@@ -22,22 +22,18 @@ def loop2():
     # 睡眠多长时间，单位是秒
     time.sleep(2)
     print('End loop 2 at:', time.ctime())
+    
 
-
-def main():
+if __name__ == '__main__':
     print("Starting at:", time.ctime())
     # 启动多线程的意思是用多线程去执行某个函数
     # 启动多线程函数为start_new_thead
     # 参数两个，一个是需要运行的函数名，第二是函数的参数作为元祖使用，为空则使用空元祖
-    # 注意：如果函数只有一个参数，需要参数后由一个逗号
+    # 注意：如果函数只有一个参数，需要参数后有一个逗号
     thread.start_new_thread(loop1, ())
 
     thread.start_new_thread(loop2, ())
 
     print("All done at:", time.ctime() ,"\n", "-----主线程执行完毕!")
-
-
-if __name__ == '__main__':
-    main()
     # while True:
     #     time.sleep(1)

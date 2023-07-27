@@ -1,3 +1,16 @@
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
+
+'''
+Author: LEGEND
+since: 2019-12-22 11:35:22
+lastTime: 2023-07-28 01:46:50
+LastAuthor: Do not edit
+FilePath: /Turing/Python_Testing_with_pytest/tasks_proj/src/tasks/tasksdb_tinydb.py
+Description: 
+version: 
+'''
+
 """Database wrapper for TinyDB for tasks project."""
 import tinydb
 

@@ -1,3 +1,16 @@
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
+
+'''
+Author: LEGEND
+since: 2019-12-22 11:35:22
+lastTime: 2023-07-28 03:11:22
+LastAuthor: Do not edit
+FilePath: /Turing/12-多线程/09.py
+Description: 
+version: 
+'''
+
 import threading
 import time
 
@@ -13,8 +26,8 @@ class MyThread(threading.Thread):
         print("The args for this class is {0}".format(self.arg))
 
 for i in range(5):
-    t = MyThread(i)#线程实例化
+    t = MyThread(i) # 线程实例化
     t.start()
-    t.join()
+    # t.join()
 
 print("Main thread is done!!!!!!!!")

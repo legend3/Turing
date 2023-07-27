@@ -28,5 +28,6 @@ class forTest(unittest.TestCase):
         c = self.add(1,3) 
         print('c =', c)
 
+
 if __name__ == '__main__':
     unittest.main(verbosity=2) # 参数 verbosity=2的目的是为了让打印的信

@@ -39,8 +39,7 @@ def loop2(in1, in2):
     print('End loop 2 at:', time.ctime())
 
 
-
-def main():
+if __name__ == "__main__":#主程序
     print("Starting at:", time.ctime())
     # 启动多线程的意思是用多线程去执行某个函数
     # 启动多线程函数为start_new_thead
@@ -51,12 +50,8 @@ def main():
     thread.start_new_thread(loop2,("王大鹏", "王晓鹏"))
 
     print("All done at:", time.ctime())
-
-
-if __name__ == "__main__":#主程序
-    main()
     # 一定要有while语句
     # 因为启动多线程后本程序就作为主线程存在！
-    # 如果主线程执行完毕，则子线程可能也需要终止
-    while True:#阻止主线程关闭
+    # 如果主线程执行完毕，则子线程可能也需要终止（守护线程在主线程运行结束后,也会结束运行,而非守护线程不会结束。）——此案例线程还未有start开启
+    while True: # 阻止主线程关闭
         time.sleep(10)

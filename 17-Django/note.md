@@ -244,12 +244,3 @@
                 'django.middleware.clickjacking.XFrameOptionsMiddleware',
             ]
         ```
-
-
-
-
-
-
-
-
-

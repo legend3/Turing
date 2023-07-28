@@ -1,3 +1,16 @@
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
+
+'''
+Author: LEGEND
+since: 2019-12-22 11:35:22
+lastTime: 2023-07-29 02:28:12
+LastAuthor: Do not edit
+FilePath: /Turing/12-多线程/16.py
+Description: 
+version: 
+'''
+
 import threading
 import time
 
@@ -5,11 +18,11 @@ import time
 semaphore = threading.Semaphore(3)
 
 def func():
-    if semaphore.acquire():#func()中去获取semaphore
+    if semaphore.acquire(): # 从semaphore中获取令牌(锁)，semaphore决定了最多能有几个线程能进入
         for i in range(5):
             print(threading.currentThread().getName() + ' get semaphore')
         time.sleep(15)
-        semaphore.release()#释放semaphore
+        semaphore.release() # 释放semaphore
         print(threading.currentThread().getName() + ' release semaphore')
 
 

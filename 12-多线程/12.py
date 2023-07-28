@@ -4,7 +4,7 @@
 '''
 Author: LEGEND
 since: 2019-12-22 11:35:22
-lastTime: 2023-07-28 03:30:57
+lastTime: 2023-07-29 01:20:15
 LastAuthor: Do not edit
 FilePath: /Turing/12-多线程/12.py
 Description: 
@@ -18,25 +18,24 @@ import threading
 sum = 0
 loopSum = 1000000
 
-#创建锁实例
+# 创建锁实例(只创建一把锁)
 lock = threading.Lock()
 
 
 def myAdd():
-    global  sum, loopSum
-
+    global sum, loopSum
     for i in range(1, loopSum):
         # 上锁，申请锁
-        lock.acquire()
+        lock.acquire() # 锁sum,哪个资源需要多个线程共享，锁哪个
         sum += 1
         # 释放锁
         lock.release()
 
 
 def myMinu():
-    global  sum, loopSum
+    global sum, loopSum
     for i in range(1, loopSum):
-        lock.acquire()
+        lock.acquire() # 锁sum,哪个资源需要多个线程共享，锁哪个
         sum -= 1
         lock.release()
 

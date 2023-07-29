@@ -10,10 +10,10 @@ def clock(interval):
 
 
 if __name__ == '__main__':
-    p = multiprocessing.Process(target = clock, args = (5,))
+    p = multiprocessing.Process(target = clock, args = (5,)) # 创建多进程对下个——直接方式
     p.start()
 
-    while True:
+    while True: # 保持主进程活跃
         print('sleeping.......')
         sleep(1)
 

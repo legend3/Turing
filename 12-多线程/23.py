@@ -4,7 +4,7 @@
 '''
 Author: LEGEND
 since: 2019-12-22 11:35:22
-lastTime: 2022-03-02 18:43:26
+lastTime: 2023-07-29 17:50:06
 LastAuthor: Do not edit
 FilePath: /Turing/12-多线程/23.py
 Description: 
@@ -19,9 +19,9 @@ from time import ctime
 def consumer(input_q):
     print("Into consumer:", ctime())
     while True:
-        item = input_q.get()
+        item = input_q.get() # 哨兵值
         if item is None:
-            break
+            break # 结束子进程！
         print("pull", item, "out of q")
     print ("Out of consumer:", ctime()) ## 此句执行完成，再转入主进程
 
@@ -42,5 +42,5 @@ if __name__ == '__main__':
     sequence = [1,2,3,4]
     producer(sequence, q)
 
-    q.put(None)
+    q.put(None) # 列表中放入一个None，给“哨兵”用的
     cons_p.join()

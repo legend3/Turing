@@ -4,7 +4,7 @@
 '''
 Author: LEGEND
 since: 2019-12-22 11:35:22
-lastTime: 2022-03-02 18:35:56
+lastTime: 2023-07-29 18:09:32
 LastAuthor: Do not edit
 FilePath: /Turing/12-多线程/22.py
 Description: 
@@ -36,7 +36,7 @@ def producer(sequence, output_q):
 
 # 建立进程
 if __name__ == '__main__':
-    q = multiprocessing.JoinableQueue() # 负责联系生产者与消费者的东西
+    q = multiprocessing.JoinableQueue() # 负责联系生产者与消费者的队列("存储仓库")
     # 运行消费者进程
     cons_p = multiprocessing.Process (target = consumer, args = (q,))
     cons_p.daemon = True

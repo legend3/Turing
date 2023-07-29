@@ -10,5 +10,6 @@
     "commentTranslate.targetLanguage": "zh-CN",
     "python.linting.enabled": false,
     "python.linting.pylintEnabled": true,
-    "python.testing.pytestPath": "Python_Testing_with_pytest"
+    "python.testing.pytestPath": "Python_Testing_with_pytest",
+    "python.analysis.typeCheckingMode": "off"
 }

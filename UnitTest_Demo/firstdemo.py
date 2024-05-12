@@ -1,5 +1,6 @@
 import unittest
 
+
 # 通过继承 unittest。TestCase 来实现用例
 class forTest(unittest.TestCase):
     #类的初始化

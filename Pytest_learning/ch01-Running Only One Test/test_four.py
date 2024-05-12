@@ -1,3 +1,16 @@
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
+
+'''
+Author: LEGEND
+since: 2019-12-22 11:35:22
+lastTime: 2024-04-06 01:02:59
+LastAuthor: Do not edit
+FilePath: /Turing/Pytest_learning/ch01-Running Only One Test/test_four.py
+Description: 
+version: 
+'''
+
 from collections import namedtuple
 '''
 1.Tuple还有一个兄弟，叫namedtuple。虽然都是tuple，但是功能更为强大。

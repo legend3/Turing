@@ -1,3 +1,6 @@
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
+
 """Use the Task type to show test failures."""
 from tasks import Task
 

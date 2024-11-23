@@ -1,11 +1,6 @@
-'''
-@Author: your name
-@Date: 2019-12-22 11:35:22
-@LastEditTime: 2020-04-08 07:52:56
-@LastEditors: Please set LastEditors
-@Description: In User Settings Edit
-@FilePath: \Turing\Pytest_learning\Python Testing with pytest\ch3\a\tasks_proj\tests\func\test_add.py
-'''
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
+
 """Test the tasks.add() API function."""
 
 import pytest
@@ -16,7 +11,7 @@ from tasks import Task
 1.
 让我们更改一个task .add()测试来使用这个fixture    （conftest.py-->tasks_db(tmpdir)）
 2.
-当我开发fixture时，我喜欢查看运行的是什么，以及什么时候运行。幸运的是，pytest提供了一个命令行标志——setup-show，它就是这样做的。
+当我开发fixture时,我喜欢查看运行的是什么,以及什么时候运行。幸运的是,pytest提供了一个命令行标志——setup-show,它就是这样做的。
 $ pytest --setup-show test_add.py -k valid_id
 ===================== test session starts ======================
 collected 3 items
@@ -33,7 +28,7 @@ TEARDOWN S tmpdir_factory
 ============ 1 passed, 2 deselected in 0.02 seconds ============
 3.
 F和S表示范围:
-F表示函数范围，
+F表示函数范围,
 S表示会话范围。
 '''
 
@@ -69,11 +64,11 @@ def test_added_task_has_id_set(tasks_db):
 
 '''
 Using Multiple Fixtures多重Fixtures
-多重fixture的意义：
-*fixture的一个重要原因:将测试集中在实际测试的内容上，而不是为准备测试而必须做的事情上。
-我喜欢在给定/WHEN/THEN中使用注释，并尝试将给定的注释尽可能多地添加到fixture中，原因有两个。
-首先，它使测试更具可读性，因此更易于维护。其次，fixture中的断言或异常会导致错误，而测试函数中的断言或异常会导致失败。
-如果数据库初始化失败，我不希望test_add_increes_count()失败。
+多重fixture的意义: 
+*fixture的一个重要原因:将测试集中在实际测试的内容上,而不是为准备测试而必须做的事情上。
+我喜欢在给定/WHEN/THEN中使用注释,并尝试将给定的注释尽可能多地添加到fixture中,原因有两个。
+首先,它使测试更具可读性,因此更易于维护。其次,fixture中的断言或异常会导致错误,而测试函数中的断言或异常会导致失败。
+如果数据库初始化失败,我不希望test_add_increes_count()失败。
 那只能是被拒绝。我希望test_add_increes_count()只有在add()确实无法更改计数时才可能失败
 '''
 # 2

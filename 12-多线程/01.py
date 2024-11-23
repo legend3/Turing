@@ -6,6 +6,7 @@
 '''
 import time
 
+
 def loop1():
     # ctime 获取当前时间
     print('Start loop 1 at :', time.ctime())

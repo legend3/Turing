@@ -1,11 +1,10 @@
 {
     "version": "0.2.0",
     "configurations": [
-        
         {
             "name": "Python: 当前文件",
             "type": "debugpy",
-            "justMyCode": true,
+            // "justMyCode": true,
             "request": "launch",
             "program": "${file}",
             "console": "integratedTerminal"
@@ -20,27 +19,22 @@
             "cwd": "${workspaceRoot}",
             "module": "pytest",
             "args": [
-                "--encoding=utf-8",
                 "-vsx",
                 "--cache-clear",
-                "-p no:warnings",
+                // "-p no:warnings",
                 "-rsxX",
-                "-durations=5",
+                "--durations=5",
                 "--disable-pytest-warnings",
                 "--verbose",
-                "Python_Testing_with_pytest/ch2/tasks_proj/tests/func/test_api_exceptions.py::test_add_raises"
+                "ch2/tasks_proj/tests/func/test_api_exceptions.py"
                 // "--html=report.html"
             ],
             "env": {
                 "PYTHONIOENCODING": "utf-8"
             },
             "envFile": "E:/Python38",
-            "console": "integratedTerminal"
-            // "debugOptions": [
-            //     "WaitOnAbnormalExit",
-            //     "WaitOnNormalExit",
-            //     "RedirectOutput"
-            // ]
+            "console": "internalConsole"
+            
         }
     ]
 }

@@ -1,0 +1,15 @@
+{
+    // 与测试图标相关联
+    "python.testing.pytestArgs": [
+        "ch5",
+        "-vsx",
+        "--cache-clear",
+        // "-p no:warnings",
+        "-rsxX",
+        "--durations=5",
+        "--disable-pytest-warnings",
+        "--verbose"
+    ],
+    "python.testing.unittestEnabled": false,
+    "python.testing.pytestEnabled": true
+}

@@ -1,3 +1,6 @@
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
+
 """Test tasks.unique_id().演示@pytest.mark.xfail(条件,reason="")"""
 
 import pytest

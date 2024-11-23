@@ -4,9 +4,9 @@
 '''
 Author: LEGEND
 since: 2021-01-28 20:04:05
-lastTime: 2022-03-03 10:36:20
+lastTime: 2024-06-16 18:30:00
 LastAuthor: Do not edit
-FilePath: /Turing/Python_Testing_with_pytest/setup_teardown/test_demo.py
+FilePath: /Python_Testing_with_pytest/setup_teardown/test_demo.py
 Description: 
 version: 
 '''
@@ -16,6 +16,7 @@ pytest实际上是python自带测试框架unittest的扩展，那么pytest是如
 
 pytest初始化的类别和作用域:
 """
+
 # 模块级别（Module level setup/teardown）：作用于一个模块内的所有class和def，对于所有class和def，setup和teardown只执行一次
 def setup_module(module):
     """ setup any state specific to the execution of the given module."""

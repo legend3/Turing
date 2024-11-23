@@ -35,5 +35,5 @@ if __name__ == '__main__':
     thread.start_new_thread(loop2, ())
 
     print("All done at:", time.ctime() ,"\n", "-----主线程执行完毕!")
-    # while True:
-    #     time.sleep(1)
+    while True:
+        time.sleep(1)

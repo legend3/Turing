@@ -98,11 +98,11 @@ def pytest_report_header(config):  # hook函数(直接调用),返回一个字符
 
 
 # 获取config，方式二
-def pytest_report_teststatus(report, request):  # hook函(直接调用),返回结果类别、简短和冗长的报告词
-    """Turn failures into opportunities."""
-    if report.when == 'call':
-        if report.failed and request.config.getoption('nice'):  # report.faile报告状态;config.getoption('nice')获取命令参数
-            return (report.outcome, 'O', 'OPPORTUNITY for improvement')
+# def pytest_report_teststatus(report, request):  # hook函(直接调用),返回结果类别、简短和冗长的报告词
+#     """Turn failures into opportunities."""
+#     if report.when == 'call':
+#         if report.failed and request.config.getoption('nice'):  # report.faile报告状态;config.getoption('nice')获取命令参数
+#             return (report.outcome, 'O', 'OPPORTUNITY for improvement')
 
 
 '''也可以在pytest.ini文件中定义markers;此处在pytest.ini文件中配置,但要在pytest.ini文件所在的根目录下执行pytest及命令选项'''

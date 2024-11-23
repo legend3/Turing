@@ -4,19 +4,19 @@
 '''
 Author: LEGEND
 since: 2021-05-02 13:03:09
-lastTime: 2021-05-02 13:24:52
+lastTime: 2024-06-16 18:15:33
 LastAuthor: Do not edit
 FilePath: /Turing/conftest.py
 Description: 
 version: 
 '''
-import pytest
+# import pytest
 
 
-@pytest.fixture()
-def A():
-    return 'A'
+# @pytest.fixture()
+# def A():
+#     return 'A'
 
-@pytest.fixture()
-def B():
-    return 'B'
+# @pytest.fixture()
+# def B():
+#     return 'B'

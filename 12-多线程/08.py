@@ -59,7 +59,7 @@ if __name__ == "__main__":
     # enumerate 获取正在运行子线程，即子线程1和子线程3
     for thr in threading.enumerate():
         # getName能够得到线程的名字
-        print("正在运行的线程名字是： {0}".format(thr.getName()))
+        print("正在运行的线程名字是： {0}, 线程状态：{1}".format(thr.getName(),thr.is_alive()))
 
     print("正在运行的线程数量为： {0}".format(threading.activeCount()))
 

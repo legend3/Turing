@@ -4,7 +4,7 @@
 '''
 Author: LEGEND
 since: 2019-12-22 11:35:22
-lastTime: 2023-07-28 02:49:37
+lastTime: 2024-11-24 01:35:21
 LastAuthor: Do not edit
 FilePath: /Turing/12-多线程/05.py
 Description: 
@@ -48,8 +48,8 @@ if __name__ == "__main__":
     t2 = threading.Thread(target=loop2, args=("王大鹏", "王小鹏"))
     t2.start()
 
-    t1.join() # 当前线程等待t1执行完
-    t2.join() # 当前线程等待t2执行完
+    t1.join() # 当前线程（主线）等待t1执行完，(就可以无需while True:)
+    t2.join() # 当前线程（主线）等待t2执行完，(就可以无需while True:)
 
     print("All done at:", time.ctime())
     # 一定要有while语句

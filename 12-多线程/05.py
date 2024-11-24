@@ -4,7 +4,7 @@
 '''
 Author: LEGEND
 since: 2019-12-22 11:35:22
-lastTime: 2024-11-24 01:35:21
+lastTime: 2024-11-24 18:52:25
 LastAuthor: Do not edit
 FilePath: /Turing/12-多线程/05.py
 Description: 
@@ -57,3 +57,11 @@ if __name__ == "__main__":
     # 如果主线程执行完毕，则子线程可能也需要终止
     # while True:
     #     time.sleep(10)
+
+
+
+
+'''
+    是的,t1.join() 只是主线程和子线程之间的阻塞关系，并不会阻塞子线程之间的运行顺序或交互！
+    join() 是一个线程同步机制，用于阻塞主线程，直到调用它的线程执行完成为止。
+'''

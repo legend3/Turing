@@ -15,6 +15,8 @@ import threading
 '''
 线程不安全，加锁
 '''
+
+# 两个全局变量（所有线程共享的）
 sum = 0
 loopSum = 1000000
 
@@ -26,7 +28,7 @@ def myAdd():
     global sum, loopSum
     for i in range(1, loopSum):
         # 上锁，申请锁
-        lock.acquire() # 锁sum,哪个资源需要多个线程共享，锁哪个
+        lock.acquire() # 锁sum,哪个资源(sum)需要被多个线程共享，锁哪个
         sum += 1
         # 释放锁
         lock.release()
@@ -35,7 +37,7 @@ def myAdd():
 def myMinu():
     global sum, loopSum
     for i in range(1, loopSum):
-        lock.acquire() # 锁sum,哪个资源需要多个线程共享，锁哪个
+        lock.acquire() # 锁sum,哪个资源(sum)需要被多个线程共享，锁哪个
         sum -= 1
         lock.release()
 

@@ -59,3 +59,4 @@ if __name__ == '__main__':
     for i in range(5): # 创建多个Consumer者
         c = Consumer()
         c.start()
+

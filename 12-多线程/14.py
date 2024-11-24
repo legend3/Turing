@@ -57,7 +57,7 @@ if __name__ == "__main__":
    t1.start()
    t2.start()
 
-   t1.join()
+   t1.join() # (主线程与子线程阻塞关系)
    t2.join()
 
    print("主程序结束..............")
